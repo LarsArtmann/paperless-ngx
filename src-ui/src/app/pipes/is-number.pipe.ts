@@ -1,10 +1,10 @@
-import { Pipe, PipeTransform } from '@angular/core'
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'isNumber',
+	name: "isNumber",
 })
 export class IsNumberPipe implements PipeTransform {
-  transform(value: any): boolean {
-    return typeof value === 'number' && !isNaN(value)
-  }
+	transform(value: any): boolean {
+		return typeof value === "number" && !isNaN(value);
+	}
 }

@@ -147,7 +147,7 @@ If you want to run Paperless as a rootless container, set `user:` in `docker-com
 ```yaml
 webserver:
   image: ghcr.io/paperless-ngx/paperless-ngx:latest
-  user: '1000:1000'
+  user: "1000:1000"
 ```
 
 Do not combine this with `USERMAP_UID` or `USERMAP_GID`, which are intended for the non-rootless case described in step 3.

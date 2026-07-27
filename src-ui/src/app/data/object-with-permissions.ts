@@ -1,22 +1,22 @@
-import { ObjectWithId } from './object-with-id'
+import { ObjectWithId } from "./object-with-id";
 
 export interface PermissionsObject {
-  view: {
-    users: Array<number>
-    groups: Array<number>
-  }
-  change: {
-    users: Array<number>
-    groups: Array<number>
-  }
+	view: {
+		users: Array<number>;
+		groups: Array<number>;
+	};
+	change: {
+		users: Array<number>;
+		groups: Array<number>;
+	};
 }
 
 export interface ObjectWithPermissions extends ObjectWithId {
-  owner?: number
+	owner?: number;
 
-  permissions?: PermissionsObject
+	permissions?: PermissionsObject;
 
-  user_can_change?: boolean
+	user_can_change?: boolean;
 
-  is_shared_by_requester?: boolean
+	is_shared_by_requester?: boolean;
 }

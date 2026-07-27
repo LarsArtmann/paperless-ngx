@@ -1,49 +1,49 @@
-import { Document } from './document'
-import { ObjectWithId } from './object-with-id'
+import { Document } from "./document";
+import { ObjectWithId } from "./object-with-id";
 
 export enum PaperlessTaskType {
-  Auto = 'auto_task',
-  ScheduledTask = 'scheduled_task',
-  ManualTask = 'manual_task',
+	Auto = "auto_task",
+	ScheduledTask = "scheduled_task",
+	ManualTask = "manual_task",
 }
 
 export enum PaperlessTaskName {
-  ConsumeFile = 'consume_file',
-  TrainClassifier = 'train_classifier',
-  SanityCheck = 'check_sanity',
-  IndexOptimize = 'index_optimize',
-  LLMIndexUpdate = 'llmindex_update',
+	ConsumeFile = "consume_file",
+	TrainClassifier = "train_classifier",
+	SanityCheck = "check_sanity",
+	IndexOptimize = "index_optimize",
+	LLMIndexUpdate = "llmindex_update",
 }
 
 export enum PaperlessTaskStatus {
-  Pending = 'PENDING',
-  Started = 'STARTED',
-  Complete = 'SUCCESS',
-  Failed = 'FAILURE',
+	Pending = "PENDING",
+	Started = "STARTED",
+	Complete = "SUCCESS",
+	Failed = "FAILURE",
 }
 
 export interface PaperlessTask extends ObjectWithId {
-  type: PaperlessTaskType
+	type: PaperlessTaskType;
 
-  status: PaperlessTaskStatus
+	status: PaperlessTaskStatus;
 
-  acknowledged: boolean
+	acknowledged: boolean;
 
-  task_id: string
+	task_id: string;
 
-  task_file_name: string
+	task_file_name: string;
 
-  task_name: PaperlessTaskName
+	task_name: PaperlessTaskName;
 
-  date_created: Date
+	date_created: Date;
 
-  date_done?: Date
+	date_done?: Date;
 
-  result?: string
+	result?: string;
 
-  related_document?: number
+	related_document?: number;
 
-  duplicate_documents?: Document[]
+	duplicate_documents?: Document[];
 
-  owner?: number
+	owner?: number;
 }

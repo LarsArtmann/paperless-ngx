@@ -38,7 +38,7 @@ repos:
           - json
   # See https://github.com/prettier/prettier/issues/15742 for the fork reason
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: 'v3.8.1'
+    rev: "v3.8.1"
     hooks:
       - id: prettier
         types_or:
@@ -47,7 +47,7 @@ repos:
           - markdown
         additional_dependencies:
           - prettier@3.8.1
-          - 'prettier-plugin-organize-imports@4.3.0'
+          - "prettier-plugin-organize-imports@4.3.0"
   # Python hooks
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.15.6

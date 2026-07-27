@@ -41,13 +41,13 @@ services.paperless.domain = "paperless.example.com";
 
 The NixOS module creates **5 systemd services** in a shared `system-paperless` slice:
 
-| Service | Purpose |
-|---|---|
-| `paperless-scheduler` | Celery Beat + auto-migration + superuser setup |
+| Service                | Purpose                                              |
+| ---------------------- | ---------------------------------------------------- |
+| `paperless-scheduler`  | Celery Beat + auto-migration + superuser setup       |
 | `paperless-task-queue` | Celery workers (document processing, classification) |
-| `paperless-consumer` | Filesystem watcher for the consume directory |
-| `paperless-web` | Granian ASGI server (web UI + WebSocket) |
-| `paperless-exporter` | (Optional) Scheduled document export via timer |
+| `paperless-consumer`   | Filesystem watcher for the consume directory         |
+| `paperless-web`        | Granian ASGI server (web UI + WebSocket)             |
+| `paperless-exporter`   | (Optional) Scheduled document export via timer       |
 
 It also provides:
 

@@ -1,14 +1,18 @@
 .global-dropzone-overlay {
-    opacity: 0;
-    transition: opacity 0.25s ease-in-out;
-    background-color: hsla(var(--pngx-primary), var(--pngx-primary-lightness), .8);
-    z-index: 1200;
+	opacity: 0;
+	transition: opacity 0.25s ease-in-out;
+	background-color: hsla(
+		var(--pngx-primary),
+		var(--pngx-primary-lightness),
+		0.8
+	);
+	z-index: 1200;
 
-    h2 {
-        color: var(--pngx-primary-text-contrast)
-    }
+	h2 {
+		color: var(--pngx-primary-text-contrast);
+	}
 
-    &.active {
-        opacity: 1;
-    }
+	&.active {
+		opacity: 1;
+	}
 }

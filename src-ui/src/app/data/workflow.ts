@@ -1,15 +1,15 @@
-import { ObjectWithId } from './object-with-id'
-import { WorkflowAction } from './workflow-action'
-import { WorkflowTrigger } from './workflow-trigger'
+import { ObjectWithId } from "./object-with-id";
+import { WorkflowAction } from "./workflow-action";
+import { WorkflowTrigger } from "./workflow-trigger";
 
 export interface Workflow extends ObjectWithId {
-  name: string
+	name: string;
 
-  order: number
+	order: number;
 
-  enabled: boolean
+	enabled: boolean;
 
-  triggers: WorkflowTrigger[]
+	triggers: WorkflowTrigger[];
 
-  actions: WorkflowAction[]
+	actions: WorkflowAction[];
 }

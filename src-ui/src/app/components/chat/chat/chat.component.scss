@@ -1,37 +1,38 @@
 .dropdown-menu {
-  width: var(--pngx-toast-max-width);
+	width: var(--pngx-toast-max-width);
 }
 
 .chat-messages {
-  max-height: 350px;
-  overflow-y: auto;
+	max-height: 350px;
+	overflow-y: auto;
 }
 
 .dropdown-toggle::after {
-  display: none;
+	display: none;
 }
 
 .dropdown-item {
-  white-space: initial;
+	white-space: initial;
 }
 
 @media screen and (max-width: 400px) {
-  :host ::ng-deep .dropdown-menu-end {
-    right: -3rem;
-  }
+	:host ::ng-deep .dropdown-menu-end {
+		right: -3rem;
+	}
 }
 
 .blinking-cursor {
-  font-weight: bold;
-  font-size: 1.2em;
-  animation: blink 1s step-end infinite;
+	font-weight: bold;
+	font-size: 1.2em;
+	animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
-  from, to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
+	from,
+	to {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
 }

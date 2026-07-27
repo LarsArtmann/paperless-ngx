@@ -22,21 +22,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { Pipe, PipeTransform } from '@angular/core'
+import { Pipe, PipeTransform } from "@angular/core";
 
-type unit = 'bytes' | 'KB' | 'MB' | 'GB' | 'TB' | 'PB'
+type unit = "bytes" | "KB" | "MB" | "GB" | "TB" | "PB";
 type unitPrecisionMap = {
-  [u in unit]: number
-}
+	[u in unit]: number;
+};
 
 const defaultPrecisionMap: unitPrecisionMap = {
-  bytes: 0,
-  KB: 0,
-  MB: 1,
-  GB: 1,
-  TB: 2,
-  PB: 2,
-}
+	bytes: 0,
+	KB: 0,
+	MB: 1,
+	GB: 1,
+	TB: 2,
+	PB: 2,
+};
 
 /*
  * Convert bytes into largest possible unit.
@@ -53,28 +53,28 @@ const defaultPrecisionMap: unitPrecisionMap = {
  * // returns 1.46 KB
  * {{ 1500 | fileSize:2 }}
  */
-@Pipe({ name: 'fileSize' })
+@Pipe({ name: "fileSize" })
 export class FileSizePipe implements PipeTransform {
-  private readonly units: unit[] = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB']
+	private readonly units: unit[] = ["bytes", "KB", "MB", "GB", "TB", "PB"];
 
-  transform(
-    bytes: number = 0,
-    precision: number | unitPrecisionMap = defaultPrecisionMap
-  ): string {
-    if (isNaN(parseFloat(String(bytes))) || !isFinite(bytes)) return '?'
+	transform(
+		bytes: number = 0,
+		precision: number | unitPrecisionMap = defaultPrecisionMap,
+	): string {
+		if (isNaN(parseFloat(String(bytes))) || !isFinite(bytes)) return "?";
 
-    let unitIndex = 0
+		let unitIndex = 0;
 
-    while (bytes >= 1024) {
-      bytes /= 1024
-      unitIndex++
-    }
+		while (bytes >= 1024) {
+			bytes /= 1024;
+			unitIndex++;
+		}
 
-    const unit = this.units[unitIndex]
+		const unit = this.units[unitIndex];
 
-    if (typeof precision === 'number') {
-      return `${bytes.toFixed(+precision)} ${unit}`
-    }
-    return `${bytes.toFixed(precision[unit])} ${unit}`
-  }
+		if (typeof precision === "number") {
+			return `${bytes.toFixed(+precision)} ${unit}`;
+		}
+		return `${bytes.toFixed(precision[unit])} ${unit}`;
+	}
 }

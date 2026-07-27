@@ -1,17 +1,17 @@
-import { MatchingModel } from './matching-model'
+import { MatchingModel } from "./matching-model";
 
 export interface Tag extends MatchingModel {
-  color?: string
+	color?: string;
 
-  text_color?: string
+	text_color?: string;
 
-  is_inbox_tag?: boolean
+	is_inbox_tag?: boolean;
 
-  parent?: number // Tag ID
+	parent?: number; // Tag ID
 
-  children?: Tag[] // read-only
+	children?: Tag[]; // read-only
 
-  // UI-only: computed depth and order for hierarchical dropdowns
-  depth?: number
-  orderIndex?: number
+	// UI-only: computed depth and order for hierarchical dropdowns
+	depth?: number;
+	orderIndex?: number;
 }

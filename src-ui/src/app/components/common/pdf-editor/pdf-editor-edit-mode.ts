@@ -1,4 +1,4 @@
 export enum PdfEditorEditMode {
-  Update = 'update',
-  Create = 'create',
+	Update = "update",
+	Create = "create",
 }

@@ -296,8 +296,8 @@ Adding new languages requires adding the translated files in the
     `src-ui/src/app/app.module.ts`:
 
     ```typescript
-    import localeDe from '@angular/common/locales/de'
-    registerLocaleData(localeDe)
+    import localeDe from "@angular/common/locales/de";
+    registerLocaleData(localeDe);
     ```
 
 ### Back end localization

@@ -1,3 +1,3 @@
-import { MatchingModel } from './matching-model'
+import { MatchingModel } from "./matching-model";
 
 export interface DocumentType extends MatchingModel {}

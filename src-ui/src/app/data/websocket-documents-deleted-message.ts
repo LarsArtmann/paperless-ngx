@@ -1,3 +1,3 @@
 export interface WebsocketDocumentsDeletedMessage {
-  documents: number[]
+	documents: number[];
 }

@@ -1,26 +1,26 @@
-import { Document } from './document'
+import { Document } from "./document";
 
 export interface Results<T> {
-  count: number
+	count: number;
 
-  display_count?: number
+	display_count?: number;
 
-  results: T[]
+	results: T[];
 }
 
 export interface SelectionDataItem {
-  id: number
-  document_count: number
+	id: number;
+	document_count: number;
 }
 
 export interface SelectionData {
-  selected_storage_paths: SelectionDataItem[]
-  selected_correspondents: SelectionDataItem[]
-  selected_tags: SelectionDataItem[]
-  selected_document_types: SelectionDataItem[]
-  selected_custom_fields: SelectionDataItem[]
+	selected_storage_paths: SelectionDataItem[];
+	selected_correspondents: SelectionDataItem[];
+	selected_tags: SelectionDataItem[];
+	selected_document_types: SelectionDataItem[];
+	selected_custom_fields: SelectionDataItem[];
 }
 
 export interface DocumentResults extends Results<Document> {
-  selection_data?: SelectionData
+	selection_data?: SelectionData;
 }

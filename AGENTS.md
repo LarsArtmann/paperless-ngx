@@ -101,6 +101,7 @@ uv run pytest src/documents/tests/test_api_documents.py::TestDocumentApi::testDo
 ```
 
 **pytest configuration** (from `pyproject.toml`):
+
 - `DJANGO_SETTINGS_MODULE = "paperless.settings"`
 - Parallel execution: `--numprocesses=auto --dist=loadscope`
 - Coverage enabled by default (HTML + XML reports)
@@ -180,6 +181,7 @@ docker build --file Dockerfile --tag paperless:local .
 - **Audit log**: Conditional import pattern: `if settings.AUDIT_LOG_ENABLED: from auditlog...`
 
 Key ruff ignores:
+
 - `DJ001` (nullable charfield) — ignored project-wide
 - `PLC0415` (import outside top-level) — ignored for conditional imports
 - `RUF012` (mutable class attrs) — ignored
@@ -262,6 +264,7 @@ Documents use `django-soft-delete` (`SoftDeleteModel`). Deleted documents go to 
 ### Plugin System
 
 Paperless-ngx supports third-party parsers via Python entry points:
+
 - Document parsers: `paperless_ngx.parsers` entry point group
 - Date parsers: `paperless_ngx.date_parsers` entry point group
 - See `src/documents/plugins/` and `src/documents/plugins/date_parsing/`
@@ -280,6 +283,7 @@ Both frontend and backend use `en_US` as the source language. Translation files 
 ### CI Pipeline
 
 Three separate CI workflows:
+
 - **Backend** (`ci-backend.yml`): Tests on Python 3.11–3.14 matrix + typing check (mypy + pyrefly)
 - **Frontend** (`ci-frontend.yml`): Install → Lint → Unit tests (4 shards) → E2E (2 shards) → Bundle analysis
 - **Lint** (`ci-lint.yml`): Runs `prek` (pre-commit) across all files
@@ -291,6 +295,7 @@ PostgreSQL (via psycopg3), MariaDB (via mysqlclient), and SQLite are all support
 ### Backend Test Environment Variables
 
 Tests set these via `pyproject.toml` `[tool.pytest_env]`:
+
 - `PAPERLESS_DISABLE_DBHANDLER = "true"`
 - `PAPERLESS_CACHE_BACKEND = "django.core.cache.backends.locmem.LocMemCache"`
 - `PAPERLESS_CHANNELS_BACKEND = "channels.layers.InMemoryChannelLayer"`

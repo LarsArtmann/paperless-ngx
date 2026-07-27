@@ -1,35 +1,35 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core'
-import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons'
+import { Component, EventEmitter, Input, Output } from "@angular/core";
+import { NgxBootstrapIconsModule } from "ngx-bootstrap-icons";
 
 @Component({
-  selector: 'pngx-clearable-badge',
-  templateUrl: './clearable-badge.component.html',
-  styleUrls: ['./clearable-badge.component.scss'],
-  imports: [NgxBootstrapIconsModule],
+	selector: "pngx-clearable-badge",
+	templateUrl: "./clearable-badge.component.html",
+	styleUrls: ["./clearable-badge.component.scss"],
+	imports: [NgxBootstrapIconsModule],
 })
 export class ClearableBadgeComponent {
-  constructor() {}
+	constructor() {}
 
-  @Input()
-  number: number
+	@Input()
+	number: number;
 
-  @Input()
-  selected: boolean
+	@Input()
+	selected: boolean;
 
-  @Output()
-  cleared: EventEmitter<boolean> = new EventEmitter()
+	@Output()
+	cleared: EventEmitter<boolean> = new EventEmitter();
 
-  get active(): boolean {
-    return this.selected || this.number > -1
-  }
+	get active(): boolean {
+		return this.selected || this.number > -1;
+	}
 
-  get isNumbered(): boolean {
-    return this.number > -1
-  }
+	get isNumbered(): boolean {
+		return this.number > -1;
+	}
 
-  onClick(event: PointerEvent) {
-    this.cleared.emit(true)
-    event.stopImmediatePropagation()
-    event.preventDefault()
-  }
+	onClick(event: PointerEvent) {
+		this.cleared.emit(true);
+		event.stopImmediatePropagation();
+		event.preventDefault();
+	}
 }

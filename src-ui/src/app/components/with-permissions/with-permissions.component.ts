@@ -1,9 +1,9 @@
 import {
-  PermissionAction,
-  PermissionType,
-} from 'src/app/services/permissions.service'
+	PermissionAction,
+	PermissionType,
+} from "src/app/services/permissions.service";
 
 export class ComponentWithPermissions {
-  public readonly PermissionAction = PermissionAction
-  public readonly PermissionType = PermissionType
+	public readonly PermissionAction = PermissionAction;
+	public readonly PermissionType = PermissionType;
 }

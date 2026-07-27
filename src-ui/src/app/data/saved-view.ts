@@ -1,23 +1,23 @@
-import { DisplayField, DisplayMode } from './document'
-import { FilterRule } from './filter-rule'
-import { ObjectWithPermissions } from './object-with-permissions'
+import { DisplayField, DisplayMode } from "./document";
+import { FilterRule } from "./filter-rule";
+import { ObjectWithPermissions } from "./object-with-permissions";
 
 export interface SavedView extends ObjectWithPermissions {
-  name?: string
+	name?: string;
 
-  show_on_dashboard?: boolean
+	show_on_dashboard?: boolean;
 
-  show_in_sidebar?: boolean
+	show_in_sidebar?: boolean;
 
-  sort_field: string
+	sort_field: string;
 
-  sort_reverse: boolean
+	sort_reverse: boolean;
 
-  filter_rules: FilterRule[]
+	filter_rules: FilterRule[];
 
-  page_size?: number
+	page_size?: number;
 
-  display_mode?: DisplayMode
+	display_mode?: DisplayMode;
 
-  display_fields?: DisplayField[]
+	display_fields?: DisplayField[];
 }

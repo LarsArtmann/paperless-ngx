@@ -1,71 +1,73 @@
 import {
-  Directive,
-  ElementRef,
-  EventEmitter,
-  Input,
-  OnInit,
-  Output,
-  ViewChild,
-} from '@angular/core'
-import { ControlValueAccessor } from '@angular/forms'
-import { v4 as uuidv4 } from 'uuid'
+	Directive,
+	ElementRef,
+	EventEmitter,
+	Input,
+	OnInit,
+	Output,
+	ViewChild,
+} from "@angular/core";
+import { ControlValueAccessor } from "@angular/forms";
+import { v4 as uuidv4 } from "uuid";
 
 @Directive()
-export class AbstractInputComponent<T> implements OnInit, ControlValueAccessor {
-  @ViewChild('inputField')
-  inputField: ElementRef
+export class AbstractInputComponent<T>
+	implements OnInit, ControlValueAccessor
+{
+	@ViewChild("inputField")
+	inputField: ElementRef;
 
-  constructor() {}
+	constructor() {}
 
-  onChange = (newValue: T) => {}
+	onChange = (newValue: T) => {};
 
-  onTouched = () => {}
+	onTouched = () => {};
 
-  writeValue(newValue: any): void {
-    this.value = newValue
-  }
-  registerOnChange(fn: any): void {
-    this.onChange = fn
-  }
-  registerOnTouched(fn: any): void {
-    this.onTouched = fn
-  }
-  setDisabledState?(isDisabled: boolean): void {
-    this.disabled = isDisabled
-  }
+	writeValue(newValue: any): void {
+		this.value = newValue;
+	}
+	registerOnChange(fn: any): void {
+		this.onChange = fn;
+	}
+	registerOnTouched(fn: any): void {
+		this.onTouched = fn;
+	}
+	setDisabledState?(isDisabled: boolean): void {
+		this.disabled = isDisabled;
+	}
 
-  focus() {
-    if (this.inputField && this.inputField.nativeElement) {
-      this.inputField.nativeElement.focus()
-    }
-  }
+	focus() {
+		if (this.inputField && this.inputField.nativeElement) {
+			this.inputField.nativeElement.focus();
+		}
+	}
 
-  @Input()
-  title: string
+	@Input()
+	title: string;
 
-  @Input()
-  disabled = false
+	@Input()
+	disabled = false;
 
-  @Input()
-  error: string
+	@Input()
+	error: string;
 
-  @Input()
-  hint: string
+	@Input()
+	hint: string;
 
-  @Input()
-  horizontal: boolean = false
+	@Input()
+	horizontal: boolean = false;
 
-  @Input()
-  removable: boolean = false
+	@Input()
+	removable: boolean = false;
 
-  @Output()
-  removed: EventEmitter<AbstractInputComponent<any>> = new EventEmitter()
+	@Output()
+	removed: EventEmitter<AbstractInputComponent<any>> = new EventEmitter();
 
-  value: T
+	value: T;
 
-  ngOnInit(): void {
-    this.inputId = uuidv4()
-  }
+	ngOnInit(): void {
+		this.inputId = uuidv4();
+	}
 
-  inputId: string
+	inputId: string;
 }

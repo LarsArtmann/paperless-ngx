@@ -1,9 +1,9 @@
-import { ObjectWithId } from './object-with-id'
+import { ObjectWithId } from "./object-with-id";
 
 export interface Group extends ObjectWithId {
-  name?: string
+	name?: string;
 
-  user_count?: number // not implemented yet
+	user_count?: number; // not implemented yet
 
-  permissions?: string[]
+	permissions?: string[];
 }
