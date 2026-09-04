@@ -460,7 +460,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">190</context>
         </context-group>
-        <target state="translated">Dokumentų sąrašas parodo visus jūsų dokumentus ir leidžia filtruoti bei atlikti veiksmus su daugeliu elementų. Iš viso yra trys peržiūros tipai: sąrašas, mažos ir didelės kortelės. Šiuo metu atidarytų dokumentų sąrašas yra parodytas šoninėje sekcijoje.</target>
+        <target state="translated">Dokumentų sąrašas parodo visus jūsų dokumentus ir leidžia filtruoti bei atlikti veiksmus su daugeliu elementų. Iš viso yra tries peržiūros tipai: sąrašas, mažos ir didelės kortelės. Šiuo metu atidarytų dokumentų sąrašas yra parodytas šoninėje sekcijoje.</target>
       </trans-unit>
       <trans-unit id="1334220418719920556" datatype="html">
         <source>The filtering tools allow you to quickly find documents using various searches, dates, tags, etc.</source>

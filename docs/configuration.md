@@ -983,8 +983,7 @@ will only be utilized if the output is a version of PDF/A.
 : OCRmyPDF offers many more options. Use this parameter to specify any
 additional arguments you wish to pass to OCRmyPDF. Since Paperless
 uses the API of OCRmyPDF, you have to specify these in a format that
-can be passed to the API. See [the API reference of
-OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/api.html#reference)
+can be passed to the API. See [the API reference of OCRmyPDF](https://ocrmypdf.readthedocs.io/en/latest/api.html#reference)
 for valid parameters. All command line options are supported, but
 they use underscores instead of dashes.
 
@@ -1812,9 +1811,9 @@ started by the container.
 
 !!! warning
 
-        This option is deprecated and has no effect.  For read only file system support,
-        see [S6_READ_ONLY_ROOT](https://github.com/just-containers/s6-overlay#customizing-s6-overlay-behaviour)
-        from s6-overlay.
+    This option is deprecated and has no effect.  For read only file system support,
+    see [S6_READ_ONLY_ROOT](https://github.com/just-containers/s6-overlay#customizing-s6-overlay-behaviour)
+    from s6-overlay.
 
 ## Frontend Settings
 

@@ -2,9 +2,9 @@ name: Crowdin Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 */12 * * *'
+    - cron: "2 */12 * * *"
   push:
-    paths: ['src/locale/**', 'src-ui/messages.xlf', 'src-ui/src/locale/**']
+    paths: ["src/locale/**", "src-ui/messages.xlf", "src-ui/src/locale/**"]
     branches: [dev]
 jobs:
   synchronize-with-crowdin:
@@ -21,9 +21,9 @@ jobs:
         with:
           upload_translations: false
           download_translations: true
-          crowdin_branch_name: 'dev'
+          crowdin_branch_name: "dev"
           localization_branch_name: l10n_dev
-          pull_request_labels: 'skip-changelog, translation'
+          pull_request_labels: "skip-changelog, translation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}

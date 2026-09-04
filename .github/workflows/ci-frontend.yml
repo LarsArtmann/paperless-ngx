@@ -2,10 +2,10 @@ name: Frontend Tests
 on:
   push:
     branches-ignore:
-      - 'translations**'
+      - "translations**"
   pull_request:
     branches-ignore:
-      - 'translations**'
+      - "translations**"
   workflow_dispatch:
 concurrency:
   group: frontend-${{ github.event.pull_request.number || github.ref }}
@@ -70,8 +70,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         id: cache-frontend-deps
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
@@ -98,8 +98,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
@@ -133,8 +133,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
@@ -184,8 +184,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
@@ -217,8 +217,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
@@ -234,7 +234,14 @@ jobs:
         run: cd src-ui && pnpm run build --configuration=production
   gate:
     name: Frontend CI Gate
-    needs: [changes, install-dependencies, lint, unit-tests, e2e-tests, bundle-analysis]
+    needs: [
+      changes,
+      install-dependencies,
+      lint,
+      unit-tests,
+      e2e-tests,
+      bundle-analysis,
+    ]
     if: always()
     runs-on: ubuntu-slim
     steps:

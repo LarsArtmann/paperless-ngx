@@ -63,7 +63,7 @@ describe("DocumentLinkComponent", () => {
 		expect(getSpy).toHaveBeenCalled();
 	});
 
-	it("shoud maintain ordering of selected documents", () => {
+	it("should maintain ordering of selected documents", () => {
 		const getSpy = jest.spyOn(documentService, "getFew");
 		getSpy.mockImplementation((ids) => {
 			const docs = documents.filter((d) => ids.includes(d.id));

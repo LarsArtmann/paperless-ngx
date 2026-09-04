@@ -920,7 +920,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <target state="translated">Sistem Durumu</target>
+        <target state="translated">System Durumu</target>
       </trans-unit>
       <trans-unit id="4798013226763881638" datatype="html">
         <source>Open Django Admin</source>
@@ -1040,7 +1040,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">137</context>
         </context-group>
-        <target state="translated">Sistem ayarlarını kullan</target>
+        <target state="translated">System ayarlarını kullan</target>
       </trans-unit>
       <trans-unit id="5782828784040423650" datatype="html">
         <source>Enable dark mode</source>
@@ -1684,7 +1684,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.ts</context>
           <context context-type="linenumber">78</context>
         </context-group>
-        <target state="translated">Sistem dilini kullan</target>
+        <target state="translated">System dilini kullan</target>
       </trans-unit>
       <trans-unit id="7729897675462249787" datatype="html">
         <source>Use date format of display language</source>
@@ -2612,7 +2612,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Grup yada kullanıcı; oluştur, düzenle yada sil.</target>
+        <target state="translated">Group yada kullanıcı; oluştur, düzenle yada sil.</target>
       </trans-unit>
       <trans-unit id="4555457172864212828" datatype="html">
         <source>Users</source>
@@ -2756,7 +2756,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
-        <target state="translated">Grup Ekle</target>
+        <target state="translated">Group Ekle</target>
       </trans-unit>
       <trans-unit id="4746158651610481283" datatype="html">
         <source>No groups defined</source>
@@ -2764,7 +2764,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">84</context>
         </context-group>
-        <target state="translated">Herhangi bir grup tanımlanmadı</target>
+        <target state="translated">Herhangi bir group tanımlanmadı</target>
       </trans-unit>
       <trans-unit id="4510369340305901516" datatype="html">
         <source>Password has been changed, you will be logged out momentarily.</source>
@@ -2892,7 +2892,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">188</context>
         </context-group>
-        <target state="translated">Grup kaydedilirken bir hata meydana geldi.</target>
+        <target state="translated">Group kaydedilirken bir hata meydana geldi.</target>
       </trans-unit>
       <trans-unit id="6538873300613683004" datatype="html">
         <source>Confirm delete user group</source>
@@ -4614,7 +4614,7 @@ tüm <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> krite
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">64</context>
         </context-group>
-        <target state="translated">Sistem varsayılanı</target>
+        <target state="translated">System varsayılanı</target>
       </trans-unit>
       <trans-unit id="4812910224365219000" datatype="html">
         <source>Text, then HTML</source>
@@ -4638,7 +4638,7 @@ tüm <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> krite
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">76</context>
         </context-group>
-        <target state="translated">Yalnızca HMTL</target>
+        <target state="translated">Yalnızca HTML</target>
       </trans-unit>
       <trans-unit id="3835211125655594627" datatype="html">
         <source>Text only</source>
@@ -6360,7 +6360,7 @@ tüm <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> krite
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">87</context>
         </context-group>
-        <target state="translated">Mevcut sahip, kullanıcı ve grup izinleri bu ayarlarla birleştirilecektir.</target>
+        <target state="translated">Mevcut sahip, kullanıcı ve group izinleri bu ayarlarla birleştirilecektir.</target>
       </trans-unit>
       <trans-unit id="3434726483516379481" datatype="html">
         <source>Any and all existing owner, user and group permissions will be replaced.</source>
@@ -6368,7 +6368,7 @@ tüm <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> krite
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">88</context>
         </context-group>
-        <target state="translated">Mevcut tüm sahip, kullanıcı ve grup izinleri değiştirilecektir.</target>
+        <target state="translated">Mevcut tüm sahip, kullanıcı ve group izinleri değiştirilecektir.</target>
       </trans-unit>
       <trans-unit id="5947558132119506443" datatype="html">
         <source>My documents</source>

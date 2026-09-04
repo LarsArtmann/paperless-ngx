@@ -370,7 +370,7 @@ class Document(SoftDeleteModel, ModelWithOwner):  # type: ignore[django-manager-
         If the queryset already annotated ``effective_content``, that value is used.
         """
         if hasattr(self, "effective_content"):
-            return getattr(self, "effective_content")
+            return self.effective_content
 
         if self.root_document_id is not None or self.pk is None:
             return self.content

@@ -67,65 +67,65 @@ credentials you provided during the installation script.
 
 #### Installation
 
-1.  Go to the [/docker/compose directory on the project
-    page](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose){:target="\_blank"}
-    and download one `docker-compose.*.yml` file for your preferred
-    database backend. Save it in a local directory as `docker-compose.yml`.
-    Also download `docker-compose.env` and `.env` into that same directory.
+1. Go to the [/docker/compose directory on the project
+   page](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose){:target="\_blank"}
+   and download one `docker-compose.*.yml` file for your preferred
+   database backend. Save it in a local directory as `docker-compose.yml`.
+   Also download `docker-compose.env` and `.env` into that same directory.
 
-    If you want to enable optional support for Office and other documents, download a
-    file with `-tika` in the file name.
+   If you want to enable optional support for Office and other documents, download a
+   file with `-tika` in the file name.
 
-    !!! tip
+   !!! tip
 
-        For new installations, it is recommended to use PostgreSQL as the
-        database backend.
+       For new installations, it is recommended to use PostgreSQL as the
+       database backend.
 
-2.  Modify `docker-compose.yml` as needed. For example, you may want to
-    change the paths for `consume`, `media`, and other directories to
-    use bind mounts.
-    Find the line that specifies where to mount the directory, e.g.:
+2. Modify `docker-compose.yml` as needed. For example, you may want to
+   change the paths for `consume`, `media`, and other directories to
+   use bind mounts.
+   Find the line that specifies where to mount the directory, e.g.:
 
-    ```yaml
-    - ./consume:/usr/src/paperless/consume
-    ```
+   ```yaml
+   - ./consume:/usr/src/paperless/consume
+   ```
 
-    Replace the part _before_ the colon with your local directory:
+   Replace the part _before_ the colon with your local directory:
 
-    ```yaml
-    - /home/jonaswinkler/paperless-inbox:/usr/src/paperless/consume
-    ```
+   ```yaml
+   - /home/jonaswinkler/paperless-inbox:/usr/src/paperless/consume
+   ```
 
-    You may also want to change the default port that the webserver will
-    use from the default (8000) to something else, e.g. for port 8010:
+   You may also want to change the default port that the webserver will
+   use from the default (8000) to something else, e.g. for port 8010:
 
-    ```yaml
-    ports:
-      - 8010:8000
-    ```
+   ```yaml
+   ports:
+     - 8010:8000
+   ```
 
-3.  Modify `docker-compose.env` with any configuration options you need.
-    See the [configuration documentation](configuration.md) for all options.
+3. Modify `docker-compose.env` with any configuration options you need.
+   See the [configuration documentation](configuration.md) for all options.
 
-    You may also need to set `USERMAP_UID` and `USERMAP_GID` to
-    the UID and GID of your user on the host system. Use `id -u` and
-    `id -g` to get these values. This ensures both the container and the
-    host user can write to the consumption directory. If your UID and
-    GID are `1000` (the default for the first normal user on many
-    systems), this usually works out of the box without
-    modifications. Run `id "username"` to check.
+   You may also need to set `USERMAP_UID` and `USERMAP_GID` to
+   the UID and GID of your user on the host system. Use `id -u` and
+   `id -g` to get these values. This ensures both the container and the
+   host user can write to the consumption directory. If your UID and
+   GID are `1000` (the default for the first normal user on many
+   systems), this usually works out of the box without
+   modifications. Run `id "username"` to check.
 
-    !!! note
+   !!! note
 
-        You can utilize Docker secrets for configuration settings by
-        appending `_FILE` to configuration values. For example [`PAPERLESS_DBUSER`](configuration.md#PAPERLESS_DBUSER)
-        can be set using `PAPERLESS_DBUSER_FILE=/var/run/secrets/password.txt`.
+       You can utilize Docker secrets for configuration settings by
+       appending `_FILE` to configuration values. For example [`PAPERLESS_DBUSER`](configuration.md#PAPERLESS_DBUSER)
+       can be set using `PAPERLESS_DBUSER_FILE=/var/run/secrets/password.txt`.
 
-4.  Run `docker compose pull`. This pulls the image from the GitHub container registry
-    by default, but you can pull from Docker Hub by changing the `image`
-    line to `image: paperlessngx/paperless-ngx:latest`.
+4. Run `docker compose pull`. This pulls the image from the GitHub container registry
+   by default, but you can pull from Docker Hub by changing the `image`
+   line to `image: paperlessngx/paperless-ngx:latest`.
 
-5.  Run `docker compose up -d`. This will create and start the necessary containers.
+5. Run `docker compose up -d`. This will create and start the necessary containers.
 
 #### After installation
 
@@ -169,184 +169,184 @@ to enable polling and disable inotify. See [here](configuration.md#polling).
 
 #### Installation
 
-1.  Install dependencies. Paperless requires the following packages:
-    - `python3`
-    - `python3-pip`
-    - `python3-dev`
-    - `default-libmysqlclient-dev` for MariaDB
-    - `pkg-config` for mysqlclient (python dependency)
-    - `fonts-liberation` for generating thumbnails for plain text
-      files
-    - `imagemagick` >= 6 for PDF conversion
-    - `gnupg` for handling encrypted documents
-    - `libpq-dev` for PostgreSQL
-    - `libmagic-dev` for mime type detection
-    - `mariadb-client` for MariaDB compile time
-    - `poppler-utils` for barcode detection
+1. Install dependencies. Paperless requires the following packages:
+   - `python3`
+   - `python3-pip`
+   - `python3-dev`
+   - `default-libmysqlclient-dev` for MariaDB
+   - `pkg-config` for mysqlclient (python dependency)
+   - `fonts-liberation` for generating thumbnails for plain text
+     files
+   - `imagemagick` >= 6 for PDF conversion
+   - `gnupg` for handling encrypted documents
+   - `libpq-dev` for PostgreSQL
+   - `libmagic-dev` for mime type detection
+   - `mariadb-client` for MariaDB compile time
+   - `poppler-utils` for barcode detection
 
-    Use this list for your preferred package management:
+   Use this list for your preferred package management:
 
-    ```
-    python3 python3-pip python3-dev imagemagick fonts-liberation gnupg libpq-dev default-libmysqlclient-dev pkg-config libmagic-dev poppler-utils
-    ```
+   ```
+   python3 python3-pip python3-dev imagemagick fonts-liberation gnupg libpq-dev default-libmysqlclient-dev pkg-config libmagic-dev poppler-utils
+   ```
 
-    These dependencies are required for OCRmyPDF, which is used for text
-    recognition.
-    - `unpaper`
-    - `ghostscript`
-    - `icc-profiles-free`
-    - `qpdf`
-    - `liblept5`
-    - `libxml2`
-    - `pngquant` (suggested for certain PDF image optimizations)
-    - `zlib1g`
-    - `tesseract-ocr` >= 4.0.0 for OCR
-    - `tesseract-ocr` language packs (`tesseract-ocr-eng`,
-      `tesseract-ocr-deu`, etc)
+   These dependencies are required for OCRmyPDF, which is used for text
+   recognition.
+   - `unpaper`
+   - `ghostscript`
+   - `icc-profiles-free`
+   - `qpdf`
+   - `liblept5`
+   - `libxml2`
+   - `pngquant` (suggested for certain PDF image optimizations)
+   - `zlib1g`
+   - `tesseract-ocr` >= 4.0.0 for OCR
+   - `tesseract-ocr` language packs (`tesseract-ocr-eng`,
+     `tesseract-ocr-deu`, etc)
 
-    Use this list for your preferred package management:
+   Use this list for your preferred package management:
 
-    ```
-    unpaper ghostscript icc-profiles-free qpdf liblept5 libxml2 pngquant zlib1g tesseract-ocr
-    ```
+   ```
+   unpaper ghostscript icc-profiles-free qpdf liblept5 libxml2 pngquant zlib1g tesseract-ocr
+   ```
 
-    On Raspberry Pi, these libraries are required as well:
-    - `libatlas-base-dev`
-    - `libxslt1-dev`
-    - `mime-support`
+   On Raspberry Pi, these libraries are required as well:
+   - `libatlas-base-dev`
+   - `libxslt1-dev`
+   - `mime-support`
 
-    You will also need these for installing some of the python dependencies:
-    - `build-essential`
-    - `python3-setuptools`
-    - `python3-wheel`
+   You will also need these for installing some of the python dependencies:
+   - `build-essential`
+   - `python3-setuptools`
+   - `python3-wheel`
 
-    Use this list for your preferred package management:
+   Use this list for your preferred package management:
 
-    ```
-    build-essential python3-setuptools python3-wheel
-    ```
+   ```
+   build-essential python3-setuptools python3-wheel
+   ```
 
-2.  Install `redis` >= 6.0 and configure it to start automatically.
+2. Install `redis` >= 6.0 and configure it to start automatically.
 
-3.  Optional: Install `postgresql` and configure a database, user, and
-    password for Paperless-ngx. If you do not wish to use PostgreSQL,
-    MariaDB and SQLite are available as well.
+3. Optional: Install `postgresql` and configure a database, user, and
+   password for Paperless-ngx. If you do not wish to use PostgreSQL,
+   MariaDB and SQLite are available as well.
 
-    !!! note
+   !!! note
 
-        On bare-metal installations using SQLite, ensure the [JSON1
-        extension](https://code.djangoproject.com/wiki/JSON1Extension) is
-        enabled. This is usually the case, but not always.
+       On bare-metal installations using SQLite, ensure the [JSON1
+       extension](https://code.djangoproject.com/wiki/JSON1Extension) is
+       enabled. This is usually the case, but not always.
 
-4.  Create a system user with a new home folder in which you want
-    to run Paperless-ngx.
+4. Create a system user with a new home folder in which you want
+   to run Paperless-ngx.
 
-    ```shell-session
-    adduser paperless --system --home /opt/paperless --group
-    ```
+   ```shell-session
+   adduser paperless --system --home /opt/paperless --group
+   ```
 
-5.  Download a release archive from
-    <https://github.com/paperless-ngx/paperless-ngx/releases>. For example:
+5. Download a release archive from
+   <https://github.com/paperless-ngx/paperless-ngx/releases>. For example:
 
-    ```shell-session
-    curl -O -L https://github.com/paperless-ngx/paperless-ngx/releases/download/vX.Y.Z/paperless-ngx-vX.Y.Z.tar.xz
-    ```
+   ```shell-session
+   curl -O -L https://github.com/paperless-ngx/paperless-ngx/releases/download/vX.Y.Z/paperless-ngx-vX.Y.Z.tar.xz
+   ```
 
-    Extract the archive with
+   Extract the archive with
 
-    ```shell-session
-    tar -xf paperless-ngx-vX.Y.Z.tar.xz
-    ```
+   ```shell-session
+   tar -xf paperless-ngx-vX.Y.Z.tar.xz
+   ```
 
-    and copy the contents to the home directory of the user you created
-    earlier (`/opt/paperless`).
+   and copy the contents to the home directory of the user you created
+   earlier (`/opt/paperless`).
 
-    Optional: If you cloned the Git repository, you will need to
-    compile the frontend yourself. See [here](development.md#front-end-development)
-    and use the `build` step, not `serve`.
+   Optional: If you cloned the Git repository, you will need to
+   compile the frontend yourself. See [here](development.md#front-end-development)
+   and use the `build` step, not `serve`.
 
-6.  Configure Paperless-ngx. See [configuration](configuration.md) for details.
-    Edit the included `paperless.conf` and adjust the settings to your
-    needs. Required settings for getting Paperless-ngx running are:
-    - [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS) should point to your Redis server, such as
-      `redis://localhost:6379`.
-    - [`PAPERLESS_DBENGINE`](configuration.md#PAPERLESS_DBENGINE) is optional, and should be one of `postgres`,
-      `mariadb`, or `sqlite`
-    - [`PAPERLESS_DBHOST`](configuration.md#PAPERLESS_DBHOST) should be the hostname on which your
-      PostgreSQL server is running. Do not configure this to use
-      SQLite instead. Also configure port, database name, user and
-      password as necessary.
-    - [`PAPERLESS_CONSUMPTION_DIR`](configuration.md#PAPERLESS_CONSUMPTION_DIR) should point to the folder
-      that Paperless-ngx should watch for incoming documents.
-      Likewise, [`PAPERLESS_DATA_DIR`](configuration.md#PAPERLESS_DATA_DIR) and
-      [`PAPERLESS_MEDIA_ROOT`](configuration.md#PAPERLESS_MEDIA_ROOT) define where Paperless-ngx stores its data.
-      If needed, these can point to the same directory.
-    - [`PAPERLESS_SECRET_KEY`](configuration.md#PAPERLESS_SECRET_KEY) should be a random sequence of
-      characters. It's used for authentication. Failure to do so
-      allows third parties to forge authentication credentials.
-    - Set [`PAPERLESS_URL`](configuration.md#PAPERLESS_URL) if you are behind a reverse proxy. This should
-      point to your domain. Please see
-      [configuration](configuration.md) for more
-      information.
+6. Configure Paperless-ngx. See [configuration](configuration.md) for details.
+   Edit the included `paperless.conf` and adjust the settings to your
+   needs. Required settings for getting Paperless-ngx running are:
+   - [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS) should point to your Redis server, such as
+     `redis://localhost:6379`.
+   - [`PAPERLESS_DBENGINE`](configuration.md#PAPERLESS_DBENGINE) is optional, and should be one of `postgres`,
+     `mariadb`, or `sqlite`
+   - [`PAPERLESS_DBHOST`](configuration.md#PAPERLESS_DBHOST) should be the hostname on which your
+     PostgreSQL server is running. Do not configure this to use
+     SQLite instead. Also configure port, database name, user and
+     password as necessary.
+   - [`PAPERLESS_CONSUMPTION_DIR`](configuration.md#PAPERLESS_CONSUMPTION_DIR) should point to the folder
+     that Paperless-ngx should watch for incoming documents.
+     Likewise, [`PAPERLESS_DATA_DIR`](configuration.md#PAPERLESS_DATA_DIR) and
+     [`PAPERLESS_MEDIA_ROOT`](configuration.md#PAPERLESS_MEDIA_ROOT) define where Paperless-ngx stores its data.
+     If needed, these can point to the same directory.
+   - [`PAPERLESS_SECRET_KEY`](configuration.md#PAPERLESS_SECRET_KEY) should be a random sequence of
+     characters. It's used for authentication. Failure to do so
+     allows third parties to forge authentication credentials.
+   - Set [`PAPERLESS_URL`](configuration.md#PAPERLESS_URL) if you are behind a reverse proxy. This should
+     point to your domain. Please see
+     [configuration](configuration.md) for more
+     information.
 
-    You can make many more adjustments, especially for OCR.
-    The following options are recommended for most users:
-    - Set [`PAPERLESS_OCR_LANGUAGE`](configuration.md#PAPERLESS_OCR_LANGUAGE) to the language most of your
-      documents are written in.
-    - Set [`PAPERLESS_TIME_ZONE`](configuration.md#PAPERLESS_TIME_ZONE) to your local time zone.
+   You can make many more adjustments, especially for OCR.
+   The following options are recommended for most users:
+   - Set [`PAPERLESS_OCR_LANGUAGE`](configuration.md#PAPERLESS_OCR_LANGUAGE) to the language most of your
+     documents are written in.
+   - Set [`PAPERLESS_TIME_ZONE`](configuration.md#PAPERLESS_TIME_ZONE) to your local time zone.
 
-    !!! warning
+   !!! warning
 
-        Ensure your Redis instance [is secured](https://redis.io/docs/latest/operate/oss_and_stack/management/security/).
+       Ensure your Redis instance [is secured](https://redis.io/docs/latest/operate/oss_and_stack/management/security/).
 
-7.  Create the following directories if they do not already exist:
-    - `/opt/paperless/media`
-    - `/opt/paperless/data`
-    - `/opt/paperless/consume`
+7. Create the following directories if they do not already exist:
+   - `/opt/paperless/media`
+   - `/opt/paperless/data`
+   - `/opt/paperless/consume`
 
-    Adjust these paths if you configured different folders.
-    Then verify that the `paperless` user has write permissions:
+   Adjust these paths if you configured different folders.
+   Then verify that the `paperless` user has write permissions:
 
-    ```shell-session
-    ls -l -d /opt/paperless/media
-    ```
+   ```shell-session
+   ls -l -d /opt/paperless/media
+   ```
 
-    If needed, change the owner with
+   If needed, change the owner with
 
-    ```shell-session
-    sudo chown paperless:paperless /opt/paperless/media
-    sudo chown paperless:paperless /opt/paperless/data
-    sudo chown paperless:paperless /opt/paperless/consume
-    ```
+   ```shell-session
+   sudo chown paperless:paperless /opt/paperless/media
+   sudo chown paperless:paperless /opt/paperless/data
+   sudo chown paperless:paperless /opt/paperless/consume
+   ```
 
-8.  Install Python dependencies from `requirements.txt`.
+8. Install Python dependencies from `requirements.txt`.
 
-    ```shell-session
-    sudo -Hu paperless pip3 install -r requirements.txt
-    ```
+   ```shell-session
+   sudo -Hu paperless pip3 install -r requirements.txt
+   ```
 
-    This will install all Python dependencies in the home directory of
-    the new paperless user.
+   This will install all Python dependencies in the home directory of
+   the new paperless user.
 
-    !!! tip
+   !!! tip
 
-        You can use a virtual environment if you prefer. If you do,
-        you may need to adjust the example scripts for your virtual
-        environment paths.
+       You can use a virtual environment if you prefer. If you do,
+       you may need to adjust the example scripts for your virtual
+       environment paths.
 
-    !!! tip
+   !!! tip
 
-        If you use modern Python tooling, such as `uv`, installation will not include
-        dependencies for PostgreSQL or MariaDB. You can select those
-        extras with `--extra <EXTRA>`, or install all extras with
-        `--all-extras`.
+       If you use modern Python tooling, such as `uv`, installation will not include
+       dependencies for PostgreSQL or MariaDB. You can select those
+       extras with `--extra <EXTRA>`, or install all extras with
+       `--all-extras`.
 
-9.  Go to `/opt/paperless/src` and execute the following command:
+9. Go to `/opt/paperless/src` and execute the following command:
 
-    ```bash
-    # This creates the database schema.
-    sudo -Hu paperless python3 manage.py migrate
-    ```
+   ```bash
+   # This creates the database schema.
+   sudo -Hu paperless python3 manage.py migrate
+   ```
 
 10. Optional: Test that Paperless-ngx is working by running
 
@@ -430,8 +430,7 @@ software has been patented until around 2017 and binary packages are not availab
 
 **Optional: download the NLTK data**
 If using the NLTK machine-learning processing (see [`PAPERLESS_ENABLE_NLTK`](configuration.md#PAPERLESS_ENABLE_NLTK) for details),
-download the NLTK data for the Snowball Stemmer, Stopwords and Punkt tokenizer to `/usr/share/nltk_data`. Refer to the [NLTK
-instructions](https://www.nltk.org/data.html) for details on how to download the data.
+download the NLTK data for the Snowball Stemmer, Stopwords and Punkt tokenizer to `/usr/share/nltk_data`. Refer to the [NLTK instructions](https://www.nltk.org/data.html) for details on how to download the data.
 
 #### After installation
 
@@ -502,73 +501,73 @@ installation. Keep these points in mind:
 
 Migration to Paperless-ngx is then performed in a few simple steps:
 
-1.  Stop Paperless.
+1. Stop Paperless.
 
-    ```bash
-    cd /path/to/current/paperless
-    docker compose down
-    ```
+   ```bash
+   cd /path/to/current/paperless
+   docker compose down
+   ```
 
-2.  Create a backup for two reasons: if something goes wrong, you still
-    have your data; and if you don't like paperless-ngx, you can
-    switch back to Paperless.
+2. Create a backup for two reasons: if something goes wrong, you still
+   have your data; and if you don't like paperless-ngx, you can
+   switch back to Paperless.
 
-3.  Download the latest release of Paperless-ngx. You can either use
-    the Docker Compose files from
-    [here](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose)
-    or clone the repository to build the image yourself (see
-    [development docs](development.md#docker_build)). You can either replace your current paperless
-    folder or put Paperless-ngx in
-    a different location.
+3. Download the latest release of Paperless-ngx. You can either use
+   the Docker Compose files from
+   [here](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose)
+   or clone the repository to build the image yourself (see
+   [development docs](development.md#docker_build)). You can either replace your current paperless
+   folder or put Paperless-ngx in
+   a different location.
 
-    !!! warning
+   !!! warning
 
-        Paperless-ngx includes a `.env` file. This will set the project name
-        for Docker Compose to `paperless`, which will also define the
-        volume names created by Paperless-ngx. However, if you notice that
-        paperless-ngx is not using your old paperless volumes, verify the
-        names of your volumes with
+       Paperless-ngx includes a `.env` file. This will set the project name
+       for Docker Compose to `paperless`, which will also define the
+       volume names created by Paperless-ngx. However, if you notice that
+       paperless-ngx is not using your old paperless volumes, verify the
+       names of your volumes with
 
-        ``` shell-session
-        docker volume ls | grep _data
-        ```
+       ``` shell-session
+       docker volume ls | grep _data
+       ```
 
-        and adjust the project name in the `.env` file so that it matches
-        the name of the volumes before the `_data` part.
+       and adjust the project name in the `.env` file so that it matches
+       the name of the volumes before the `_data` part.
 
-4.  Download the `docker-compose.sqlite.yml` file to
-    `docker-compose.yml`. If you want to switch to PostgreSQL, do that
-    after you migrated your existing SQLite database.
+4. Download the `docker-compose.sqlite.yml` file to
+   `docker-compose.yml`. If you want to switch to PostgreSQL, do that
+   after you migrated your existing SQLite database.
 
-5.  Adjust `docker-compose.yml` and `docker-compose.env` to your needs.
-    See [Docker setup](#docker) for details on
-    which edits are recommended.
+5. Adjust `docker-compose.yml` and `docker-compose.env` to your needs.
+   See [Docker setup](#docker) for details on
+   which edits are recommended.
 
-6.  Follow the update procedure in [Update paperless](administration.md#updating).
+6. Follow the update procedure in [Update paperless](administration.md#updating).
 
-7.  In order to find your existing documents with the new search
-    feature, you need to invoke a one-time operation that will create
-    the search index:
+7. In order to find your existing documents with the new search
+   feature, you need to invoke a one-time operation that will create
+   the search index:
 
-    ```shell-session
-    docker compose run --rm webserver document_index reindex
-    ```
+   ```shell-session
+   docker compose run --rm webserver document_index reindex
+   ```
 
-    This will migrate your database and create the search index. After
-    that, Paperless-ngx will maintain the index automatically.
+   This will migrate your database and create the search index. After
+   that, Paperless-ngx will maintain the index automatically.
 
-8.  Start Paperless-ngx.
+8. Start Paperless-ngx.
 
-    ```bash
-    docker compose up -d
-    ```
+   ```bash
+   docker compose up -d
+   ```
 
-    This will run Paperless-ngx in the background and automatically start it
-    on system boot.
+   This will run Paperless-ngx in the background and automatically start it
+   on system boot.
 
-9.  Paperless may have installed a permanent redirect to `admin/` in your
-    browser. This redirect is still in place and prevents access to the
-    new UI. Clear your browser cache to fix this.
+9. Paperless may have installed a permanent redirect to `admin/` in your
+   browser. This redirect is still in place and prevents access to the
+   new UI. Clear your browser cache to fix this.
 
 10. Optionally, follow the instructions below to migrate your existing
     data to PostgreSQL.
@@ -580,39 +579,38 @@ create a backup before starting. This assumes the image was running
 using Docker Compose, but the instructions are translatable to Docker
 commands as well.
 
-1.  Stop and remove the Paperless container.
-2.  If using an external database, stop that container.
-3.  Update Redis configuration.
-    1. If `REDIS_URL` is already set, change it to [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS)
-       and continue to step 4.
+1. Stop and remove the Paperless container.
+2. If using an external database, stop that container.
+3. Update Redis configuration.
+   1. If `REDIS_URL` is already set, change it to [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS)
+      and continue to step 4.
 
-    1. Otherwise, add a new Redis service in `docker-compose.yml`,
-       following [the example compose
-       files](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose)
+   1. Otherwise, add a new Redis service in `docker-compose.yml`,
+      following [the example compose files](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose)
 
-    1. Set the environment variable [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS) so it points to
-       the new Redis container.
+   1. Set the environment variable [`PAPERLESS_REDIS`](configuration.md#PAPERLESS_REDIS) so it points to
+      the new Redis container.
 
-4.  Update user mapping.
-    1. If set, change the environment variable `PUID` to `USERMAP_UID`.
+4. Update user mapping.
+   1. If set, change the environment variable `PUID` to `USERMAP_UID`.
 
-    1. If set, change the environment variable `PGID` to `USERMAP_GID`.
+   1. If set, change the environment variable `PGID` to `USERMAP_GID`.
 
-5.  Update configuration paths.
-    1. Set the environment variable [`PAPERLESS_DATA_DIR`](configuration.md#PAPERLESS_DATA_DIR) to `/config`.
+5. Update configuration paths.
+   1. Set the environment variable [`PAPERLESS_DATA_DIR`](configuration.md#PAPERLESS_DATA_DIR) to `/config`.
 
-6.  Update media paths.
-    1. Set the environment variable [`PAPERLESS_MEDIA_ROOT`](configuration.md#PAPERLESS_MEDIA_ROOT) to
-       `/data/media`.
+6. Update media paths.
+   1. Set the environment variable [`PAPERLESS_MEDIA_ROOT`](configuration.md#PAPERLESS_MEDIA_ROOT) to
+      `/data/media`.
 
-7.  Update timezone.
-    1. Set the environment variable [`PAPERLESS_TIME_ZONE`](configuration.md#PAPERLESS_TIME_ZONE) to the same
-       value as `TZ`.
+7. Update timezone.
+   1. Set the environment variable [`PAPERLESS_TIME_ZONE`](configuration.md#PAPERLESS_TIME_ZONE) to the same
+      value as `TZ`.
 
-8.  Modify `image:` to point to
-    `ghcr.io/paperless-ngx/paperless-ngx:latest` or a specific version
-    if preferred.
-9.  Start the containers as before, using `docker compose`.
+8. Modify `image:` to point to
+   `ghcr.io/paperless-ngx/paperless-ngx:latest` or a specific version
+   if preferred.
+9. Start the containers as before, using `docker compose`.
 
 ## Running Paperless-ngx on less powerful devices {#less-powerful-devices data-toc-label="Less Powerful Devices"}
 

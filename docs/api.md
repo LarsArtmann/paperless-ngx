@@ -10,55 +10,55 @@ Further documentation is provided here for some endpoints and features.
 
 The REST api provides five different forms of authentication.
 
-1.  Basic authentication
+1. Basic authentication
 
-    Authorize by providing a HTTP header in the form
+   Authorize by providing a HTTP header in the form
 
-    ```
-    Authorization: Basic <credentials>
-    ```
+   ```
+   Authorization: Basic <credentials>
+   ```
 
-    where `credentials` is a base64-encoded string of
-    `<username>:<password>`
+   where `credentials` is a base64-encoded string of
+   `<username>:<password>`
 
-2.  Session authentication
+2. Session authentication
 
-    When you're logged into paperless in your browser, you're
-    automatically logged into the API as well and don't need to provide
-    any authorization headers.
+   When you're logged into paperless in your browser, you're
+   automatically logged into the API as well and don't need to provide
+   any authorization headers.
 
-3.  Token authentication
+3. Token authentication
 
-    You can create (or re-create) an API token by opening the "My Profile"
-    link in the user dropdown found in the web UI and clicking the circular
-    arrow button.
+   You can create (or re-create) an API token by opening the "My Profile"
+   link in the user dropdown found in the web UI and clicking the circular
+   arrow button.
 
-    Paperless also offers an endpoint to acquire authentication tokens.
+   Paperless also offers an endpoint to acquire authentication tokens.
 
-    POST a username and password as a form or json string to
-    `/api/token/` and paperless will respond with a token, if the login
-    data is correct. This token can be used to authenticate other
-    requests with the following HTTP header:
+   POST a username and password as a form or json string to
+   `/api/token/` and paperless will respond with a token, if the login
+   data is correct. This token can be used to authenticate other
+   requests with the following HTTP header:
 
-    ```
-    Authorization: Token <token>
-    ```
+   ```
+   Authorization: Token <token>
+   ```
 
-    Tokens can also be managed in the Django admin.
+   Tokens can also be managed in the Django admin.
 
-4.  Remote User authentication
+4. Remote User authentication
 
-    If enabled (see
-    [configuration](configuration.md#PAPERLESS_ENABLE_HTTP_REMOTE_USER_API)),
-    you can authenticate against the API using Remote User auth.
+   If enabled (see
+   [configuration](configuration.md#PAPERLESS_ENABLE_HTTP_REMOTE_USER_API)),
+   you can authenticate against the API using Remote User auth.
 
-5.  Headless OIDC via [`django-allauth`](https://codeberg.org/allauth/django-allauth)
+5. Headless OIDC via [`django-allauth`](https://codeberg.org/allauth/django-allauth)
 
-    `django-allauth` exposes API endpoints under `api/auth/` which enable tools
-    like third-party apps to authenticate with social accounts that are
-    configured. See
-    [here](advanced_usage.md#openid-connect-and-social-authentication) for more
-    information on social accounts.
+   `django-allauth` exposes API endpoints under `api/auth/` which enable tools
+   like third-party apps to authenticate with social accounts that are
+   configured. See
+   [here](advanced_usage.md#openid-connect-and-social-authentication) for more
+   information on social accounts.
 
 ## Searching for documents
 
@@ -359,16 +359,16 @@ If an invalid version is specified, Paperless responds with
 If a client wishes to verify whether it is compatible with any given
 server, the following procedure should be performed:
 
-1.  Perform an _authenticated_ request against any API endpoint. The
-    server will add two custom headers to the response:
+1. Perform an _authenticated_ request against any API endpoint. The
+   server will add two custom headers to the response:
 
-    ```
-    X-Api-Version: 10
-    X-Version: <server-version>
-    ```
+   ```
+   X-Api-Version: 10
+   X-Version: <server-version>
+   ```
 
-2.  Determine whether the client is compatible with this server based on
-    the presence/absence of these headers and their values if present.
+2. Determine whether the client is compatible with this server based on
+   the presence/absence of these headers and their values if present.
 
 ### API Version Deprecation Policy
 

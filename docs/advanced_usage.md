@@ -395,11 +395,11 @@ structure to set precisely where each document is stored in the file system.
 
 For example, you could define the following two storage paths:
 
-1.  Normal communications are put into a folder structure sorted by
-    `year/correspondent`
-2.  Communications with insurance companies are stored in a flat
-    structure with longer file names, but containing the full date of
-    the correspondence.
+1. Normal communications are put into a folder structure sorted by
+   `year/correspondent`
+2. Communications with insurance companies are stored in a flat
+   structure with longer file names, but containing the full date of
+   the correspondence.
 
 ```
 By Year = {{ created_year }}/{{ correspondent }}/{{ title }}

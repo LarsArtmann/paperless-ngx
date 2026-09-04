@@ -280,7 +280,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">104</context>
         </context-group>
-        <target state="translated">Dokument <x id="PH" equiv-text="status.filename"/> har lagts till Paperless-ngx.</target>
+        <target state="translated">Document <x id="PH" equiv-text="status.filename"/> har lagts till Paperless-ngx.</target>
       </trans-unit>
       <trans-unit id="1931214133925051574" datatype="html" approved="yes">
         <source>Open document</source>
@@ -308,7 +308,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/upload-file-widget/upload-file-widget.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
-        <target state="final">Öppna dokument</target>
+        <target state="final">Öppna document</target>
       </trans-unit>
       <trans-unit id="8582620835547864448" datatype="html" approved="yes">
         <source>Could not add <x id="PH" equiv-text="status.filename"/>: <x id="PH_1" equiv-text="status.message"/></source>
@@ -324,7 +324,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">134</context>
         </context-group>
-        <target state="translated">Dokument <x id="PH" equiv-text="status.filename"/> bearbetas av Paperless-ngx.</target>
+        <target state="translated">Document <x id="PH" equiv-text="status.filename"/> bearbetas av Paperless-ngx.</target>
       </trans-unit>
       <trans-unit id="6570363013146073520" datatype="html" approved="yes">
         <source>Dashboard</source>
@@ -384,7 +384,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
-        <target state="final">Dokument</target>
+        <target state="final">Document</target>
       </trans-unit>
       <trans-unit id="4930506384627295710" datatype="html" approved="yes">
         <source>Settings</source>
@@ -452,7 +452,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">185</context>
         </context-group>
-        <target state="translated">Släpp dokument här för att börja ladda upp eller placera dem i konsumtionsmappen. Du kan också släppa dokument var som helst på alla andra sidor i webbappen. När du gör det kommer Paperless-ngx börja träna sina algoritmer för maskininlärning.</target>
+        <target state="translated">Släpp document här för att börja ladda upp eller placera dem i konsumtionsmappen. Du kan också släppa document var some helst på alla andra sidor i webbappen. När du gör det kommer Paperless-ngx börja träna sina algoritmer för maskininlärning.</target>
       </trans-unit>
       <trans-unit id="7495498057594070122" datatype="html">
         <source>The documents list shows all of your documents and allows for filtering as well as bulk-editing. There are three different view styles: list, small cards and large cards. A list of documents currently opened for editing is shown in the sidebar.</source>
@@ -460,7 +460,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">190</context>
         </context-group>
-        <target state="translated">Dokumentlistan visar alla dina dokument och möjliggör filtrering samt massredigering. Det finns tre olika vystilar: lista, små kort och stora kort. En lista med dokument som för närvarande är öppna för redigering visas i sidofältet.</target>
+        <target state="translated">Dokumentlistan visar alla dina document och möjliggör filtrering samt massredigering. Det finns tre olika vystilar: lista, små kort och stora kort. En lista med document some för närvarande är öppna för redigering visas i sidofältet.</target>
       </trans-unit>
       <trans-unit id="1334220418719920556" datatype="html">
         <source>The filtering tools allow you to quickly find documents using various searches, dates, tags, etc.</source>
@@ -468,7 +468,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">197</context>
         </context-group>
-        <target state="translated">Med filtreringsverktygen kan du snabbt hitta dokument med hjälp av olika sökningar, datum, taggar osv.</target>
+        <target state="translated">Med filtreringsverktygen kan du snabbt hitta document med hjälp av olika sökningar, datum, taggar osv.</target>
       </trans-unit>
       <trans-unit id="5427326625898532358" datatype="html">
         <source>Any combination of filters can be saved as a &apos;view&apos; which can then be displayed on the dashboard and / or sidebar.</source>
@@ -476,7 +476,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
-        <target state="translated">En kombination av filter kan sparas som en "vy" som sedan kan visas på instrumentpanelen och/eller i sidofältet.</target>
+        <target state="translated">En kombination av filter kan sparas some en "vy" some sedan kan visas på instrumentpanelen och/eller i sidofältet.</target>
       </trans-unit>
       <trans-unit id="2804886236408698479" datatype="html">
         <source>Tags, correspondents, document types and storage paths can all be managed using these pages. They can also be created from the document edit view.</source>
@@ -496,7 +496,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Hantera e-postkonton och regler för att automatiskt importera dokument.</target>
+        <target state="translated">Hantera e-postkonton och regler för att automatiskt importera document.</target>
       </trans-unit>
       <trans-unit id="2258659358902319601" datatype="html">
         <source>Workflows give you more control over the document pipeline.</source>
@@ -516,7 +516,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Filuppgifter visar dokument som har behandlats, väntar på att bli behandlade, eller där fel uppstått vid behandling.</target>
+        <target state="translated">Filuppgifter visar document some har behandlats, väntar på att bli behandlade, eller där fel uppstått vid behandling.</target>
       </trans-unit>
       <trans-unit id="2755033621682206902" datatype="html">
         <source>Check out the settings for various tweaks to the web app.</source>
@@ -540,7 +540,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">250</context>
         </context-group>
-        <target state="translated">Det finns &lt;em&gt;massor&lt;/em&gt; av funktioner och information som vi inte täckte här, men detta bör ge dig hjälp på traven. Läs dokumentationen eller besök projektet på GitHub om du vill lära dig mer eller rapportera problem.</target>
+        <target state="translated">Det finns &lt;em&gt;massor&lt;/em&gt; av funktioner och information some vi inte täckte här, men detta bör ge dig hjälp på traven. Läs dokumentationen eller besök projektet på GitHub om du will lära dig mer eller rapportera problem.</target>
       </trans-unit>
       <trans-unit id="4270528545616947218" datatype="html">
         <source>Lastly, on behalf of every contributor to this community-supported project, thank you for using Paperless-ngx!</source>
@@ -548,7 +548,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">252</context>
         </context-group>
-        <target state="translated">Till sist, från alla oss som bidragit till detta gemenskapsstödda projekt, tack för att du använder Paperless-ngx!</target>
+        <target state="translated">Till sist, från alla oss some bidragit till detta gemenskapsstödda projekt, tack för att du använder Paperless-ngx!</target>
       </trans-unit>
       <trans-unit id="9063918187161876141" datatype="html">
         <source>Application Configuration</source>
@@ -564,7 +564,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Globala appkonfigurationsalternativ som gäller för &lt;strong&gt;varje&lt;/strong&gt; användare av denna installation av Paperless-ngx. Alternativ kan också ställas in med hjälp av miljövariabler eller konfigurationsfilen men värdet här kommer alltid att ha företräde.</target>
+        <target state="translated">Globala appkonfigurationsalternativ some gäller för &lt;strong&gt;varje&lt;/strong&gt; användare av denna installation av Paperless-ngx. Alternative kan också ställas in med hjälp av miljövariabler eller konfigurationsfilen men värdet här kommer alltid att ha företräde.</target>
       </trans-unit>
       <trans-unit id="7991430199894172363" datatype="html">
         <source>Read the documentation about this setting</source>
@@ -1008,7 +1008,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">107</context>
         </context-group>
-        <target state="final">Objekt per sida</target>
+        <target state="final">Object per sida</target>
       </trans-unit>
       <trans-unit id="3982403428275430291" datatype="html">
         <source>Sidebar</source>
@@ -1152,7 +1152,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">178</context>
         </context-group>
-        <target state="translated">Visa varning när sparade vyer stängs med osparade ändringar</target>
+        <target state="translated">Visa warning när sparade very stängs med osparade ändringar</target>
       </trans-unit>
       <trans-unit id="4975481913502931184" datatype="html">
         <source>Show document counts in sidebar saved views</source>
@@ -1176,7 +1176,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">189</context>
         </context-group>
-        <target state="final">Använd PDF-läsaren som tillhandahålls av webbläsaren</target>
+        <target state="final">Använd PDF-läsaren some tillhandahålls av webbläsaren</target>
       </trans-unit>
       <trans-unit id="9003921625412907981" datatype="html" approved="yes">
         <source>This is usually faster for displaying large PDF documents, but it might not work on some browsers.</source>
@@ -1268,7 +1268,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">231</context>
         </context-group>
-        <target state="translated">Titel och innehållssökning</target>
+        <target state="translated">Title och innehållssökning</target>
       </trans-unit>
       <trans-unit id="1010505078885609376" datatype="html" approved="yes">
         <source>Advanced search</source>
@@ -1436,7 +1436,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Objekt utan ägare kan ses och redigeras av alla användare</target>
+        <target state="translated">Object utan ägare kan ses och redigeras av alla användare</target>
       </trans-unit>
       <trans-unit id="1835394624061684099" datatype="html">
         <source>Default View Permissions</source>
@@ -1564,7 +1564,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">344</context>
         </context-group>
-        <target state="final">Dokument bearbetas</target>
+        <target state="final">Document bearbetas</target>
       </trans-unit>
       <trans-unit id="3656786776644872398" datatype="html" approved="yes">
         <source>Show notifications when new documents are detected</source>
@@ -1572,7 +1572,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">348</context>
         </context-group>
-        <target state="final">Visa notifieringar när nya dokument upptäcks</target>
+        <target state="final">Visa notifieringar när nya document upptäcks</target>
       </trans-unit>
       <trans-unit id="6057053428592387613" datatype="html" approved="yes">
         <source>Show notifications when document processing completes successfully</source>
@@ -2060,7 +2060,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
           <context context-type="linenumber">115</context>
         </context-group>
-        <target state="translated">Öppna Dokument</target>
+        <target state="translated">Öppna Document</target>
       </trans-unit>
       <trans-unit id="428536141871853903" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {One <x id="INTERPOLATION"/> task} other {<x id="INTERPOLATION_1"/> total <x id="INTERPOLATION"/> tasks}}</source>
@@ -2440,7 +2440,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.html</context>
           <context context-type="linenumber">94</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Ett dokument i papperskorgen} other {<x id="INTERPOLATION"/> dokument i papperskorgen}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Ett document i papperskorgen} other {<x id="INTERPOLATION"/> document i papperskorgen}}</target>
       </trans-unit>
       <trans-unit id="9021887951960049161" datatype="html" approved="yes">
         <source>Confirm delete</source>
@@ -2940,7 +2940,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
-        <target state="translated">Inloggad som <x id="INTERPOLATION" equiv-text="{{this.settingsService.displayName}}"/></target>
+        <target state="translated">Inloggad some <x id="INTERPOLATION" equiv-text="{{this.settingsService.displayName}}"/></target>
       </trans-unit>
       <trans-unit id="2127032578120864096" datatype="html">
         <source>My Profile</source>
@@ -2984,7 +2984,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">106</context>
         </context-group>
-        <target state="final">Sparade vyer</target>
+        <target state="final">Sparade very</target>
       </trans-unit>
       <trans-unit id="6988090220128974198" datatype="html" approved="yes">
         <source>Open documents</source>
@@ -2992,7 +2992,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">141</context>
         </context-group>
-        <target state="final">Öppna dokument</target>
+        <target state="final">Öppna document</target>
       </trans-unit>
       <trans-unit id="5687256342387781369" datatype="html" approved="yes">
         <source>Close all</source>
@@ -3328,7 +3328,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
           <context context-type="linenumber">90</context>
         </context-group>
-        <target state="translated">Dokument</target>
+        <target state="translated">Document</target>
       </trans-unit>
       <trans-unit id="searchResults.saved_views" datatype="html">
         <source>Saved Views</source>
@@ -3336,7 +3336,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
           <context context-type="linenumber">96</context>
         </context-group>
-        <target state="translated">Sparade vyer</target>
+        <target state="translated">Sparade very</target>
       </trans-unit>
       <trans-unit id="searchResults.tags" datatype="html">
         <source>Tags</source>
@@ -3532,7 +3532,7 @@
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <target state="translated">Dokument:</target>
+        <target state="translated">Document:</target>
       </trans-unit>
       <trans-unit id="7508164375697837821" datatype="html">
         <source>Use metadata from:</source>
@@ -3996,7 +3996,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/tag-edit-dialog/tag-edit-dialog.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
-        <target state="final">Matchande algoritm</target>
+        <target state="final">Matchande algorithm</target>
       </trans-unit>
       <trans-unit id="2656329676292524585" datatype="html" approved="yes">
         <source>Matching pattern</source>
@@ -4080,7 +4080,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/custom-field-edit-dialog/custom-field-edit-dialog.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
-        <target state="translated">Lägga till alternativ</target>
+        <target state="translated">Lägga till alternative</target>
       </trans-unit>
       <trans-unit id="2739003406164860877" datatype="html">
         <source>Default Currency</source>
@@ -4144,7 +4144,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/edit-dialog.component.ts</context>
           <context context-type="linenumber">121</context>
         </context-group>
-        <target state="final">Skapa nytt objekt</target>
+        <target state="final">Skapa nytt object</target>
       </trans-unit>
       <trans-unit id="5324147361912094446" datatype="html" approved="yes">
         <source>Edit item</source>
@@ -4152,7 +4152,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/edit-dialog.component.ts</context>
           <context context-type="linenumber">125</context>
         </context-group>
-        <target state="final">Redigera objekt</target>
+        <target state="final">Redigera object</target>
       </trans-unit>
       <trans-unit id="7878445132438733225" datatype="html">
         <source>Create new user group</source>
@@ -4224,7 +4224,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-account-edit-dialog/mail-account-edit-dialog.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
-        <target state="translated">Kontrollera om lösenordet ovan är en token som används för autentisering</target>
+        <target state="translated">Kontrollera om lösenordet ovan är en token some används för autentisering</target>
       </trans-unit>
       <trans-unit id="6124167940736826613" datatype="html">
         <source>Character Set</source>
@@ -4352,7 +4352,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
-        <target state="translated">Mapp</target>
+        <target state="translated">Map</target>
       </trans-unit>
       <trans-unit id="1391527525114848695" datatype="html">
         <source>Subfolders must be separated by a delimiter, often a dot (&apos;.&apos;) or slash (&apos;/&apos;), but it varies by mail server.</source>
@@ -4492,7 +4492,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
-        <target state="translated">Tilldela titel från</target>
+        <target state="translated">Tilldela title från</target>
       </trans-unit>
       <trans-unit id="5232720756589450549" datatype="html">
         <source>Assign owner from rule</source>
@@ -4596,7 +4596,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">53</context>
         </context-group>
-        <target state="translated">Behandla meddelande som .eml</target>
+        <target state="translated">Behandla meddelande some .eml</target>
       </trans-unit>
       <trans-unit id="7411485377918318115" datatype="html">
         <source>Process message as .eml and attachments separately</source>
@@ -4604,7 +4604,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target state="translated">Behandla meddelande som .eml och bilagor separat</target>
+        <target state="translated">Behandla meddelande some .eml och bilagor separate</target>
       </trans-unit>
       <trans-unit id="8776300244268604360" datatype="html">
         <source>System default</source>
@@ -4652,7 +4652,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">91</context>
         </context-group>
-        <target state="translated">Flytta till angiven mapp</target>
+        <target state="translated">Flytta till angiven map</target>
       </trans-unit>
       <trans-unit id="4593278936733161020" datatype="html">
         <source>Mark as read, don&apos;t process read mails</source>
@@ -4660,7 +4660,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">95</context>
         </context-group>
-        <target state="translated">Markera som läst, behandla inte lästa e-postmeddelanden</target>
+        <target state="translated">Markera some läst, behandla inte lästa e-postmeddelanden</target>
       </trans-unit>
       <trans-unit id="2378921144019636516" datatype="html">
         <source>Flag the mail, don&apos;t process flagged mails</source>
@@ -4684,7 +4684,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">110</context>
         </context-group>
-        <target state="translated">Använd ämnet som titel</target>
+        <target state="translated">Använd ämnet some title</target>
       </trans-unit>
       <trans-unit id="8645471396972938185" datatype="html">
         <source>Use attachment filename as title</source>
@@ -4692,7 +4692,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">114</context>
         </context-group>
-        <target state="translated">Använd bilagans filnamn som titel</target>
+        <target state="translated">Använd bilagans filnamn some title</target>
       </trans-unit>
       <trans-unit id="2881879110886196973" datatype="html">
         <source>Do not assign title from this rule</source>
@@ -4732,7 +4732,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">137</context>
         </context-group>
-        <target state="translated">Använd korrespondent som valts nedan</target>
+        <target state="translated">Använd korrespondent some valts nedan</target>
       </trans-unit>
       <trans-unit id="3147349817770432927" datatype="html">
         <source>Create new mail rule</source>
@@ -4816,7 +4816,7 @@
           <context context-type="sourcefile">src/app/components/common/input/document-link/document-link.component.ts</context>
           <context context-type="linenumber">72</context>
         </context-group>
-        <target state="translated">Inga dokument hittades</target>
+        <target state="translated">Inga document hittades</target>
       </trans-unit>
       <trans-unit id="6898961890896270754" datatype="html">
         <source>Create new storage path</source>
@@ -4868,7 +4868,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/tag-edit-dialog/tag-edit-dialog.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <target state="final">Inkorgtaggar tilldelas automatiskt till alla konsumerade dokument.</target>
+        <target state="final">Inkorgtaggar tilldelas automatiskt till alla konsumerade document.</target>
       </trans-unit>
       <trans-unit id="9153094873118985366" datatype="html" approved="yes">
         <source>Create new tag</source>
@@ -4972,7 +4972,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/user-edit-dialog/user-edit-dialog.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="translated">(Ger alla behörigheter och kan visa objekt)</target>
+        <target state="translated">(Ger alla behörigheter och kan visa object)</target>
       </trans-unit>
       <trans-unit id="8900662509426586619" datatype="html">
         <source>Two-factor Authentication</source>
@@ -5316,7 +5316,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">263</context>
         </context-group>
-        <target state="translated">Tilldela titel</target>
+        <target state="translated">Tilldela title</target>
       </trans-unit>
       <trans-unit id="1098196422099517191" datatype="html">
         <source>Can include some placeholders, see &lt;a target=&apos;_blank&apos; href=&apos;https://docs.paperless-ngx.com/usage/#workflows&apos;&gt;documentation&lt;/a&gt;.</source>
@@ -5632,7 +5632,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">113</context>
         </context-group>
-        <target state="translated">Dokument tillagt</target>
+        <target state="translated">Document tillagt</target>
       </trans-unit>
       <trans-unit id="7955486237346046731" datatype="html">
         <source>Document Updated</source>
@@ -5640,7 +5640,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">117</context>
         </context-group>
-        <target state="translated">Dokument uppdaterat</target>
+        <target state="translated">Document uppdaterat</target>
       </trans-unit>
       <trans-unit id="9172233176401579786" datatype="html">
         <source>Scheduled</source>
@@ -5912,7 +5912,7 @@
           <context context-type="sourcefile">src/app/components/common/filterable-dropdown/filterable-dropdown.component.html</context>
           <context context-type="linenumber">77</context>
         </context-group>
-        <target state="translated">Klicka igen för att exkludera objekt.</target>
+        <target state="translated">Klicka igen för att exkludera object.</target>
       </trans-unit>
       <trans-unit id="7593728289020204896" datatype="html" approved="yes">
         <source>Not assigned</source>
@@ -6025,7 +6025,7 @@
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.ts</context>
           <context context-type="linenumber">172</context>
         </context-group>
-        <target state="translated">Filtrera dokument med denna <x id="PH" equiv-text="this.title"/></target>
+        <target state="translated">Filtrera document med denna <x id="PH" equiv-text="this.title"/></target>
       </trans-unit>
       <trans-unit id="1880237574877817137" datatype="html">
         <source>Remove link</source>
@@ -6065,7 +6065,7 @@
           <context context-type="sourcefile">src/app/components/common/input/document-link/document-link.component.ts</context>
           <context context-type="linenumber">81</context>
         </context-group>
-        <target state="translated">Sök efter dokument</target>
+        <target state="translated">Sök efter document</target>
       </trans-unit>
       <trans-unit id="8627133593113147800" datatype="html">
         <source>Selected items</source>
@@ -6081,7 +6081,7 @@
           <context context-type="sourcefile">src/app/components/common/input/drag-drop-select/drag-drop-select.component.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="translated">Inga objekt markerade</target>
+        <target state="translated">Inga object markerade</target>
       </trans-unit>
       <trans-unit id="3249513483374643425" datatype="html">
         <source>Add</source>
@@ -6134,7 +6134,7 @@
           <context context-type="linenumber">25</context>
         </context-group>
         <note priority="1" from="description">Used for both types, correspondents, storage paths</note>
-        <target state="final">Lägg till objekt</target>
+        <target state="final">Lägg till object</target>
       </trans-unit>
       <trans-unit id="3686284950598311784" datatype="html">
         <source>Private</source>
@@ -6166,7 +6166,7 @@
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.ts</context>
           <context context-type="linenumber">106</context>
         </context-group>
-        <target state="translated">Inga objekt hittades</target>
+        <target state="translated">Inga object hittades</target>
       </trans-unit>
       <trans-unit id="6541407358060244620" datatype="html">
         <source>Note: value has not yet been set and will not apply until explicitly changed</source>
@@ -6198,7 +6198,7 @@
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.html</context>
           <context context-type="linenumber">55</context>
         </context-group>
-        <target state="translated">Filtrera dokument med dessa Taggar</target>
+        <target state="translated">Filtrera document med dessa Taggar</target>
       </trans-unit>
       <trans-unit id="2827984212740060090" datatype="html">
         <source>Read more</source>
@@ -6374,7 +6374,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-filter-dropdown/permissions-filter-dropdown.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="translated">Mina dokument</target>
+        <target state="translated">Mina document</target>
       </trans-unit>
       <trans-unit id="231920238966427751" datatype="html">
         <source>Shared with me</source>
@@ -6414,7 +6414,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-select/permissions-select.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
-        <target state="translated">Globala behörigheter definierar vilka områden i appen och API-slutpunkter som användare kan komma åt.</target>
+        <target state="translated">Globala behörigheter definierar vilka områden i appen och API-slutpunkter some användare kan komma åt.</target>
       </trans-unit>
       <trans-unit id="8650499415827640724" datatype="html">
         <source>Type</source>
@@ -6930,7 +6930,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
-        <target state="translated">Databas</target>
+        <target state="translated">Database</target>
       </trans-unit>
       <trans-unit id="5611592591303869712" datatype="html">
         <source>Status</source>
@@ -7242,7 +7242,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/saved-view-widget/saved-view-widget.component.html</context>
           <context context-type="linenumber">149</context>
         </context-group>
-        <target state="translated">Inga dokument</target>
+        <target state="translated">Inga document</target>
       </trans-unit>
       <trans-unit id="1069523139277190436" datatype="html" approved="yes">
         <source>Statistics</source>
@@ -7266,7 +7266,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
-        <target state="translated">Dokument i inkorgen</target>
+        <target state="translated">Document i inkorgen</target>
       </trans-unit>
       <trans-unit id="8809281703097241399" datatype="html">
         <source>Go to documents</source>
@@ -7274,7 +7274,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
-        <target state="translated">Gå till dokument</target>
+        <target state="translated">Gå till document</target>
       </trans-unit>
       <trans-unit id="3823413855067727192" datatype="html">
         <source>Total documents</source>
@@ -7282,7 +7282,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="translated">Totalt antal dokument</target>
+        <target state="translated">Totalt antal document</target>
       </trans-unit>
       <trans-unit id="6503529145162789855" datatype="html">
         <source>Total characters</source>
@@ -7384,7 +7384,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/welcome-widget/welcome-widget.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <target state="translated">Du kan nu börja ladda upp dokument! Utforska de olika funktionerna på egen hand, eller starta en snabb rundtur med hjälp av knappen nedanför.</target>
+        <target state="translated">Du kan nu börja ladda upp document! Utforska de olika funktionerna på egen hand, eller starta en snabb rundtur med hjälp av knappen nedanför.</target>
       </trans-unit>
       <trans-unit id="4474647174688421179" datatype="html">
         <source>More detail on how to use and configure Paperless-ngx is always available in the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://docs.paperless-ngx.com&quot; target=&quot;_blank&quot;&gt;"/>documentation<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
@@ -7416,7 +7416,7 @@
           <context context-type="sourcefile">src/app/components/document-asn/document-asn.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
-        <target state="final">Söker dokument med asn <x id="INTERPOLATION" equiv-text="{{asn}}"/></target>
+        <target state="final">Söker document med asn <x id="INTERPOLATION" equiv-text="{{asn}}"/></target>
       </trans-unit>
       <trans-unit id="1407560924967345762" datatype="html" approved="yes">
         <source>Page</source>
@@ -7492,7 +7492,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-card-large/document-card-large.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="final">Mer som detta</target>
+        <target state="final">Mer some detta</target>
       </trans-unit>
       <trans-unit id="5084275925647254161" datatype="html">
         <source>PDF Editor</source>
@@ -7552,7 +7552,7 @@
           <context context-type="sourcefile">src/app/data/document.ts</context>
           <context context-type="linenumber">90</context>
         </context-group>
-        <target state="final">Titel</target>
+        <target state="final">Title</target>
       </trans-unit>
       <trans-unit id="1379170675585571971" datatype="html" approved="yes">
         <source>Archive serial number</source>
@@ -7760,7 +7760,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">299</context>
         </context-group>
-        <target state="final">Ursprungliga dokument metadata</target>
+        <target state="final">Ursprungliga document metadata</target>
       </trans-unit>
       <trans-unit id="2846565152091361585" datatype="html" approved="yes">
         <source>Archived document metadata</source>
@@ -7768,7 +7768,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">302</context>
         </context-group>
-        <target state="final">Arkiverade dokument metadata</target>
+        <target state="final">Arkiverade document metadata</target>
       </trans-unit>
       <trans-unit id="7206723502037428235" datatype="html">
         <source>Notes <x id="START_BLOCK_IF" equiv-text="@if (document?.notes.length) {"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;badge text-bg-secondary ms-1&quot;&gt;"/><x id="INTERPOLATION" equiv-text="ngth}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/></source>
@@ -7884,7 +7884,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">130</context>
         </context-group>
-        <target state="translated">Stäng dokument</target>
+        <target state="translated">Stäng document</target>
       </trans-unit>
       <trans-unit id="8229691481345614469" datatype="html">
         <source>Save document</source>
@@ -7892,7 +7892,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">605</context>
         </context-group>
-        <target state="translated">Spara dokument</target>
+        <target state="translated">Spara document</target>
       </trans-unit>
       <trans-unit id="1784543155727940353" datatype="html">
         <source>Save and close / next</source>
@@ -8140,7 +8140,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.html</context>
           <context context-type="linenumber">62</context>
         </context-group>
-        <target state="final">Filtrera dokument typ</target>
+        <target state="final">Filtrera document typ</target>
       </trans-unit>
       <trans-unit id="8816999377397522522" datatype="html">
         <source>Filter storage paths</source>
@@ -8286,7 +8286,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">411</context>
         </context-group>
-        <target state="final">Denna åtgärd kommer att lägga till taggen "<x id="PH" equiv-text="tag.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Denna åtgärd kommer att lägga till taggen "<x id="PH" equiv-text="tag.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="1894412783609570695" datatype="html">
         <source>This operation will add the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> to <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8302,7 +8302,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">424</context>
         </context-group>
-        <target state="final">Denna åtgärd kommer att ta bort taggen "<x id="PH" equiv-text="tag.name"/>" från <x id="PH_1" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Denna åtgärd kommer att ta bort taggen "<x id="PH" equiv-text="tag.name"/>" från <x id="PH_1" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="3819792277998068944" datatype="html">
         <source>This operation will remove the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8334,7 +8334,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">476</context>
         </context-group>
-        <target state="final">Den här åtgärden kommer att tilldela korrespondenten "<x id="PH" equiv-text="correspondent.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Den här åtgärden kommer att tilldela korrespondenten "<x id="PH" equiv-text="correspondent.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="1257522660364398440" datatype="html" approved="yes">
         <source>This operation will remove the correspondent from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8342,7 +8342,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">478</context>
         </context-group>
-        <target state="final">Den här åtgärden kommer att ta bort korrespondenten från <x id="PH" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Den här åtgärden kommer att ta bort korrespondenten från <x id="PH" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="5393409374423140648" datatype="html" approved="yes">
         <source>Confirm document type assignment</source>
@@ -8358,7 +8358,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">514</context>
         </context-group>
-        <target state="final">Den här åtgärden kommer att tilldela dokumenttypen "<x id="PH" equiv-text="documentType.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Den här åtgärden kommer att tilldela dokumenttypen "<x id="PH" equiv-text="documentType.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="2236642492594872779" datatype="html" approved="yes">
         <source>This operation will remove the document type from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8366,7 +8366,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">516</context>
         </context-group>
-        <target state="final">Den här åtgärden kommer att ta bort dokumenttypen från <x id="PH" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="final">Den här åtgärden kommer att ta bort dokumenttypen från <x id="PH" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="6386555513013840736" datatype="html">
         <source>Confirm storage path assignment</source>
@@ -8382,7 +8382,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">552</context>
         </context-group>
-        <target state="translated">Den här åtgärden kommer att tilldela lagringsplatsen "<x id="PH" equiv-text="storagePath.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="translated">Den här åtgärden kommer att tilldela lagringsplatsen "<x id="PH" equiv-text="storagePath.name"/>" till <x id="PH_1" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="60728365335056946" datatype="html">
         <source>This operation will remove the storage path from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8390,7 +8390,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">554</context>
         </context-group>
-        <target state="translated">Den här åtgärden kommer att ta bort lagringsplatsen från <x id="PH" equiv-text="this.list.selected.size"/> valda dokument.</target>
+        <target state="translated">Den här åtgärden kommer att ta bort lagringsplatsen från <x id="PH" equiv-text="this.list.selected.size"/> valda document.</target>
       </trans-unit>
       <trans-unit id="4187352575310415704" datatype="html">
         <source>Confirm custom field assignment</source>
@@ -8768,7 +8768,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">94</context>
         </context-group>
-        <target state="final">Vyer</target>
+        <target state="final">Very</target>
       </trans-unit>
       <trans-unit id="1233494216161906927" datatype="html" approved="yes">
         <source>Save &quot;<x id="INTERPOLATION" equiv-text="{{list.activeSavedViewTitle}}"/>&quot;</source>
@@ -8784,7 +8784,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">116</context>
         </context-group>
-        <target state="final">Spara som...</target>
+        <target state="final">Spara some...</target>
       </trans-unit>
       <trans-unit id="1450797155766668235" datatype="html">
         <source>All saved views</source>
@@ -8800,7 +8800,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">137</context>
         </context-group>
-        <target state="final">{VAR_PLURAL, plural, one {} =1 {Vald <x id="INTERPOLATION"/> av ett dokument} other {Vald <x id="INTERPOLATION"/> av <x id="INTERPOLATION_1"/> dokument}}</target>
+        <target state="final">{VAR_PLURAL, plural, one {} =1 {Vald <x id="INTERPOLATION"/> av ett document} other {Vald <x id="INTERPOLATION"/> av <x id="INTERPOLATION_1"/> document}}</target>
       </trans-unit>
       <trans-unit id="6600548268163632449" datatype="html" approved="yes">
         <source>{VAR_PLURAL, plural, =1 {One document} other {<x id="INTERPOLATION"/> documents}}</source>
@@ -8808,7 +8808,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">141</context>
         </context-group>
-        <target state="final">{VAR_PLURAL, plural, one {} =1 {Ett dokument} other {<x id="INTERPOLATION"/> dokument}}</target>
+        <target state="final">{VAR_PLURAL, plural, one {} =1 {Ett document} other {<x id="INTERPOLATION"/> document}}</target>
       </trans-unit>
       <trans-unit id="2243770355958919528" datatype="html" approved="yes">
         <source>(filtered)</source>
@@ -8836,7 +8836,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">169</context>
         </context-group>
-        <target state="translated">Kunde inte läsa in dokument</target>
+        <target state="translated">Kunde inte läsa in document</target>
       </trans-unit>
       <trans-unit id="494022736054110363" datatype="html">
         <source>Sort by ASN</source>
@@ -8880,7 +8880,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">216</context>
         </context-group>
-        <target state="translated">Sortera efter titel</target>
+        <target state="translated">Sortera efter title</target>
       </trans-unit>
       <trans-unit id="6232673011753681091" datatype="html">
         <source>Sort by owner</source>
@@ -8996,7 +8996,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">331</context>
         </context-group>
-        <target state="translated">Redigera dokument</target>
+        <target state="translated">Redigera document</target>
       </trans-unit>
       <trans-unit id="3420321797707163677" datatype="html">
         <source>Preview document</source>
@@ -9076,7 +9076,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">198</context>
         </context-group>
-        <target state="final">Titel &amp; innehåll</target>
+        <target state="final">Title &amp; innehåll</target>
       </trans-unit>
       <trans-unit id="7408932238599462499" datatype="html">
         <source>File type</source>
@@ -9092,7 +9092,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">214</context>
         </context-group>
-        <target state="final">Mer som</target>
+        <target state="final">Mer some</target>
       </trans-unit>
       <trans-unit id="3697582909018473071" datatype="html">
         <source>equals</source>
@@ -9212,7 +9212,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">324</context>
         </context-group>
-        <target state="final">Titel: <x id="PH" equiv-text="rule.value"/></target>
+        <target state="final">Title: <x id="PH" equiv-text="rule.value"/></target>
       </trans-unit>
       <trans-unit id="1872523635812236432" datatype="html">
         <source>ASN: <x id="PH" equiv-text="rule.value"/></source>
@@ -9292,7 +9292,7 @@
           <context context-type="sourcefile">src/app/components/document-list/save-view-config-dialog/save-view-config-dialog.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">Felet som inträffade var</target>
+        <target state="translated">Felet some inträffade var</target>
       </trans-unit>
       <trans-unit id="1044349881182559852" datatype="html">
         <source>Enter note</source>
@@ -9404,7 +9404,7 @@
           <context context-type="sourcefile">src/app/components/manage/correspondent-list/correspondent-list.component.ts</context>
           <context context-type="linenumber">78</context>
         </context-group>
-        <target state="final">Vill du verkligen ta bort korrespondenten "<x id="PH" equiv-text="object.name"/>"?</target>
+        <target state="final">Will du verkligen ta bort korrespondenten "<x id="PH" equiv-text="object.name"/>"?</target>
       </trans-unit>
       <trans-unit id="8384138406252790442" datatype="html">
         <source>Customize the data fields that can be attached to documents.</source>
@@ -9516,7 +9516,7 @@
           <context context-type="sourcefile">src/app/components/manage/document-type-list/document-type-list.component.ts</context>
           <context context-type="linenumber">49</context>
         </context-group>
-        <target state="final">Vill du verkligen ta bort dokumenttypen "<x id="PH" equiv-text="object.name"/>"?</target>
+        <target state="final">Will du verkligen ta bort dokumenttypen "<x id="PH" equiv-text="object.name"/>"?</target>
       </trans-unit>
       <trans-unit id="8957855217409261143" datatype="html">
         <source>Mail Settings</source>
@@ -9924,7 +9924,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.html</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <target state="final">Antal dokument</target>
+        <target state="final">Antal document</target>
       </trans-unit>
       <trans-unit id="8095412801504464756" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {One <x id="INTERPOLATION"/>} other {<x id="INTERPOLATION_1"/> total <x id="INTERPOLATION_2"/>}}</source>
@@ -10092,7 +10092,7 @@
           <context context-type="sourcefile">src/app/components/manage/saved-views/saved-views.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
-        <target state="final">Inga sparade vyer har definierats.</target>
+        <target state="final">Inga sparade very har definierats.</target>
       </trans-unit>
       <trans-unit id="5610279464668232148" datatype="html" approved="yes">
         <source>Saved view &quot;<x id="PH" equiv-text="savedView.name"/>&quot; deleted.</source>
@@ -10140,7 +10140,7 @@
           <context context-type="sourcefile">src/app/components/manage/storage-path-list/storage-path-list.component.ts</context>
           <context context-type="linenumber">60</context>
         </context-group>
-        <target state="translated">Vill du verkligen ta bort lagringsplatsen "<x id="PH" equiv-text="object.name"/>"?</target>
+        <target state="translated">Will du verkligen ta bort lagringsplatsen "<x id="PH" equiv-text="object.name"/>"?</target>
       </trans-unit>
       <trans-unit id="6402703264596649214" datatype="html">
         <source>tag</source>
@@ -10164,7 +10164,7 @@
           <context context-type="sourcefile">src/app/components/manage/tag-list/tag-list.component.ts</context>
           <context context-type="linenumber">60</context>
         </context-group>
-        <target state="final">Vill du verkligen ta bort taggen "<x id="PH" equiv-text="object.name"/>"?</target>
+        <target state="final">Will du verkligen ta bort taggen "<x id="PH" equiv-text="object.name"/>"?</target>
       </trans-unit>
       <trans-unit id="1229748338333965418" datatype="html">
         <source>Use workflows to customize the behavior of Paperless-ngx when events &apos;trigger&apos; a workflow.</source>
@@ -10364,7 +10364,7 @@
           <context context-type="sourcefile">src/app/data/custom-field-query.ts</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="translated">Intervall</target>
+        <target state="translated">Interval</target>
       </trans-unit>
       <trans-unit id="969459137986754249" datatype="html">
         <source>Boolean</source>
@@ -10533,7 +10533,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">41</context>
         </context-group>
-        <target state="final">Fuzzy: Dokumentet innehåller ett ord som liknar detta ord</target>
+        <target state="final">Fuzzy: Dokumentet innehåller ett ord some liknar detta ord</target>
       </trans-unit>
       <trans-unit id="8233576851457338601" datatype="html">
         <source>None: Disable matching</source>
@@ -10773,7 +10773,7 @@
           <context context-type="sourcefile">src/app/guards/dirty-doc.guard.ts</context>
           <context context-type="linenumber">16</context>
         </context-group>
-        <target state="translated">Varning: Du har ändringar i dokument som inte sparats.</target>
+        <target state="translated">Warning: Du har ändringar i document some inte sparats.</target>
       </trans-unit>
       <trans-unit id="159901853873315050" datatype="html">
         <source>Unsaved Changes</source>
@@ -10805,7 +10805,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">150</context>
         </context-group>
-        <target state="translated">Du har ändringar som inte sparats.</target>
+        <target state="translated">Du har ändringar some inte sparats.</target>
       </trans-unit>
       <trans-unit id="3305084982600522070" datatype="html">
         <source>Are you sure you want to leave?</source>
@@ -10813,7 +10813,7 @@
           <context context-type="sourcefile">src/app/guards/dirty-form.guard.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <target state="translated">Är du säker på att du vill lämna?</target>
+        <target state="translated">Är du säker på att du will lämna?</target>
       </trans-unit>
       <trans-unit id="729881853265307704" datatype="html">
         <source>Leave page</source>
@@ -10829,7 +10829,7 @@
           <context context-type="sourcefile">src/app/guards/dirty-saved-view.guard.ts</context>
           <context context-type="linenumber">29</context>
         </context-group>
-        <target state="translated">Du har ändringar i vyn som inte sparats</target>
+        <target state="translated">Du har ändringar i vyn some inte sparats</target>
       </trans-unit>
       <trans-unit id="7282050913165342352" datatype="html">
         <source>Are you sure you want to close this saved view?</source>
@@ -10837,7 +10837,7 @@
           <context context-type="sourcefile">src/app/guards/dirty-saved-view.guard.ts</context>
           <context context-type="linenumber">33</context>
         </context-group>
-        <target state="translated">Är du säker på att du vill stänga denna sparade vy?</target>
+        <target state="translated">Är du säker på att du will stänga denna sparade vy?</target>
       </trans-unit>
       <trans-unit id="856284624775342512" datatype="html">
         <source>Save and close</source>
@@ -10957,7 +10957,7 @@
           <context context-type="sourcefile">src/app/pipes/document-title.pipe.ts</context>
           <context context-type="linenumber">11</context>
         </context-group>
-        <target state="final">(ingen titel)</target>
+        <target state="final">(ingen title)</target>
       </trans-unit>
       <trans-unit id="5523607037798226031" datatype="html">
         <source>You have unsaved changes to the document</source>
@@ -10965,7 +10965,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">124</context>
         </context-group>
-        <target state="translated">Du har ändringar i dokumentet som inte sparats</target>
+        <target state="translated">Du har ändringar i dokumentet some inte sparats</target>
       </trans-unit>
       <trans-unit id="2089045849587358256" datatype="html">
         <source>Are you sure you want to close this document?</source>
@@ -10973,7 +10973,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">128</context>
         </context-group>
-        <target state="translated">Är du säker på att du vill stänga detta dokument?</target>
+        <target state="translated">Är du säker på att du will stänga detta document?</target>
       </trans-unit>
       <trans-unit id="6755718693176327396" datatype="html">
         <source>Are you sure you want to close all documents?</source>
@@ -10981,7 +10981,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">151</context>
         </context-group>
-        <target state="translated">Är du säker på att du vill stänga alla dokument?</target>
+        <target state="translated">Är du säker på att du will stänga alla document?</target>
       </trans-unit>
       <trans-unit id="4215561719980781894" datatype="html">
         <source>Close documents</source>
@@ -10989,7 +10989,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">153</context>
         </context-group>
-        <target state="translated">Stäng dokument</target>
+        <target state="translated">Stäng document</target>
       </trans-unit>
       <trans-unit id="1206520795340730278" datatype="html" approved="yes">
         <source>English (US)</source>
@@ -11441,7 +11441,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="final">Bearbetar dokument...</target>
+        <target state="final">Bearbetar document...</target>
       </trans-unit>
       <trans-unit id="1085975194762600381" datatype="html" approved="yes">
         <source>Generating thumbnail...</source>
@@ -11457,7 +11457,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">37</context>
         </context-group>
-        <target state="final">Hämtar datum från dokument...</target>
+        <target state="final">Hämtar datum från document...</target>
       </trans-unit>
       <trans-unit id="7162102384876037296" datatype="html" approved="yes">
         <source>Saving document...</source>
@@ -11465,7 +11465,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">38</context>
         </context-group>
-        <target state="final">Sparar dokument...</target>
+        <target state="final">Sparar document...</target>
       </trans-unit>
       <trans-unit id="4550450765009165976" datatype="html" approved="yes">
         <source>Finished.</source>

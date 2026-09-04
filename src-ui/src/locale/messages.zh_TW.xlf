@@ -9220,7 +9220,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">327</context>
         </context-group>
-        <target state="translated">封存序號 (ANS)：<x id="PH" equiv-text="rule.value"/></target>
+        <target state="translated">封存序號 (AND)：<x id="PH" equiv-text="rule.value"/></target>
       </trans-unit>
       <trans-unit id="102674688969746976" datatype="html">
         <source>Owner: <x id="PH" equiv-text="rule.value"/></source>

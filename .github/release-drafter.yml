@@ -1,52 +1,52 @@
 categories:
-  - title: 'Breaking Changes'
+  - title: "Breaking Changes"
     labels:
-      - 'breaking-change'
-  - title: 'Notable Changes'
+      - "breaking-change"
+  - title: "Notable Changes"
     labels:
-      - 'notable'
-  - title: 'Features / Enhancements'
+      - "notable"
+  - title: "Features / Enhancements"
     labels:
-      - 'enhancement'
-  - title: 'Bug Fixes'
+      - "enhancement"
+  - title: "Bug Fixes"
     labels:
-      - 'bug'
-  - title: 'Documentation'
+      - "bug"
+  - title: "Documentation"
     labels:
-      - 'documentation'
-  - title: 'Maintenance'
+      - "documentation"
+  - title: "Maintenance"
     labels:
-      - 'chore'
-      - 'deployment'
-      - 'translation'
-      - 'ci-cd'
-  - title: 'Dependencies'
+      - "chore"
+      - "deployment"
+      - "translation"
+      - "ci-cd"
+  - title: "Dependencies"
     collapse-after: 3
     labels:
-      - 'dependencies'
-  - title: 'All App Changes'
+      - "dependencies"
+  - title: "All App Changes"
     labels:
-      - 'frontend'
-      - 'backend'
+      - "frontend"
+      - "backend"
     collapse-after: 1
 include-labels:
-  - 'enhancement'
-  - 'bug'
-  - 'chore'
-  - 'deployment'
-  - 'translation'
-  - 'dependencies'
-  - 'documentation'
-  - 'frontend'
-  - 'backend'
-  - 'ci-cd'
-  - 'breaking-change'
-  - 'notable'
+  - "enhancement"
+  - "bug"
+  - "chore"
+  - "deployment"
+  - "translation"
+  - "dependencies"
+  - "documentation"
+  - "frontend"
+  - "backend"
+  - "ci-cd"
+  - "breaking-change"
+  - "notable"
 exclude-labels:
-  - 'skip-changelog'
+  - "skip-changelog"
 filter-by-commitish: true
-category-template: '### $TITLE'
-change-template: '- $TITLE @$AUTHOR ([#$NUMBER]($URL))'
+category-template: "### $TITLE"
+change-template: "- $TITLE @$AUTHOR ([#$NUMBER]($URL))"
 change-title-escapes: '\<*_&#@'
 template: |
   ## paperless-ngx $RESOLVED_VERSION

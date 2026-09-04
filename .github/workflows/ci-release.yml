@@ -2,8 +2,8 @@ name: Release
 on:
   push:
     tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
-      - 'v[0-9]+.[0-9]+.[0-9]+-beta.rc[0-9]+'
+      - "v[0-9]+.[0-9]+.[0-9]+"
+      - "v[0-9]+.[0-9]+.[0-9]+-beta.rc[0-9]+"
 concurrency:
   group: release-${{ github.ref }}
   cancel-in-progress: false
@@ -19,7 +19,7 @@ jobs:
         uses: lewagon/wait-on-check-action@74049309dfeff245fe8009a0137eacf28136cb3c # v1.5.0
         with:
           ref: ${{ github.sha }}
-          check-name: 'Build Docker Image'
+          check-name: "Build Docker Image"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 60
   build-release:
@@ -38,8 +38,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Install frontend dependencies
         run: cd src-ui && pnpm install
       - name: Build frontend

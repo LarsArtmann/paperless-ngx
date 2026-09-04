@@ -31,10 +31,8 @@ or two, or maybe you've come across a bug that you have some ideas how
 to solve. The beauty of open source software is that you can see what's
 wrong and help to get it fixed for everyone!
 
-Before contributing please review our [code of
-conduct](https://github.com/paperless-ngx/paperless-ngx/blob/main/CODE_OF_CONDUCT.md)
-and other important information in the [contributing
-guidelines](https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md).
+Before contributing please review our [code of conduct](https://github.com/paperless-ngx/paperless-ngx/blob/main/CODE_OF_CONDUCT.md)
+and other important information in the [contributing guidelines](https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md).
 
 ## Code formatting with pre-commit hooks
 
@@ -58,55 +56,55 @@ first-time setup.
 
 !!! note
 
-      Every command is executed directly from the root folder of the project unless specified otherwise.
+    Every command is executed directly from the root folder of the project unless specified otherwise.
 
-1.  Install prerequisites + [uv](https://github.com/astral-sh/uv) as mentioned in
-    [Bare metal route](setup.md#bare_metal).
+1. Install prerequisites + [uv](https://github.com/astral-sh/uv) as mentioned in
+   [Bare metal route](setup.md#bare_metal).
 
-2.  Copy `paperless.conf.example` to `paperless.conf` and enable debug
-    mode within the file via `PAPERLESS_DEBUG=true`.
+2. Copy `paperless.conf.example` to `paperless.conf` and enable debug
+   mode within the file via `PAPERLESS_DEBUG=true`.
 
-3.  Create `consume` and `media` directories:
+3. Create `consume` and `media` directories:
 
-    ```bash
-    mkdir -p consume media
-    ```
+   ```bash
+   mkdir -p consume media
+   ```
 
-4.  Install the Python dependencies:
+4. Install the Python dependencies:
 
-    ```bash
-    uv sync --group dev
-    ```
+   ```bash
+   uv sync --group dev
+   ```
 
-5.  Install pre-commit hooks:
+5. Install pre-commit hooks:
 
-    ```bash
-    uv run prek install
-    ```
+   ```bash
+   uv run prek install
+   ```
 
-6.  Apply migrations and create a superuser (also can be done via the web UI) for your development instance:
+6. Apply migrations and create a superuser (also can be done via the web UI) for your development instance:
 
-    ```bash
-    # src/
+   ```bash
+   # src/
 
-    uv run manage.py migrate
-    uv run manage.py createsuperuser
-    ```
+   uv run manage.py migrate
+   uv run manage.py createsuperuser
+   ```
 
-7.  You can now either ...
-    - install Redis or
+7. You can now either ...
+   - install Redis or
 
-    - use the included `scripts/start_services.sh` to use Docker to fire
-      up a Redis instance (and some other services such as Tika,
-      Gotenberg and a database server) or
+   - use the included `scripts/start_services.sh` to use Docker to fire
+     up a Redis instance (and some other services such as Tika,
+     Gotenberg and a database server) or
 
-    - spin up a bare Redis container
+   - spin up a bare Redis container
 
-      ```bash
-      docker run -d -p 6379:6379 --restart unless-stopped redis:latest
-      ```
+     ```bash
+     docker run -d -p 6379:6379 --restart unless-stopped redis:latest
+     ```
 
-8.  Continue with either back-end or front-end development – or both :-).
+8. Continue with either back-end or front-end development – or both :-).
 
 ## Back end development
 
@@ -153,11 +151,11 @@ pnpm ng build --configuration production
 
 !!! note
 
-      The line length rule E501 is generally useful for getting multiple
-      source files next to each other on the screen. However, in some
-      cases, its just not possible to make some lines fit, especially
-      complicated IF cases. Append `# noqa: E501` to disable this check
-      for certain lines.
+    The line length rule E501 is generally useful for getting multiple
+    source files next to each other on the screen. However, in some
+    cases, its just not possible to make some lines fit, especially
+    complicated IF cases. Append `# noqa: E501` to disable this check
+    for certain lines.
 
 ### Package Management
 
@@ -181,32 +179,32 @@ The front end is built using AngularJS. In order to get started, you need Node.j
 
     The following commands are all performed in the `src-ui`-directory. You will need a running back end (including an active session) to connect to the back end API. To spin it up refer to the commands under the section [above](#back-end-development).
 
-1.  Install the Angular CLI. You might need sudo privileges to perform this command:
+1. Install the Angular CLI. You might need sudo privileges to perform this command:
 
-    ```bash
-    pnpm install -g @angular/cli
-    ```
+   ```bash
+   pnpm install -g @angular/cli
+   ```
 
-2.  Make sure that it's on your path.
+2. Make sure that it's on your path.
 
-3.  Install all necessary modules:
+3. Install all necessary modules:
 
-    ```bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
-4.  You can launch a development server by running:
+4. You can launch a development server by running:
 
-    ```bash
-    pnpm ng serve
-    ```
+   ```bash
+   pnpm ng serve
+   ```
 
-    This will automatically update whenever you save. However, in-place
-    compilation might fail on syntax errors, in which case you need to
-    restart it.
+   This will automatically update whenever you save. However, in-place
+   compilation might fail on syntax errors, in which case you need to
+   restart it.
 
-    By default, the development server is available on `http://localhost:4200/` and is configured to access the API at
-    `http://localhost:8000/api/`, which is the default of the backend. If you enabled `DEBUG` on the back end, several security overrides for allowed hosts and CORS are in place so that the front end behaves exactly as in production.
+   By default, the development server is available on `http://localhost:4200/` and is configured to access the API at
+   `http://localhost:8000/api/`, which is the default of the backend. If you enabled `DEBUG` on the back end, several security overrides for allowed hosts and CORS are in place so that the front end behaves exactly as in production.
 
 ### Testing and code style
 
@@ -253,8 +251,7 @@ these parts have to be translated separately.
 
 ### Front end localization
 
-- The AngularJS front end does localization according to the [Angular
-  documentation](https://angular.io/guide/i18n).
+- The AngularJS front end does localization according to the [Angular documentation](https://angular.io/guide/i18n).
 - The source language of the project is "en_US".
 - The source strings end up in the file `src-ui/messages.xlf`.
 - The translated strings need to be placed in the
@@ -265,40 +262,38 @@ these parts have to be translated separately.
 Adding new languages requires adding the translated files in the
 `src-ui/src/locale/` folder and adjusting a couple files.
 
-1.  Adjust `src-ui/angular.json`:
+1. Adjust `src-ui/angular.json`:
 
-    ```json
-    "i18n": {
-        "sourceLocale": "en-US",
-        "locales": {
-            "de": "src/locale/messages.de.xlf",
-            "nl-NL": "src/locale/messages.nl_NL.xlf",
-            "fr": "src/locale/messages.fr.xlf",
-            "en-GB": "src/locale/messages.en_GB.xlf",
-            "pt-BR": "src/locale/messages.pt_BR.xlf",
-            "language-code": "language-file"
-        }
-    }
-    ```
+   ```json
+   "i18n": {
+       "sourceLocale": "en-US",
+       "locales": {
+           "de": "src/locale/messages.de.xlf",
+           "nl-NL": "src/locale/messages.nl_NL.xlf",
+           "fr": "src/locale/messages.fr.xlf",
+           "en-GB": "src/locale/messages.en_GB.xlf",
+           "pt-BR": "src/locale/messages.pt_BR.xlf",
+           "language-code": "language-file"
+       }
+   }
+   ```
 
-2.  Add the language to the `LANGUAGE_OPTIONS` array in
-    `src-ui/src/app/services/settings.service.ts`:
+2. Add the language to the `LANGUAGE_OPTIONS` array in
+   `src-ui/src/app/services/settings.service.ts`:
 
-    ```
+   ```
+   `dateInputFormat` is a special string that defines the behavior of
+   the date input fields and absolutely needs to contain "dd", "mm"
+   and "yyyy".
+   ```
 
-    `dateInputFormat` is a special string that defines the behavior of
-    the date input fields and absolutely needs to contain "dd", "mm"
-    and "yyyy".
+3. Import and register the Angular data for this locale in
+   `src-ui/src/app/app.module.ts`:
 
-    ```
-
-3.  Import and register the Angular data for this locale in
-    `src-ui/src/app/app.module.ts`:
-
-    ```typescript
-    import localeDe from "@angular/common/locales/de";
-    registerLocaleData(localeDe);
-    ```
+   ```typescript
+   import localeDe from "@angular/common/locales/de";
+   registerLocaleData(localeDe);
+   ```
 
 ### Back end localization
 
@@ -306,8 +301,7 @@ A majority of the strings that appear in the back end appear only when
 the admin is used. However, some of these are still shown on the front
 end (such as error messages).
 
-- The django application does localization according to the [Django
-  documentation](https://docs.djangoproject.com/en/3.1/topics/i18n/translation/).
+- The django application does localization according to the [Django documentation](https://docs.djangoproject.com/en/3.1/topics/i18n/translation/).
 - The source language of the project is "en_US".
 - Localization files end up in the folder `src/locale/`.
 - In order to extract strings from the application, call
@@ -340,22 +334,22 @@ LANGUAGES = [
 The documentation is built using Zensical, see their [documentation](https://zensical.org/docs/).
 If you want to build the documentation locally, this is how you do it:
 
-1.  Build the documentation
+1. Build the documentation
 
-    ```bash
-    $ uv run zensical build
-    ```
+   ```bash
+   $ uv run zensical build
+   ```
 
-    _alternatively..._
+   _alternatively..._
 
-2.  Serve the documentation. This will spin up a
-    copy of the documentation at http://127.0.0.1:8000
-    that will automatically refresh every time you change
-    something.
+2. Serve the documentation. This will spin up a
+   copy of the documentation at http://127.0.0.1:8000
+   that will automatically refresh every time you change
+   something.
 
-    ```bash
-    $ uv run zensical serve
-    ```
+   ```bash
+   $ uv run zensical serve
+   ```
 
 ## Building the Docker image {#docker_build}
 
@@ -567,7 +561,6 @@ def get_archive_path(self) -> Path | None:
 def get_page_count(self, document_path: Path, mime_type: str) -> int | None:
     # If the format doesn't have the concept of pages, return None
     return count_pages(document_path)
-
 ```
 
 **Thumbnail**
@@ -590,7 +583,6 @@ Implement them if your format supports the information; otherwise return
 `None` / `[]`.
 
 ```python
-
 def extract_metadata(
     self,
     document_path: Path,

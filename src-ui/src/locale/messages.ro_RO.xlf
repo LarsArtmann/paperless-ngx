@@ -101,7 +101,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Ore</target>
+        <target state="translated">Or</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
@@ -169,7 +169,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Incrementare ore</target>
+        <target state="translated">Incrementare or</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
@@ -280,7 +280,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">104</context>
         </context-group>
-        <target state="translated">Documentul <x id="PH" equiv-text="status.filename"/> a fost adăugat în sistem.</target>
+        <target state="translated">Documentul <x id="PH" equiv-text="status.filename"/> a fost adăugat în system.</target>
       </trans-unit>
       <trans-unit id="1931214133925051574" datatype="html" approved="yes">
         <source>Open document</source>
@@ -460,7 +460,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">190</context>
         </context-group>
-        <target state="translated">Lista de documente afișează toate documentele și permite atât filtrarea, cât și editarea în grup. Există trei stiluri de vizualizare diferite: listă, carduri mici și carduri mari. O listă de documente deschise în prezent pentru editare este afișată în bara laterală.</target>
+        <target state="translated">Lista de documente afișează toate documentele și permite atât filtrarea, cât și editarea în group. Există trei stiluri de vizualizare diferite: listă, carduri mici și carduri mari. O listă de documente deschise în prezent pentru editare este afișată în bara laterală.</target>
       </trans-unit>
       <trans-unit id="1334220418719920556" datatype="html">
         <source>The filtering tools allow you to quickly find documents using various searches, dates, tags, etc.</source>
@@ -516,7 +516,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Sarcinile fișierului vă arată documentele care au fost consumate, care așteaptă să fie, sau este posibil să fi eșuat în timpul procesului.</target>
+        <target state="translated">Sarcinile fișierului vă arată documentele care au fost consummate, care așteaptă să fie, sau este posibil să fi eșuat în timpul procesului.</target>
       </trans-unit>
       <trans-unit id="2755033621682206902" datatype="html">
         <source>Check out the settings for various tweaks to the web app.</source>
@@ -708,7 +708,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.ts</context>
           <context context-type="linenumber">200</context>
         </context-group>
-        <target state="translated">Fișier actualizat cu succes</target>
+        <target state="translated">Fișier actualizat cu success</target>
       </trans-unit>
       <trans-unit id="5902783625859504265" datatype="html">
         <source>An error occurred uploading file</source>
@@ -920,7 +920,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <target state="translated">Status de sistem</target>
+        <target state="translated">Status de system</target>
       </trans-unit>
       <trans-unit id="4798013226763881638" datatype="html">
         <source>Open Django Admin</source>
@@ -1048,7 +1048,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">138</context>
         </context-group>
-        <target state="final">Activează modul întunecat</target>
+        <target state="final">Activează module întunecat</target>
       </trans-unit>
       <trans-unit id="6336642923114460405" datatype="html" approved="yes">
         <source>Invert thumbnails in dark mode</source>
@@ -1056,7 +1056,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
-        <target state="final">Inversează miniaturile în modul întunecat</target>
+        <target state="final">Inversează miniaturile în module întunecat</target>
       </trans-unit>
       <trans-unit id="7983234071833154796" datatype="html">
         <source>Theme Color</source>
@@ -1292,7 +1292,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">237</context>
         </context-group>
-        <target state="final">Editare în bloc</target>
+        <target state="final">Editare în block</target>
       </trans-unit>
       <trans-unit id="8158899674926420054" datatype="html" approved="yes">
         <source>Show confirmation dialogs</source>
@@ -1580,7 +1580,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">349</context>
         </context-group>
-        <target state="final">Arată notificări atunci când procesarea documentului se termină cu succes</target>
+        <target state="final">Arată notificări atunci când procesarea documentului se termină cu success</target>
       </trans-unit>
       <trans-unit id="370315664367425513" datatype="html" approved="yes">
         <source>Show notifications when document processing fails</source>
@@ -2756,7 +2756,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
-        <target state="translated">Adaugă grup</target>
+        <target state="translated">Adaugă group</target>
       </trans-unit>
       <trans-unit id="4746158651610481283" datatype="html">
         <source>No groups defined</source>
@@ -2948,7 +2948,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
-        <target state="translated">Profilul meu</target>
+        <target state="translated">Profilul menu</target>
       </trans-unit>
       <trans-unit id="3797778920049399855" datatype="html" approved="yes">
         <source>Logout</source>
@@ -3996,7 +3996,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/tag-edit-dialog/tag-edit-dialog.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
-        <target state="final">Algoritm de potrivire</target>
+        <target state="final">Algorithm de potrivire</target>
       </trans-unit>
       <trans-unit id="2656329676292524585" datatype="html" approved="yes">
         <source>Matching pattern</source>
@@ -4048,7 +4048,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/correspondent-edit-dialog/correspondent-edit-dialog.component.ts</context>
           <context context-type="linenumber">43</context>
         </context-group>
-        <target state="final">Creare corespondent nou</target>
+        <target state="final">Creare correspondent nou</target>
       </trans-unit>
       <trans-unit id="2059822531169388684" datatype="html" approved="yes">
         <source>Edit correspondent</source>
@@ -4056,7 +4056,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/correspondent-edit-dialog/correspondent-edit-dialog.component.ts</context>
           <context context-type="linenumber">47</context>
         </context-group>
-        <target state="final">Modifică un corespondent</target>
+        <target state="final">Modifică un correspondent</target>
       </trans-unit>
       <trans-unit id="4894226280476434291" datatype="html">
         <source>Data type</source>
@@ -4288,7 +4288,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-account-edit-dialog/mail-account-edit-dialog.component.ts</context>
           <context context-type="linenumber">103</context>
         </context-group>
-        <target state="translated">Conectat cu succes la serverul de e-mail</target>
+        <target state="translated">Conectat cu success la serverul de e-mail</target>
       </trans-unit>
       <trans-unit id="6533084895896956145" datatype="html">
         <source>Unable to connect to the mail server</source>
@@ -4520,7 +4520,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">64</context>
         </context-group>
-        <target state="translated">Atribuie corespondent din</target>
+        <target state="translated">Atribuie correspondent din</target>
       </trans-unit>
       <trans-unit id="4875491778188965469" datatype="html">
         <source>Assign correspondent</source>
@@ -4708,7 +4708,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">125</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Nu atribui un corespondent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Nu atribui un correspondent</target>
       </trans-unit>
       <trans-unit id="3567746385454588269" datatype="html">
         <source>Use mail address</source>
@@ -4868,7 +4868,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/tag-edit-dialog/tag-edit-dialog.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <target state="final">Etichetele inbox sunt atribuite automat documentelor consumate.</target>
+        <target state="final">Etichetele inbox sunt atribuite automat documentelor consummate.</target>
       </trans-unit>
       <trans-unit id="9153094873118985366" datatype="html" approved="yes">
         <source>Create new tag</source>
@@ -4940,7 +4940,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/user-edit-dialog/user-edit-dialog.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <target state="translated">Activ</target>
+        <target state="translated">Active</target>
       </trans-unit>
       <trans-unit id="5041354590769758251" datatype="html">
         <source>Admin</source>
@@ -5252,7 +5252,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">165</context>
         </context-group>
-        <target state="translated">Aplică la documentele consumate prin această regulă de e-mail.</target>
+        <target state="translated">Aplică la documentele consummate prin această regulă de e-mail.</target>
       </trans-unit>
       <trans-unit id="6840369584127435743" datatype="html">
         <source>Content matching algorithm</source>
@@ -7170,7 +7170,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">323</context>
         </context-group>
-        <target state="final">Filtrează dupa corespondent</target>
+        <target state="final">Filtrează dupa correspondent</target>
       </trans-unit>
       <trans-unit id="78870852467682010" datatype="html">
         <source>Filter by document type</source>
@@ -7596,7 +7596,7 @@
           <context context-type="sourcefile">src/app/data/document.ts</context>
           <context context-type="linenumber">89</context>
         </context-group>
-        <target state="final">Corespondent</target>
+        <target state="final">Correspondent</target>
       </trans-unit>
       <trans-unit id="5066119607229701477" datatype="html" approved="yes">
         <source>Document type</source>
@@ -8294,7 +8294,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">416,418</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Vor fi adăugate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> la <x id="PH_1" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">For fi adăugate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> la <x id="PH_1" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
       </trans-unit>
       <trans-unit id="7181166515756808573" datatype="html" approved="yes">
         <source>This operation will remove the tag &quot;<x id="PH" equiv-text="tag.name"/>&quot; from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8310,7 +8310,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">429,431</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Vor fi eliminate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> din <x id="PH_1" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">For fi eliminate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> din <x id="PH_1" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
       </trans-unit>
       <trans-unit id="2739066218579571288" datatype="html">
         <source>This operation will add the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> and remove the tags <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> on <x id="PH_2" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8318,7 +8318,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">433,437</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Vor fi adăugate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> și vor fi eliminate etichetele <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> pentru <x id="PH_2" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">For fi adăugate etichetele <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> și for fi eliminate etichetele <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> pentru <x id="PH_2" equiv-text="this.list.selected.size"/> document(e) selectat(e).</target>
       </trans-unit>
       <trans-unit id="2996713129519325161" datatype="html" approved="yes">
         <source>Confirm correspondent assignment</source>
@@ -9148,7 +9148,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">283</context>
         </context-group>
-        <target state="final">Fără corespondent</target>
+        <target state="final">Fără correspondent</target>
       </trans-unit>
       <trans-unit id="317796810569008208" datatype="html">
         <source>Document type: <x id="PH" equiv-text="this.documentTypeSelectionModel.items.find(                 (dt) =&gt; dt.id == +rule.value               )?.name"/></source>
@@ -9380,7 +9380,7 @@
           <context context-type="sourcefile">src/app/components/manage/correspondent-list/correspondent-list.component.ts</context>
           <context context-type="linenumber">47</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">corespondent</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">correspondent</target>
       </trans-unit>
       <trans-unit id="1612355304340685070" datatype="html">
         <source>correspondents</source>
@@ -10501,7 +10501,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="final">Exact: Documentul conține acest șir de caractere</target>
+        <target state="final">Exact: Documentul conține acest șir de character</target>
       </trans-unit>
       <trans-unit id="1338733395833138319" datatype="html" approved="yes">
         <source>Regular expression</source>

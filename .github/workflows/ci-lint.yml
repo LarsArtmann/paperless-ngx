@@ -2,10 +2,10 @@ name: Lint
 on:
   push:
     branches-ignore:
-      - 'translations**'
+      - "translations**"
   pull_request:
     branches-ignore:
-      - 'translations**'
+      - "translations**"
 concurrency:
   group: lint-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true

@@ -324,7 +324,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">134</context>
         </context-group>
-        <target state="translated">Documento <x id="PH" equiv-text="status.filename"/> está a ser processado pelo Paperless-ngx.</target>
+        <target state="translated">Documento <x id="PH" equiv-text="status.filename"/> está a set processado pelo Paperless-ngx.</target>
       </trans-unit>
       <trans-unit id="6570363013146073520" datatype="html">
         <source>Dashboard</source>
@@ -468,7 +468,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">197</context>
         </context-group>
-        <target state="translated">As ferramentas de filtro permitem-lhe rapidamente encontrar documentos através de vários tipos de pesquisa, como por exemplo, datas, etiquetas, etc.</target>
+        <target state="translated">As ferramentas de filtro permitem-lhe rapidamente encontrar documentos através de vários tipos de pesquisa, como por exemplo, data, etiquetas, etc.</target>
       </trans-unit>
       <trans-unit id="5427326625898532358" datatype="html">
         <source>Any combination of filters can be saved as a &apos;view&apos; which can then be displayed on the dashboard and / or sidebar.</source>
@@ -476,7 +476,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
-        <target state="translated">Qualquer tipo de combinação de filtros pode ser gravada como uma 'forma de visualização' que poderá ser aplicada ao painel de controlo e/ou à barra lateral.</target>
+        <target state="translated">Qualquer tipo de combinação de filtros pode set gravada como uma 'forma de visualização' que poderá set aplicada ao painel de controlo e/ou à barra lateral.</target>
       </trans-unit>
       <trans-unit id="2804886236408698479" datatype="html">
         <source>Tags, correspondents, document types and storage paths can all be managed using these pages. They can also be created from the document edit view.</source>
@@ -484,7 +484,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">208</context>
         </context-group>
-        <target state="translated">Etiquetas, correspondências, tipos de documentos e caminhos de armazenamento podem ser todos geridos através destas paginas. Podem também ser criadas através da edição de um documento.</target>
+        <target state="translated">Etiquetas, correspondências, tipos de documentos e caminhos de armazenamento podem set todos geridos através destas paginas. Podem também set criadas através da edição de um documento.</target>
       </trans-unit>
       <trans-unit id="7851939076947092983" datatype="html">
         <source>Manage e-mail accounts and rules for automatically importing documents.</source>
@@ -516,7 +516,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">As Tarefas de Ficheiros, mostra-lhe os documentos que foram consumidos, ou estão em espera para o ser, ou que falharam durante o processo de consumo.</target>
+        <target state="translated">As Tarefas de Ficheiros, mostra-lhe os documentos que foram consumidos, ou estão em espera para o set, ou que falharam durante o processo de consumo.</target>
       </trans-unit>
       <trans-unit id="2755033621682206902" datatype="html">
         <source>Check out the settings for various tweaks to the web app.</source>
@@ -540,7 +540,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">250</context>
         </context-group>
-        <target state="translated">Existem &lt;em&gt;muitas mais&lt;/em&gt; funcionalidades e informações não cobertas aqui, no entanto, isto deverá ser suficiente para cobrir o básico. Verifique a documentação ou visite o projeto no GitHub para saber mais, ou mesmo reportar erros.</target>
+        <target state="translated">Existem &lt;em&gt;muitas mais&lt;/em&gt; funcionalidades e informações não cobertas aqui, no entanto, isto deverá set suficiente para cobrir o básico. Verifique a documentação ou visite o projeto no GitHub para saber mais, ou mesmo reportar errors.</target>
       </trans-unit>
       <trans-unit id="4270528545616947218" datatype="html">
         <source>Lastly, on behalf of every contributor to this community-supported project, thank you for using Paperless-ngx!</source>
@@ -548,7 +548,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">252</context>
         </context-group>
-        <target state="translated">Por último, e em nome de todos os contribuintes deste projeto suportado por uma comunidade, obrigado por utilizar o Paperless-ngx!</target>
+        <target state="translated">Por último, e em gnome de todos os contribuintes deste projeto suportado por uma comunidade, obrigado por utilizar o Paperless-ngx!</target>
       </trans-unit>
       <trans-unit id="9063918187161876141" datatype="html">
         <source>Application Configuration</source>
@@ -676,7 +676,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.ts</context>
           <context context-type="linenumber">103</context>
         </context-group>
-        <target state="translated">Erro ao obter configuração</target>
+        <target state="translated">Error ao obter configuração</target>
       </trans-unit>
       <trans-unit id="1172622527269118932" datatype="html">
         <source>Invalid JSON</source>
@@ -700,7 +700,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.ts</context>
           <context context-type="linenumber">178</context>
         </context-group>
-        <target state="translated">Ocorreu um erro ao atualizar a configuração</target>
+        <target state="translated">Ocorreu um error ao atualizar a configuração</target>
       </trans-unit>
       <trans-unit id="2653081282186526824" datatype="html">
         <source>File successfully updated</source>
@@ -716,7 +716,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.ts</context>
           <context context-type="linenumber">205</context>
         </context-group>
-        <target state="translated">Ocorreu um erro ao fazer ‘upload’ do arquivo</target>
+        <target state="translated">Ocorreu um error ao fazer ‘upload’ do arquivo</target>
       </trans-unit>
       <trans-unit id="4804785061014590286" datatype="html">
         <source>Logs</source>
@@ -1008,7 +1008,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">107</context>
         </context-group>
-        <target state="final">Itens por página</target>
+        <target state="final">Items por página</target>
       </trans-unit>
       <trans-unit id="3982403428275430291" datatype="html">
         <source>Sidebar</source>
@@ -1436,7 +1436,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Objetos sem um proprietário podem ser visualizados e editados por qualquer utilizador</target>
+        <target state="translated">Objetos sem um proprietário podem set visualizados e editados por qualquer utilizador</target>
       </trans-unit>
       <trans-unit id="1835394624061684099" datatype="html">
         <source>Default View Permissions</source>
@@ -1704,7 +1704,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">75</context>
         </context-group>
-        <target state="translated">Erro ao obter os utilizadores.</target>
+        <target state="translated">Error ao obter os utilizadores.</target>
       </trans-unit>
       <trans-unit id="3066660568529853846" datatype="html">
         <source>Error retrieving groups</source>
@@ -1716,7 +1716,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">89</context>
         </context-group>
-        <target state="translated">Erro ao obter os grupos.</target>
+        <target state="translated">Error ao obter os grupos.</target>
       </trans-unit>
       <trans-unit id="7217000812750597833" datatype="html">
         <source>Settings were saved successfully.</source>
@@ -1752,7 +1752,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.ts</context>
           <context context-type="linenumber">180</context>
         </context-group>
-        <target state="translated">Ocorreu um erro ao gravar as configurações.</target>
+        <target state="translated">Ocorreu um error ao gravar as configurações.</target>
       </trans-unit>
       <trans-unit id="2991443309752293110" datatype="html">
         <source>File Tasks</source>
@@ -1920,7 +1920,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <target state="final">Nome</target>
+        <target state="final">Gnome</target>
       </trans-unit>
       <trans-unit id="4207916966377787111" datatype="html" approved="yes">
         <source>Created</source>
@@ -2508,7 +2508,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.ts</context>
           <context context-type="linenumber">133</context>
         </context-group>
-        <target state="final">Esta operação não pode ser revertida.</target>
+        <target state="final">Esta operação não pode set revertida.</target>
       </trans-unit>
       <trans-unit id="4858599760783476319" datatype="html">
         <source>Document &quot;<x id="PH" equiv-text="document.title"/>&quot; deleted</source>
@@ -2524,7 +2524,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">97</context>
         </context-group>
-        <target state="translated">Erro ao excluir o documento "<x id="PH" equiv-text="document.title"/>"</target>
+        <target state="translated">Error ao excluir o documento "<x id="PH" equiv-text="document.title"/>"</target>
       </trans-unit>
       <trans-unit id="7266264608936522311" datatype="html">
         <source>This operation will permanently delete the selected documents.</source>
@@ -2556,7 +2556,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">131</context>
         </context-group>
-        <target state="translated">Erro ao excluir documentos.</target>
+        <target state="translated">Error ao excluir documentos.</target>
       </trans-unit>
       <trans-unit id="1676410437015215557" datatype="html">
         <source>Document &quot;<x id="PH" equiv-text="document.title"/>&quot; restored</source>
@@ -2572,7 +2572,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">155</context>
         </context-group>
-        <target state="translated">Erro ao restaurar documento "<x id="PH" equiv-text="document.title"/>"</target>
+        <target state="translated">Error ao restaurar documento "<x id="PH" equiv-text="document.title"/>"</target>
       </trans-unit>
       <trans-unit id="960063472770266304" datatype="html">
         <source>Document(s) restored</source>
@@ -2588,7 +2588,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">173</context>
         </context-group>
-        <target state="translated">Erro ao restaurar documento(s)</target>
+        <target state="translated">Error ao restaurar documento(s)</target>
       </trans-unit>
       <trans-unit id="8119815638230251386" datatype="html">
         <source>Users &amp; Groups</source>
@@ -2652,7 +2652,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Nome de utilizador</target>
+        <target state="translated">Gnome de utilizador</target>
       </trans-unit>
       <trans-unit id="5944812089887969249" datatype="html">
         <source>Groups</source>
@@ -2776,7 +2776,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.ts</context>
           <context context-type="linenumber">201</context>
         </context-group>
-        <target state="translated">A palavra passe foi alterada, terá a sessão atual terminada daqui a nada.</target>
+        <target state="translated">A palavra passe foi alterada, terá a sessão actual terminada daqui a nada.</target>
       </trans-unit>
       <trans-unit id="2753185112875184719" datatype="html">
         <source>Saved user &quot;<x id="PH" equiv-text="newUser.username"/>&quot;.</source>
@@ -2792,7 +2792,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">135</context>
         </context-group>
-        <target state="translated">Erro ao gravar utilizador.</target>
+        <target state="translated">Error ao gravar utilizador.</target>
       </trans-unit>
       <trans-unit id="5565868288871970148" datatype="html">
         <source>Confirm delete user account</source>
@@ -2876,7 +2876,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">160</context>
         </context-group>
-        <target state="translated">Erro ao excluir utilizador "<x id="PH" equiv-text="user.username"/>".</target>
+        <target state="translated">Error ao excluir utilizador "<x id="PH" equiv-text="user.username"/>".</target>
       </trans-unit>
       <trans-unit id="5766640174051730159" datatype="html">
         <source>Saved group &quot;<x id="PH" equiv-text="newGroup.name"/>&quot;.</source>
@@ -2892,7 +2892,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">188</context>
         </context-group>
-        <target state="translated">Erro ao gravar grupo.</target>
+        <target state="translated">Error ao gravar grupo.</target>
       </trans-unit>
       <trans-unit id="6538873300613683004" datatype="html">
         <source>Confirm delete user group</source>
@@ -2924,7 +2924,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">213</context>
         </context-group>
-        <target state="translated">Erro ao excluir grupo "<x id="PH" equiv-text="group.name"/>".</target>
+        <target state="translated">Error ao excluir grupo "<x id="PH" equiv-text="group.name"/>".</target>
       </trans-unit>
       <trans-unit id="7931334600001636863" datatype="html">
         <source>by Paperless-ngx</source>
@@ -2948,7 +2948,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
-        <target state="translated">O meu perfil</target>
+        <target state="translated">O menu perfil</target>
       </trans-unit>
       <trans-unit id="3797778920049399855" datatype="html" approved="yes">
         <source>Logout</source>
@@ -3228,7 +3228,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.ts</context>
           <context context-type="linenumber">267</context>
         </context-group>
-        <target state="translated">Erro ao atualizar visualizações da barra lateral</target>
+        <target state="translated">Error ao atualizar visualizações da barra lateral</target>
       </trans-unit>
       <trans-unit id="2526035785704676448" datatype="html">
         <source>An error occurred while saving update checking settings.</source>
@@ -3740,7 +3740,7 @@
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
           <context context-type="linenumber">102</context>
         </context-group>
-        <target state="translated">Falso</target>
+        <target state="translated">False</target>
       </trans-unit>
       <trans-unit id="7551700625201096185" datatype="html">
         <source>Search docs...</source>
@@ -4232,7 +4232,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-account-edit-dialog/mail-account-edit-dialog.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <target state="translated">Conjunto de caracteres</target>
+        <target state="translated">Conjunto de characters</target>
       </trans-unit>
       <trans-unit id="6563391987554512024" datatype="html">
         <source>Test</source>
@@ -4360,7 +4360,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
-        <target state="translated">Sub pastas têm de ser separadas por um separador, por norma um ponto('.') ou uma barra ('/'), no entanto varia entre servidores de email.</target>
+        <target state="translated">Sub pastas têm de set separadas por um separador, por norma um ponto('.') ou uma barra ('/'), no entanto varia entre servidores de email.</target>
       </trans-unit>
       <trans-unit id="101686279614365671" datatype="html">
         <source>Maximum age (days)</source>
@@ -4568,7 +4568,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/processed-mail-dialog/processed-mail-dialog.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <target state="final">Erro</target>
+        <target state="final">Error</target>
       </trans-unit>
       <trans-unit id="6886003843406464884" datatype="html">
         <source>Only process attachments</source>
@@ -4692,7 +4692,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">114</context>
         </context-group>
-        <target state="translated">Utilizar o nome do ficherio anexado como titulo</target>
+        <target state="translated">Utilizar o gnome do ficherio anexado como titulo</target>
       </trans-unit>
       <trans-unit id="2881879110886196973" datatype="html">
         <source>Do not assign title from this rule</source>
@@ -4724,7 +4724,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">133</context>
         </context-group>
-        <target state="translated">Utilizar o nome (ou o indereço de email se não estiver disponível)</target>
+        <target state="translated">Utilizar o gnome (ou o indereço de email se não estiver disponível)</target>
       </trans-unit>
       <trans-unit id="1258862217749148424" datatype="html">
         <source>Use correspondent selected below</source>
@@ -4920,7 +4920,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="translated">Primeiro Nome</target>
+        <target state="translated">Primeiro Gnome</target>
       </trans-unit>
       <trans-unit id="3586674587150281199" datatype="html">
         <source>Last name</source>
@@ -4932,7 +4932,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="translated">Último nome</target>
+        <target state="translated">Último gnome</target>
       </trans-unit>
       <trans-unit id="8204176479746810612" datatype="html">
         <source>Active</source>
@@ -5912,7 +5912,7 @@
           <context context-type="sourcefile">src/app/components/common/filterable-dropdown/filterable-dropdown.component.html</context>
           <context context-type="linenumber">77</context>
         </context-group>
-        <target state="translated">Clique novamente para excluir itens.</target>
+        <target state="translated">Clique novamente para excluir items.</target>
       </trans-unit>
       <trans-unit id="7593728289020204896" datatype="html" approved="yes">
         <source>Not assigned</source>
@@ -6374,7 +6374,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-filter-dropdown/permissions-filter-dropdown.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="translated">Os meus documentos</target>
+        <target state="translated">Os menus documentos</target>
       </trans-unit>
       <trans-unit id="231920238966427751" datatype="html">
         <source>Shared with me</source>
@@ -7290,7 +7290,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
-        <target state="translated">Caracteres no total</target>
+        <target state="translated">Characters no total</target>
       </trans-unit>
       <trans-unit id="3047655754312785383" datatype="html">
         <source>Current ASN</source>
@@ -7704,7 +7704,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">263</context>
         </context-group>
-        <target state="final">Nome do ficheiro</target>
+        <target state="final">Gnome do ficheiro</target>
       </trans-unit>
       <trans-unit id="4500855521601039868" datatype="html">
         <source>Original filename</source>
@@ -7712,7 +7712,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">267</context>
         </context-group>
-        <target state="translated">Nome original do ficheiro</target>
+        <target state="translated">Gnome original do ficheiro</target>
       </trans-unit>
       <trans-unit id="7985558498848210210" datatype="html" approved="yes">
         <source>Original MD5 checksum</source>
@@ -7824,7 +7824,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">416,418</context>
         </context-group>
-        <target state="translated">Ocurreu um erro ao carregar o conteúdo: <x id="PH" equiv-text="err.message ?? err.toString()"/></target>
+        <target state="translated">Ocurreu um error ao carregar o conteúdo: <x id="PH" equiv-text="err.message ?? err.toString()"/></target>
       </trans-unit>
       <trans-unit id="3200733026060976258" datatype="html">
         <source>Document changes detected</source>
@@ -7908,7 +7908,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">669</context>
         </context-group>
-        <target state="translated">Erro ao obter os metadados</target>
+        <target state="translated">Error ao obter os metadados</target>
       </trans-unit>
       <trans-unit id="3456881259945295697" datatype="html">
         <source>Error retrieving suggestions.</source>
@@ -7916,7 +7916,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">698</context>
         </context-group>
-        <target state="translated">Erro ao obter sugestões.</target>
+        <target state="translated">Error ao obter sugestões.</target>
       </trans-unit>
       <trans-unit id="2194092841814123758" datatype="html">
         <source>Document &quot;<x id="PH" equiv-text="newValues.title"/>&quot; saved successfully.</source>
@@ -7944,7 +7944,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">950</context>
         </context-group>
-        <target state="translated">Erro ao gravar documento</target>
+        <target state="translated">Error ao gravar documento</target>
       </trans-unit>
       <trans-unit id="8410796510716511826" datatype="html">
         <source>Do you really want to move the document &quot;<x id="PH" equiv-text="this.document.title"/>&quot; to the trash?</source>
@@ -8836,7 +8836,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">169</context>
         </context-group>
-        <target state="translated">Erro ao carregar documentos</target>
+        <target state="translated">Error ao carregar documentos</target>
       </trans-unit>
       <trans-unit id="494022736054110363" datatype="html">
         <source>Sort by ASN</source>
@@ -9252,7 +9252,7 @@
           <context context-type="sourcefile">src/app/components/document-list/save-view-config-dialog/save-view-config-dialog.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <target state="final">Guardar a vista atual</target>
+        <target state="final">Guardar a vista actual</target>
       </trans-unit>
       <trans-unit id="8689274715612276035" datatype="html" approved="yes">
         <source>Show in sidebar</source>
@@ -9284,7 +9284,7 @@
           <context context-type="sourcefile">src/app/components/document-list/save-view-config-dialog/save-view-config-dialog.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Ocorreu um erro com as regras de filtros ao guardar esta visualização</target>
+        <target state="translated">Ocorreu um error com as regras de filtros ao guardar esta visualização</target>
       </trans-unit>
       <trans-unit id="6438839705789707938" datatype="html">
         <source>The error returned was</source>
@@ -9292,7 +9292,7 @@
           <context context-type="sourcefile">src/app/components/document-list/save-view-config-dialog/save-view-config-dialog.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">O erro devolvido foi</target>
+        <target state="translated">O error devolvido foi</target>
       </trans-unit>
       <trans-unit id="1044349881182559852" datatype="html">
         <source>Enter note</source>
@@ -9684,7 +9684,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.ts</context>
           <context context-type="linenumber">182</context>
         </context-group>
-        <target state="translated">Erro ao gravar conta.</target>
+        <target state="translated">Error ao gravar conta.</target>
       </trans-unit>
       <trans-unit id="5641934153807844674" datatype="html">
         <source>Confirm delete mail account</source>
@@ -9748,7 +9748,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.ts</context>
           <context context-type="linenumber">258</context>
         </context-group>
-        <target state="translated">Erro ao gravar regra.</target>
+        <target state="translated">Error ao gravar regra.</target>
       </trans-unit>
       <trans-unit id="3574401690710711341" datatype="html">
         <source>Rule &quot;<x id="PH" equiv-text="rule.name"/>&quot; enabled.</source>
@@ -9824,7 +9824,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.ts</context>
           <context context-type="linenumber">353</context>
         </context-group>
-        <target state="translated">Erro ao atualizar permissões</target>
+        <target state="translated">Error ao atualizar permissões</target>
       </trans-unit>
       <trans-unit id="3501895737484542570" datatype="html">
         <source>Processed Mail for <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/><x id="INTERPOLATION" equiv-text="{{ rule.name }}"/><x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></source>
@@ -9972,7 +9972,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.ts</context>
           <context context-type="linenumber">205</context>
         </context-group>
-        <target state="translated">Ocorreu um erro ao criar <x id="PH" equiv-text="this.typeName"/>.</target>
+        <target state="translated">Ocorreu um error ao criar <x id="PH" equiv-text="this.typeName"/>.</target>
       </trans-unit>
       <trans-unit id="4835942264662718903" datatype="html">
         <source>Successfully updated <x id="PH" equiv-text="this.typeName"/> &quot;<x id="PH_1" equiv-text="object.name"/>&quot;.</source>
@@ -9988,7 +9988,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.ts</context>
           <context context-type="linenumber">225</context>
         </context-group>
-        <target state="translated">Ocorreu um erro ao gravar <x id="PH" equiv-text="this.typeName"/>.</target>
+        <target state="translated">Ocorreu um error ao gravar <x id="PH" equiv-text="this.typeName"/>.</target>
       </trans-unit>
       <trans-unit id="8371896857609524947" datatype="html">
         <source>Associated documents will not be deleted.</source>
@@ -10493,7 +10493,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="final">Detecção exata</target>
+        <target state="final">Detecção exacta</target>
       </trans-unit>
       <trans-unit id="7109184332944610787" datatype="html" approved="yes">
         <source>Exact: Document contains this string</source>
@@ -10501,7 +10501,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="final">Exata: Documento contém esta palavra</target>
+        <target state="final">Exacta: Documento contém esta palavra</target>
       </trans-unit>
       <trans-unit id="1338733395833138319" datatype="html" approved="yes">
         <source>Regular expression</source>
@@ -10661,7 +10661,7 @@
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
           <context context-type="linenumber">165</context>
         </context-group>
-        <target state="translated">Argumentos de OCR</target>
+        <target state="translated">Arguments de OCR</target>
       </trans-unit>
       <trans-unit id="7106327322456204362" datatype="html">
         <source>Application Logo</source>
@@ -11341,7 +11341,7 @@
           <context context-type="sourcefile">src/app/services/upload-documents.service.ts</context>
           <context context-type="linenumber">53</context>
         </context-group>
-        <target state="final">Erro HTTP: <x id="PH" equiv-text="error.status"/> <x id="PH_1" equiv-text="error.statusText"/></target>
+        <target state="final">Error HTTP: <x id="PH" equiv-text="error.status"/> <x id="PH_1" equiv-text="error.statusText"/></target>
       </trans-unit>
       <trans-unit id="2119857572761283468" datatype="html" approved="yes">
         <source>Document already exists.</source>
@@ -11399,7 +11399,7 @@
           <context context-type="linenumber">30</context>
         </context-group>
         <note priority="1" from="description">Pre-Consume is a term that appears like that in the documentation as well and does not need a specific translation</note>
-        <target state="final">Erro ao executar script de pré-consumo.</target>
+        <target state="final">Error ao executar script de pré-consumo.</target>
       </trans-unit>
       <trans-unit id="8995193730018060346" datatype="html" approved="yes">
         <source>Post-consume script does not exist.</source>
@@ -11417,7 +11417,7 @@
           <context context-type="linenumber">32</context>
         </context-group>
         <note priority="1" from="description">Post-Consume is a term that appears like that in the documentation as well and does not need a specific translation</note>
-        <target state="final">Erro ao executar script de pós-consumo.</target>
+        <target state="final">Error ao executar script de pós-consumo.</target>
       </trans-unit>
       <trans-unit id="6252258095055634191" datatype="html" approved="yes">
         <source>Received new file.</source>

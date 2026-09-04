@@ -460,7 +460,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">190</context>
         </context-group>
-        <target state="translated">Daftar dokumen menunjukkan semua dokumen Anda dan memungkinkan penyaringan serta pengeditan masal. Ada tiga gaya tampilan berbeda: daftar, kartu kecil, dan kartu besar. Daftar dokumen yang sedang diedit ada di bilah samping.</target>
+        <target state="translated">Daftar dokumen menunjukkan semua dokumen Anda dan memungkinkan penyaringan serta pengeditan masal. Ada tiga gaya tampilan berbeda: daftar, kartu kecil, dan kartu besar. Daftar dokumen yang sedang diedit ada di bilah sampling.</target>
       </trans-unit>
       <trans-unit id="1334220418719920556" datatype="html">
         <source>The filtering tools allow you to quickly find documents using various searches, dates, tags, etc.</source>
@@ -476,7 +476,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
-        <target state="translated">Kombinasi filter apapun dapat disimpan sebagai 'tampilan' yang dapat ditampilkan pada dasbor dan / atau bilah samping.</target>
+        <target state="translated">Kombinasi filter apapun dapat disimpan sebagai 'tampilan' yang dapat ditampilkan pada dasbor dan / atau bilah sampling.</target>
       </trans-unit>
       <trans-unit id="2804886236408698479" datatype="html">
         <source>Tags, correspondents, document types and storage paths can all be managed using these pages. They can also be created from the document edit view.</source>
@@ -920,7 +920,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <target state="translated">Status Sistem</target>
+        <target state="translated">Status System</target>
       </trans-unit>
       <trans-unit id="4798013226763881638" datatype="html">
         <source>Open Django Admin</source>
@@ -1016,7 +1016,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">123</context>
         </context-group>
-        <target state="translated">Bilah samping</target>
+        <target state="translated">Bilah sampling</target>
       </trans-unit>
       <trans-unit id="4608457133854405683" datatype="html">
         <source>Use &apos;slim&apos; sidebar (icons only)</source>
@@ -1024,7 +1024,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">127</context>
         </context-group>
-        <target state="translated">Gunakan bilah samping 'ramping' (hanya ikon)</target>
+        <target state="translated">Gunakan bilah sampling 'ramping' (hanya ikon)</target>
       </trans-unit>
       <trans-unit id="1356890996281769972" datatype="html">
         <source>Dark mode</source>
@@ -1040,7 +1040,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">137</context>
         </context-group>
-        <target state="translated">Gunakan pengaturan sistem</target>
+        <target state="translated">Gunakan pengaturan system</target>
       </trans-unit>
       <trans-unit id="5782828784040423650" datatype="html">
         <source>Enable dark mode</source>
@@ -1192,7 +1192,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">195</context>
         </context-group>
-        <target state="translated">Zoom standar</target>
+        <target state="translated">Zoom standard</target>
       </trans-unit>
       <trans-unit id="2222784219255971268" datatype="html">
         <source>Fit width</source>
@@ -1516,7 +1516,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Grup:</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Group:</target>
       </trans-unit>
       <trans-unit id="3748107313403519340" datatype="html">
         <source>Default Edit Permissions</source>
@@ -1684,7 +1684,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.ts</context>
           <context context-type="linenumber">78</context>
         </context-group>
-        <target state="translated">Gunakan bahasa sistem</target>
+        <target state="translated">Gunakan bahasa system</target>
       </trans-unit>
       <trans-unit id="7729897675462249787" datatype="html">
         <source>Use date format of display language</source>
@@ -1716,7 +1716,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">89</context>
         </context-group>
-        <target state="translated">Gagal mengambil daftar grup</target>
+        <target state="translated">Gagal mengambil daftar group</target>
       </trans-unit>
       <trans-unit id="7217000812750597833" datatype="html">
         <source>Settings were saved successfully.</source>
@@ -2612,7 +2612,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Buat, hapus, dan ubah user dan grup.</target>
+        <target state="translated">Buat, hapus, dan ubah user dan group.</target>
       </trans-unit>
       <trans-unit id="4555457172864212828" datatype="html">
         <source>Users</source>
@@ -2668,7 +2668,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/user-edit-dialog/user-edit-dialog.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="translated">Grup</target>
+        <target state="translated">Group</target>
       </trans-unit>
       <trans-unit id="7585826646011739428" datatype="html">
         <source>Edit</source>
@@ -2756,7 +2756,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
-        <target state="translated">Tambahkan Grup</target>
+        <target state="translated">Tambahkan Group</target>
       </trans-unit>
       <trans-unit id="4746158651610481283" datatype="html">
         <source>No groups defined</source>
@@ -2764,7 +2764,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">84</context>
         </context-group>
-        <target state="translated">Tidak ada grup ditentukan</target>
+        <target state="translated">Tidak ada group ditentukan</target>
       </trans-unit>
       <trans-unit id="4510369340305901516" datatype="html">
         <source>Password has been changed, you will be logged out momentarily.</source>
@@ -2884,7 +2884,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">180</context>
         </context-group>
-        <target state="translated">Tersimpan grup "<x id="PH" equiv-text="newGroup.name"/>".</target>
+        <target state="translated">Tersimpan group "<x id="PH" equiv-text="newGroup.name"/>".</target>
       </trans-unit>
       <trans-unit id="8382042988405122578" datatype="html">
         <source>Error saving group.</source>
@@ -2892,7 +2892,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">188</context>
         </context-group>
-        <target state="translated">Kesalahan saat menyimpan grup.</target>
+        <target state="translated">Kesalahan saat menyimpan group.</target>
       </trans-unit>
       <trans-unit id="6538873300613683004" datatype="html">
         <source>Confirm delete user group</source>
@@ -2900,7 +2900,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">196</context>
         </context-group>
-        <target state="translated">Konfirmasi hapus grup pengguna</target>
+        <target state="translated">Konfirmasi hapus group pengguna</target>
       </trans-unit>
       <trans-unit id="7710984639498518244" datatype="html">
         <source>This operation will permanently delete this user group.</source>
@@ -2916,7 +2916,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">206</context>
         </context-group>
-        <target state="translated">Grup "<x id="PH" equiv-text="group.name"/>" dihapus</target>
+        <target state="translated">Group "<x id="PH" equiv-text="group.name"/>" dihapus</target>
       </trans-unit>
       <trans-unit id="1697803415975901060" datatype="html">
         <source>Error deleting group &quot;<x id="PH" equiv-text="group.name"/>&quot;.</source>
@@ -2924,7 +2924,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">213</context>
         </context-group>
-        <target state="translated">Gagal menghapus grup "<x id="PH" equiv-text="group.name"/>".</target>
+        <target state="translated">Gagal menghapus group "<x id="PH" equiv-text="group.name"/>".</target>
       </trans-unit>
       <trans-unit id="7931334600001636863" datatype="html">
         <source>by Paperless-ngx</source>
@@ -3220,7 +3220,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.ts</context>
           <context context-type="linenumber">264</context>
         </context-group>
-        <target state="translated">Tampilan bilah samping telah diperbarui</target>
+        <target state="translated">Tampilan bilah sampling telah diperbarui</target>
       </trans-unit>
       <trans-unit id="3547923076537026828" datatype="html">
         <source>Error updating sidebar views</source>
@@ -3384,7 +3384,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
           <context context-type="linenumber">138</context>
         </context-group>
-        <target state="translated">Grup</target>
+        <target state="translated">Group</target>
       </trans-unit>
       <trans-unit id="searchResults.customFields" datatype="html">
         <source>Custom fields</source>
@@ -4160,7 +4160,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/group-edit-dialog/group-edit-dialog.component.ts</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <target state="translated">Membuat grup pengguna baru</target>
+        <target state="translated">Membuat group pengguna baru</target>
       </trans-unit>
       <trans-unit id="200893957904793797" datatype="html">
         <source>Edit user group</source>
@@ -4168,7 +4168,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/group-edit-dialog/group-edit-dialog.component.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <target state="translated">Ubah grup pengguna</target>
+        <target state="translated">Ubah group pengguna</target>
       </trans-unit>
       <trans-unit id="1505107477868159986" datatype="html">
         <source>IMAP Server</source>
@@ -4612,7 +4612,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">64</context>
         </context-group>
-        <target state="translated">Pengaturan standar sistem</target>
+        <target state="translated">Pengaturan standard system</target>
       </trans-unit>
       <trans-unit id="4812910224365219000" datatype="html">
         <source>Text, then HTML</source>
@@ -4988,7 +4988,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
-        <target state="translated">Autentikasi dua faktor</target>
+        <target state="translated">Autentikasi dua factor</target>
       </trans-unit>
       <trans-unit id="8418597938335066730" datatype="html">
         <source>Disable Two-factor Authentication</source>
@@ -5008,7 +5008,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">172</context>
         </context-group>
-        <target state="translated">Nonaktifkan autentikasi dua faktor</target>
+        <target state="translated">Nonaktifkan autentikasi dua factor</target>
       </trans-unit>
       <trans-unit id="1436831433675346331" datatype="html">
         <source>Create new user account</source>
@@ -6358,7 +6358,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">87</context>
         </context-group>
-        <target state="translated">Izin pemilik, pengguna, dan grup yang ada akan digabungkan dengan pengaturan ini.</target>
+        <target state="translated">Izin pemilik, pengguna, dan group yang ada akan digabungkan dengan pengaturan ini.</target>
       </trans-unit>
       <trans-unit id="3434726483516379481" datatype="html">
         <source>Any and all existing owner, user and group permissions will be replaced.</source>
@@ -6366,7 +6366,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">88</context>
         </context-group>
-        <target state="translated">Semua izin pemilik, pengguna, dan grup yang ada akan diganti.</target>
+        <target state="translated">Semua izin pemilik, pengguna, dan group yang ada akan diganti.</target>
       </trans-unit>
       <trans-unit id="5947558132119506443" datatype="html">
         <source>My documents</source>
@@ -6442,7 +6442,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-select/permissions-select.component.ts</context>
           <context context-type="linenumber">78</context>
         </context-group>
-        <target state="translated">Mengikuti dari grup</target>
+        <target state="translated">Mengikuti dari group</target>
       </trans-unit>
       <trans-unit id="6418218602775540217" datatype="html">
         <source>Error loading preview</source>
@@ -6898,7 +6898,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
-        <target state="translated">Sistem Operasi Server</target>
+        <target state="translated">System Operasi Server</target>
       </trans-unit>
       <trans-unit id="2903495470702110128" datatype="html">
         <source>Media Storage</source>
@@ -7840,7 +7840,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">451</context>
         </context-group>
-        <target state="translated">Versi dokumen di sesi browser ini tampaknya lebih lama dari versi yang ada.</target>
+        <target state="translated">Versi dokumen di sesi browser ini tampaknya lebih llama dari versi yang ada.</target>
       </trans-unit>
       <trans-unit id="237142428785956348" datatype="html">
         <source>Saving the document here may overwrite other changes that were made. To restore the existing version, discard your changes or close the document.</source>
@@ -10067,7 +10067,7 @@
           <context context-type="sourcefile">src/app/components/manage/saved-views/saved-views.component.html</context>
           <context context-type="linenumber">46</context>
         </context-group>
-        <target state="translated">Tabel</target>
+        <target state="translated">Table</target>
       </trans-unit>
       <trans-unit id="4236040382842528005" datatype="html">
         <source>Small Cards</source>
@@ -10508,7 +10508,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Ekspresi reguler</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Ekspresi regular</target>
       </trans-unit>
       <trans-unit id="7548151332424148033" datatype="html">
         <source>Regular expression: Document matches this regular expression</source>

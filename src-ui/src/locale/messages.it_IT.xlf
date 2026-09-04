@@ -101,7 +101,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Ore</target>
+        <target state="translated">Or</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
@@ -169,7 +169,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Incrementa ore</target>
+        <target state="translated">Incrementa or</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
@@ -185,7 +185,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Decrementa ore</target>
+        <target state="translated">Decrementa or</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
@@ -316,7 +316,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">119</context>
         </context-group>
-        <target state="final">Impossibile aggiungere <x id="PH" equiv-text="status.filename"/>: <x id="PH_1" equiv-text="status.message"/></target>
+        <target state="final">Impossible aggiungere <x id="PH" equiv-text="status.filename"/>: <x id="PH_1" equiv-text="status.message"/></target>
       </trans-unit>
       <trans-unit id="1218124467712564468" datatype="html">
         <source>Document <x id="PH" equiv-text="status.filename"/> is being processed by Paperless-ngx.</source>
@@ -548,7 +548,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">252</context>
         </context-group>
-        <target state="translated">Infine, a nome di ogni collaboratore di questo progetto supportato dalla comunità, grazie per utilizzare Paperless-ngx!</target>
+        <target state="translated">Infine, a gnome di ogni collaboratore di questo progetto supportato dalla comunità, grazie per utilizzare Paperless-ngx!</target>
       </trans-unit>
       <trans-unit id="9063918187161876141" datatype="html">
         <source>Application Configuration</source>
@@ -1920,7 +1920,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <target state="final">Nome</target>
+        <target state="final">Gnome</target>
       </trans-unit>
       <trans-unit id="4207916966377787111" datatype="html" approved="yes">
         <source>Created</source>
@@ -2052,7 +2052,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
           <context context-type="linenumber">155</context>
         </context-group>
-        <target state="translated">Ignora</target>
+        <target state="translated">Ignore</target>
       </trans-unit>
       <trans-unit id="2134950584701094962" datatype="html">
         <source>Open Document</source>
@@ -2124,7 +2124,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
           <context context-type="linenumber">110</context>
         </context-group>
-        <target state="translated">Ignora selezionati</target>
+        <target state="translated">Ignore selezionati</target>
       </trans-unit>
       <trans-unit id="8829078752502782653" datatype="html">
         <source>Dismiss all</source>
@@ -2132,7 +2132,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
           <context context-type="linenumber">111</context>
         </context-group>
-        <target state="translated">Ignora tutto</target>
+        <target state="translated">Ignore tutto</target>
       </trans-unit>
       <trans-unit id="1323591410517879795" datatype="html">
         <source>Confirm Dismiss All</source>
@@ -2140,7 +2140,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
           <context context-type="linenumber">152</context>
         </context-group>
-        <target state="translated">Conferma Ignora Tutto</target>
+        <target state="translated">Conferma Ignore Tutto</target>
       </trans-unit>
       <trans-unit id="4157200209636243740" datatype="html">
         <source>Dismiss all <x id="PH" equiv-text="tasks.size"/> tasks?</source>
@@ -2652,7 +2652,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Nome utente</target>
+        <target state="translated">Gnome utente</target>
       </trans-unit>
       <trans-unit id="5944812089887969249" datatype="html">
         <source>Groups</source>
@@ -3740,7 +3740,7 @@
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
           <context context-type="linenumber">102</context>
         </context-group>
-        <target state="translated">Falso</target>
+        <target state="translated">False</target>
       </trans-unit>
       <trans-unit id="7551700625201096185" datatype="html">
         <source>Search docs...</source>
@@ -4296,7 +4296,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-account-edit-dialog/mail-account-edit-dialog.component.ts</context>
           <context context-type="linenumber">104</context>
         </context-group>
-        <target state="translated">Impossibile connettersi al server di posta</target>
+        <target state="translated">Impossible connettersi al server di posta</target>
       </trans-unit>
       <trans-unit id="4086606389696938932" datatype="html">
         <source>Account</source>
@@ -4452,7 +4452,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
-        <target state="translated">Opzionale. Puoi usare wildcard come *.pdf o *fattura*. Può essere un elenco essere separato da virgole. Non fa differenza tra maiuscole o minuscole.</target>
+        <target state="translated">Opzionale. Puoi usare wildcard come *.pdf o *fattura*. Può essere un elenco essere separator da virgole. Non fa differenza tra maiuscole o minuscole.</target>
       </trans-unit>
       <trans-unit id="1546332577833742677" datatype="html">
         <source>Exclude files matching</source>
@@ -4692,7 +4692,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">114</context>
         </context-group>
-        <target state="translated">Usa il nome dell'allegato come titolo</target>
+        <target state="translated">Usa il gnome dell'allegato come titolo</target>
       </trans-unit>
       <trans-unit id="2881879110886196973" datatype="html">
         <source>Do not assign title from this rule</source>
@@ -4724,7 +4724,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">133</context>
         </context-group>
-        <target state="translated">Usa nome (o indirizzo email se non disponibile)</target>
+        <target state="translated">Usa gnome (o indirizzo email se non disponibile)</target>
       </trans-unit>
       <trans-unit id="1258862217749148424" datatype="html">
         <source>Use correspondent selected below</source>
@@ -4920,7 +4920,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="translated">Nome</target>
+        <target state="translated">Gnome</target>
       </trans-unit>
       <trans-unit id="3586674587150281199" datatype="html">
         <source>Last name</source>
@@ -5204,7 +5204,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">161</context>
         </context-group>
-        <target state="translated">Filtra nome file</target>
+        <target state="translated">Filtra gnome file</target>
       </trans-unit>
       <trans-unit id="3694878959415278689" datatype="html">
         <source>Apply to documents that match this filename. Wildcards such as *.pdf or *invoice* are allowed. Case insensitive.</source>
@@ -5212,7 +5212,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">161</context>
         </context-group>
-        <target state="translated">Elabora i documenti che corrispondono a questo nome. Puoi usare wildcard come *.pdf o *fattura*. Ignora maiuscole e minuscole.</target>
+        <target state="translated">Elabora i documenti che corrispondono a questo gnome. Puoi usare wildcard come *.pdf o *fattura*. Ignore maiuscole e minuscole.</target>
       </trans-unit>
       <trans-unit id="1473412958770421458" datatype="html">
         <source>Filter sources</source>
@@ -6634,7 +6634,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">120</context>
         </context-group>
-        <target state="translated">Puoi memorizzare questo secret e usarlo per reinstallare la tua app di autenticazione in un secondo momento.</target>
+        <target state="translated">Puoi memorizzare questo secret e usarlo per reinstallare la tua app di autenticazione in un secondo memento.</target>
       </trans-unit>
       <trans-unit id="8186013988289067040" datatype="html">
         <source>Code</source>
@@ -7331,7 +7331,7 @@
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">This button dismisses all status messages about processed documents on the dashboard (failed and successful)</note>
-        <target state="final">Ignora completati</target>
+        <target state="final">Ignore completati</target>
       </trans-unit>
       <trans-unit id="6443586946875325554" datatype="html" approved="yes">
         <source>Processing: <x id="PH" equiv-text="countUploadingAndProcessing"/></source>
@@ -7704,7 +7704,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">263</context>
         </context-group>
-        <target state="final">Nome file</target>
+        <target state="final">Gnome file</target>
       </trans-unit>
       <trans-unit id="4500855521601039868" datatype="html">
         <source>Original filename</source>
@@ -7712,7 +7712,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">267</context>
         </context-group>
-        <target state="translated">Nome file originale</target>
+        <target state="translated">Gnome file originale</target>
       </trans-unit>
       <trans-unit id="7985558498848210210" datatype="html" approved="yes">
         <source>Original MD5 checksum</source>
@@ -8232,7 +8232,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.html</context>
           <context context-type="linenumber">136</context>
         </context-group>
-        <target state="translated">Usa nome file formattato</target>
+        <target state="translated">Usa gnome file formattato</target>
       </trans-unit>
       <trans-unit id="1215215387232313677" datatype="html">
         <source>Error executing bulk operation</source>
@@ -9051,7 +9051,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.ts</context>
           <context context-type="linenumber">391</context>
         </context-group>
-        <target state="translated">Impossibile salvare la vista "<x id="PH" equiv-text="this.list.activeSavedViewTitle"/>".</target>
+        <target state="translated">Impossible salvare la vista "<x id="PH" equiv-text="this.list.activeSavedViewTitle"/>".</target>
       </trans-unit>
       <trans-unit id="6837554170707123455" datatype="html" approved="yes">
         <source>View &quot;<x id="PH" equiv-text="savedView.name"/>&quot; created successfully.</source>
@@ -10724,7 +10724,7 @@
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
           <context context-type="linenumber">221</context>
         </context-group>
-        <target state="translated">Prefisso ANS</target>
+        <target state="translated">Prefisso AND</target>
       </trans-unit>
       <trans-unit id="876335624277968161" datatype="html">
         <source>Upscale</source>
@@ -10924,7 +10924,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="translated">%s ore fa</target>
+        <target state="translated">%s or fa</target>
       </trans-unit>
       <trans-unit id="5782387980670840884" datatype="html">
         <source>%s minute ago</source>
@@ -11300,7 +11300,7 @@
           <context context-type="sourcefile">src/app/services/settings.service.ts</context>
           <context context-type="linenumber">604</context>
         </context-group>
-        <target state="translated">Impossibile migrare le impostazioni nel database, prova a salvare manualmente.</target>
+        <target state="translated">Impossible migrare le impostazioni nel database, prova a salvare manualmente.</target>
       </trans-unit>
       <trans-unit id="1168781785897678748" datatype="html">
         <source>You can restart the tour from the settings page.</source>

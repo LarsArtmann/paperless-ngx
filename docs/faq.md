@@ -107,9 +107,7 @@ libraries and compilation will take a long time.
 
 ## _How do I run this on Unraid?_
 
-**A:** Paperless-ngx is available as [community
-app](https://unraid.net/community/apps?q=paperless-ngx) in Unraid. [Uli
-Fahrer](https://github.com/Tooa) created a container template for that.
+**A:** Paperless-ngx is available as [community app](https://unraid.net/community/apps?q=paperless-ngx) in Unraid. [Uli Fahrer](https://github.com/Tooa) created a container template for that.
 
 ## _How do I run this on my toaster?_
 

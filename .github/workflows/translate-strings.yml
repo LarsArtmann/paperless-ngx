@@ -43,8 +43,8 @@ jobs:
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24.x
-          cache: 'pnpm'
-          cache-dependency-path: 'src-ui/pnpm-lock.yaml'
+          cache: "pnpm"
+          cache-dependency-path: "src-ui/pnpm-lock.yaml"
       - name: Cache frontend dependencies
         id: cache-frontend-deps
         uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
@@ -65,7 +65,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
-          file_pattern: 'src-ui/messages.xlf src/locale/en_US/LC_MESSAGES/django.po'
+          file_pattern: "src-ui/messages.xlf src/locale/en_US/LC_MESSAGES/django.po"
           commit_message: "Auto translate strings"
           commit_user_name: "GitHub Actions"
           commit_author: "GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>"

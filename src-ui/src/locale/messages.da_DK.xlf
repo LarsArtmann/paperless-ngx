@@ -308,7 +308,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/upload-file-widget/upload-file-widget.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
-        <target state="final">Åbn dokument</target>
+        <target state="final">Åbn document</target>
       </trans-unit>
       <trans-unit id="8582620835547864448" datatype="html" approved="yes">
         <source>Could not add <x id="PH" equiv-text="status.filename"/>: <x id="PH_1" equiv-text="status.message"/></source>
@@ -532,7 +532,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">248</context>
         </context-group>
-        <target state="translated">Mange tak! 🙏</target>
+        <target state="translated">Manage tak! 🙏</target>
       </trans-unit>
       <trans-unit id="7354947513482088740" datatype="html">
         <source>There are &lt;em&gt;tons&lt;/em&gt; more features and info we didn&apos;t cover here, but this should get you started. Check out the documentation or visit the project on GitHub to learn more or to report issues.</source>
@@ -2940,7 +2940,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Logget ind som <x id="INTERPOLATION" equiv-text="{{this.settingsService.displayName}}"/></target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Logget ind some <x id="INTERPOLATION" equiv-text="{{this.settingsService.displayName}}"/></target>
       </trans-unit>
       <trans-unit id="2127032578120864096" datatype="html">
         <source>My Profile</source>
@@ -4660,7 +4660,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">95</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Markér som læst, behandl ikke læste emails</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Markér some læst, behandl ikke læste emails</target>
       </trans-unit>
       <trans-unit id="2378921144019636516" datatype="html">
         <source>Flag the mail, don&apos;t process flagged mails</source>
@@ -4684,7 +4684,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">110</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Brug emnet som titel</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Brug emnet some title</target>
       </trans-unit>
       <trans-unit id="8645471396972938185" datatype="html">
         <source>Use attachment filename as title</source>
@@ -4692,7 +4692,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">114</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Benyt vedhæftningsfilnavn som titel</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Benyt vedhæftningsfilnavn some title</target>
       </trans-unit>
       <trans-unit id="2881879110886196973" datatype="html">
         <source>Do not assign title from this rule</source>
@@ -7416,7 +7416,7 @@
           <context context-type="sourcefile">src/app/components/document-asn/document-asn.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
-        <target state="translated">Søger efter dokument med asn <x id="INTERPOLATION" equiv-text="{{asn}}"/></target>
+        <target state="translated">Søger efter document med asn <x id="INTERPOLATION" equiv-text="{{asn}}"/></target>
       </trans-unit>
       <trans-unit id="1407560924967345762" datatype="html">
         <source>Page</source>
@@ -7492,7 +7492,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-card-large/document-card-large.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="translated">Mere som dette</target>
+        <target state="translated">Mere some dette</target>
       </trans-unit>
       <trans-unit id="5084275925647254161" datatype="html">
         <source>PDF Editor</source>
@@ -7552,7 +7552,7 @@
           <context context-type="sourcefile">src/app/data/document.ts</context>
           <context context-type="linenumber">90</context>
         </context-group>
-        <target state="final">Titel</target>
+        <target state="final">Title</target>
       </trans-unit>
       <trans-unit id="1379170675585571971" datatype="html">
         <source>Archive serial number</source>
@@ -7884,7 +7884,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">130</context>
         </context-group>
-        <target state="translated">Luk dokument</target>
+        <target state="translated">Luk document</target>
       </trans-unit>
       <trans-unit id="8229691481345614469" datatype="html">
         <source>Save document</source>
@@ -8286,7 +8286,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">411</context>
         </context-group>
-        <target state="final">Denne handling vil tilføje etiketten "<x id="PH" equiv-text="tag.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil tilføje etiketten "<x id="PH" equiv-text="tag.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="1894412783609570695" datatype="html">
         <source>This operation will add the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> to <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8294,7 +8294,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">416,418</context>
         </context-group>
-        <target state="translated">Denne handling vil tilføje etiketterne "<x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="translated">Denne handling vil tilføje etiketterne "<x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="7181166515756808573" datatype="html" approved="yes">
         <source>This operation will remove the tag &quot;<x id="PH" equiv-text="tag.name"/>&quot; from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8302,7 +8302,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">424</context>
         </context-group>
-        <target state="final">Denne handling vil fjerne etiketten "<x id="PH" equiv-text="tag.name"/>" fra <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil fjerne etiketten "<x id="PH" equiv-text="tag.name"/>" fra <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="3819792277998068944" datatype="html">
         <source>This operation will remove the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8310,7 +8310,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">429,431</context>
         </context-group>
-        <target state="translated">Denne handling vil fjerne etiketterne "<x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/>" fra <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="translated">Denne handling vil fjerne etiketterne "<x id="PH" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/>" fra <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="2739066218579571288" datatype="html">
         <source>This operation will add the tags <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> and remove the tags <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> on <x id="PH_2" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8318,7 +8318,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">433,437</context>
         </context-group>
-        <target state="needs-review-translation" state-qualifier="leveraged-tm">Denne handling vil tilføje etiketterne <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> og fjerne etiketterne <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> fra <x id="PH_2" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="needs-review-translation" state-qualifier="leveraged-tm">Denne handling vil tilføje etiketterne <x id="PH" equiv-text="this._localizeList(           changedTags.itemsToAdd         )"/> og fjerne etiketterne <x id="PH_1" equiv-text="this._localizeList(           changedTags.itemsToRemove         )"/> fra <x id="PH_2" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="2996713129519325161" datatype="html" approved="yes">
         <source>Confirm correspondent assignment</source>
@@ -8334,7 +8334,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">476</context>
         </context-group>
-        <target state="final">Denne handling vil tildele korrespondenten "<x id="PH" equiv-text="correspondent.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil tildele korrespondenten "<x id="PH" equiv-text="correspondent.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="1257522660364398440" datatype="html" approved="yes">
         <source>This operation will remove the correspondent from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8342,7 +8342,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">478</context>
         </context-group>
-        <target state="final">Denne handling vil fjerne korrespondenten fra <x id="PH" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil fjerne korrespondenten fra <x id="PH" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="5393409374423140648" datatype="html" approved="yes">
         <source>Confirm document type assignment</source>
@@ -8358,7 +8358,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">514</context>
         </context-group>
-        <target state="final">Denne handling vil tildele dokumenttypen "<x id="PH" equiv-text="documentType.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil tildele dokumenttypen "<x id="PH" equiv-text="documentType.name"/>" til <x id="PH_1" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="2236642492594872779" datatype="html" approved="yes">
         <source>This operation will remove the document type from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8366,7 +8366,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">516</context>
         </context-group>
-        <target state="final">Denne handling vil fjerne dokumenttypen fra <x id="PH" equiv-text="this.list.selected.size"/> valgte dokument(er).</target>
+        <target state="final">Denne handling vil fjerne dokumenttypen fra <x id="PH" equiv-text="this.list.selected.size"/> valgte document(er).</target>
       </trans-unit>
       <trans-unit id="6386555513013840736" datatype="html">
         <source>Confirm storage path assignment</source>
@@ -8784,7 +8784,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">116</context>
         </context-group>
-        <target state="translated">Gem som...</target>
+        <target state="translated">Gem some...</target>
       </trans-unit>
       <trans-unit id="1450797155766668235" datatype="html">
         <source>All saved views</source>
@@ -8800,7 +8800,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">137</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Valgte <x id="INTERPOLATION"/> af et dokument} other {Valgte <x id="INTERPOLATION"/> af <x id="INTERPOLATION_1"/> dokumenter}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Valgte <x id="INTERPOLATION"/> af et document} other {Valgte <x id="INTERPOLATION"/> af <x id="INTERPOLATION_1"/> dokumenter}}</target>
       </trans-unit>
       <trans-unit id="6600548268163632449" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {One document} other {<x id="INTERPOLATION"/> documents}}</source>
@@ -8808,7 +8808,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">141</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Et dokument} other {<x id="INTERPOLATION"/> dokumenter}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Et document} other {<x id="INTERPOLATION"/> dokumenter}}</target>
       </trans-unit>
       <trans-unit id="2243770355958919528" datatype="html">
         <source>(filtered)</source>
@@ -9076,7 +9076,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">198</context>
         </context-group>
-        <target state="final">Titel &amp; indhold</target>
+        <target state="final">Title &amp; indhold</target>
       </trans-unit>
       <trans-unit id="7408932238599462499" datatype="html">
         <source>File type</source>
@@ -9092,7 +9092,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">214</context>
         </context-group>
-        <target state="final">Mere som</target>
+        <target state="final">Mere some</target>
       </trans-unit>
       <trans-unit id="3697582909018473071" datatype="html">
         <source>equals</source>
@@ -9212,7 +9212,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">324</context>
         </context-group>
-        <target state="final">Titel: <x id="PH" equiv-text="rule.value"/></target>
+        <target state="final">Title: <x id="PH" equiv-text="rule.value"/></target>
       </trans-unit>
       <trans-unit id="1872523635812236432" datatype="html" approved="yes">
         <source>ASN: <x id="PH" equiv-text="rule.value"/></source>
@@ -9292,7 +9292,7 @@
           <context context-type="sourcefile">src/app/components/document-list/save-view-config-dialog/save-view-config-dialog.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">Den givne fejl er</target>
+        <target state="translated">Den given fejl er</target>
       </trans-unit>
       <trans-unit id="1044349881182559852" datatype="html">
         <source>Enter note</source>
@@ -9352,7 +9352,7 @@
           <context context-type="sourcefile">src/app/components/file-drop/file-drop.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
-        <target state="translated">Træk filer hertil, for at uploade</target>
+        <target state="translated">Træk filer hertil, for at upload</target>
       </trans-unit>
       <trans-unit id="5749300816154614125" datatype="html">
         <source>Initiating upload...</source>
@@ -10501,7 +10501,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="final">Eksakt: Dokument indeholder denne streng</target>
+        <target state="final">Eksakt: Document indeholder denne streng</target>
       </trans-unit>
       <trans-unit id="1338733395833138319" datatype="html" approved="yes">
         <source>Regular expression</source>
@@ -10533,7 +10533,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">41</context>
         </context-group>
-        <target state="final">Tilnærmet: Dokument indeholder et ord, der ligner dette ord</target>
+        <target state="final">Tilnærmet: Document indeholder et ord, der ligner dette ord</target>
       </trans-unit>
       <trans-unit id="8233576851457338601" datatype="html">
         <source>None: Disable matching</source>
@@ -10957,7 +10957,7 @@
           <context context-type="sourcefile">src/app/pipes/document-title.pipe.ts</context>
           <context context-type="linenumber">11</context>
         </context-group>
-        <target state="final">(ingen titel)</target>
+        <target state="final">(ingen title)</target>
       </trans-unit>
       <trans-unit id="5523607037798226031" datatype="html">
         <source>You have unsaved changes to the document</source>
@@ -10973,7 +10973,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">128</context>
         </context-group>
-        <target state="translated">Er du sikker på, at du vil lukke dette dokument?</target>
+        <target state="translated">Er du sikker på, at du vil lukke dette document?</target>
       </trans-unit>
       <trans-unit id="6755718693176327396" datatype="html">
         <source>Are you sure you want to close all documents?</source>
@@ -11433,7 +11433,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="final">Filtype understøttes ikke.</target>
+        <target state="final">Filetype understøttes ikke.</target>
       </trans-unit>
       <trans-unit id="5002399167376099234" datatype="html" approved="yes">
         <source>Processing document...</source>
@@ -11441,7 +11441,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="final">Behandler dokument...</target>
+        <target state="final">Behandler document...</target>
       </trans-unit>
       <trans-unit id="1085975194762600381" datatype="html" approved="yes">
         <source>Generating thumbnail...</source>
@@ -11457,7 +11457,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">37</context>
         </context-group>
-        <target state="final">Uddrager dato fra dokument...</target>
+        <target state="final">Uddrager dato fra document...</target>
       </trans-unit>
       <trans-unit id="7162102384876037296" datatype="html" approved="yes">
         <source>Saving document...</source>
@@ -11465,7 +11465,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">38</context>
         </context-group>
-        <target state="final">Gemmer dokument...</target>
+        <target state="final">Gemmer document...</target>
       </trans-unit>
       <trans-unit id="4550450765009165976" datatype="html" approved="yes">
         <source>Finished.</source>

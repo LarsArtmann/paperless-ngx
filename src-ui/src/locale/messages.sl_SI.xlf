@@ -280,7 +280,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">104</context>
         </context-group>
-        <target state="translated">Dokument <x id="PH" equiv-text="status.filename"/> je bil dodan v Paperless-ngx.</target>
+        <target state="translated">Document <x id="PH" equiv-text="status.filename"/> je bil dodan v Paperless-ngx.</target>
       </trans-unit>
       <trans-unit id="1931214133925051574" datatype="html">
         <source>Open document</source>
@@ -308,7 +308,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/upload-file-widget/upload-file-widget.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
-        <target state="translated">Odpri dokument</target>
+        <target state="translated">Odpri document</target>
       </trans-unit>
       <trans-unit id="8582620835547864448" datatype="html">
         <source>Could not add <x id="PH" equiv-text="status.filename"/>: <x id="PH_1" equiv-text="status.message"/></source>
@@ -324,7 +324,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">134</context>
         </context-group>
-        <target state="translated">Dokument <x id="PH" equiv-text="status.filename"/> je v postopku obdelave.</target>
+        <target state="translated">Document <x id="PH" equiv-text="status.filename"/> je v postopku obdelave.</target>
       </trans-unit>
       <trans-unit id="6570363013146073520" datatype="html">
         <source>Dashboard</source>
@@ -484,7 +484,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">208</context>
         </context-group>
-        <target state="translated">Na teh straneh lahko upravljate oznake, korespondente, vrste dokumentov in poti shranjevanja. Ustvarite jih lahko tudi v pogledu za urejanje dokumentov.</target>
+        <target state="translated">Na the straneh lahko upravljate oznake, korespondente, vrste dokumentov in poti shranjevanja. Ustvarite jih lahko tudi v pogledu za urejanje dokumentov.</target>
       </trans-unit>
       <trans-unit id="7851939076947092983" datatype="html">
         <source>Manage e-mail accounts and rules for automatically importing documents.</source>
@@ -2060,7 +2060,7 @@
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
           <context context-type="linenumber">115</context>
         </context-group>
-        <target state="translated">Odpri dokument</target>
+        <target state="translated">Odpri document</target>
       </trans-unit>
       <trans-unit id="428536141871853903" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {One <x id="INTERPOLATION"/> task} other {<x id="INTERPOLATION_1"/> total <x id="INTERPOLATION"/> tasks}}</source>
@@ -2440,7 +2440,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.html</context>
           <context context-type="linenumber">94</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, one {} two {<x id="INTERPOLATION"/> vseh dokumentov v smetnjaku} few {<x id="INTERPOLATION"/> vseh dokumentov v smenjaku}=1 {En dokument v smetnjaku} other {<x id="INTERPOLATION"/> vseh dokumentov v smetnjaku}}</target>
+        <target state="translated">{VAR_PLURAL, plural, one {} two {<x id="INTERPOLATION"/> vseh dokumentov v smetnjaku} few {<x id="INTERPOLATION"/> vseh dokumentov v smenjaku}=1 {En document v smetnjaku} other {<x id="INTERPOLATION"/> vseh dokumentov v smetnjaku}}</target>
       </trans-unit>
       <trans-unit id="9021887951960049161" datatype="html">
         <source>Confirm delete</source>
@@ -2468,7 +2468,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">79</context>
         </context-group>
-        <target state="translated">To dejanje bo dokončno izbrisalo izbran dokument.</target>
+        <target state="translated">To dejanje bo dokončno izbrisalo izbran document.</target>
       </trans-unit>
       <trans-unit id="5641451190833696892" datatype="html">
         <source>This operation cannot be undone.</source>
@@ -2516,7 +2516,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">90</context>
         </context-group>
-        <target state="translated">Dokument "<x id="PH" equiv-text="document.title"/>" je bil izbrisan</target>
+        <target state="translated">Document "<x id="PH" equiv-text="document.title"/>" je bil izbrisan</target>
       </trans-unit>
       <trans-unit id="6899041168041745793" datatype="html">
         <source>Error deleting document &quot;<x id="PH" equiv-text="document.title"/>&quot;</source>
@@ -2564,7 +2564,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.ts</context>
           <context context-type="linenumber">144</context>
         </context-group>
-        <target state="translated">Dokument "<x id="PH" equiv-text="document.title"/>" obnovljen</target>
+        <target state="translated">Document "<x id="PH" equiv-text="document.title"/>" obnovljen</target>
       </trans-unit>
       <trans-unit id="8771034816522852043" datatype="html">
         <source>Error restoring document &quot;<x id="PH" equiv-text="document.title"/>&quot;</source>
@@ -3428,7 +3428,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.ts</context>
           <context context-type="linenumber">249</context>
         </context-group>
-        <target state="translated">Objekt uspešno posodobljen.</target>
+        <target state="translated">Object uspešno posodobljen.</target>
       </trans-unit>
       <trans-unit id="1801333259018423190" datatype="html">
         <source>Error occurred saving object.</source>
@@ -4796,7 +4796,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/storage-path-edit-dialog/storage-path-edit-dialog.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Noben dokument ni izbran</target>
+        <target state="translated">Noben document ni izbran</target>
       </trans-unit>
       <trans-unit id="2083498114116917092" datatype="html">
         <source>Search for a document</source>
@@ -5076,7 +5076,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="translated">Sproži proces ob:</target>
+        <target state="translated">Sproži process ob:</target>
       </trans-unit>
       <trans-unit id="3901427285052969410" datatype="html">
         <source>Add Trigger</source>
@@ -5508,7 +5508,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">410</context>
         </context-group>
-        <target state="translated">Priloži dokument</target>
+        <target state="translated">Priloži document</target>
       </trans-unit>
       <trans-unit id="5028001922785731600" datatype="html">
         <source>Webhook url</source>
@@ -5524,7 +5524,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">420</context>
         </context-group>
-        <target state="translated">Uporabite parametre za telo spletnega kavlja</target>
+        <target state="translated">Uporabite parameter za telo spletnega kavlja</target>
       </trans-unit>
       <trans-unit id="4078214298308732810" datatype="html">
         <source>Send webhook payload as JSON</source>
@@ -5564,7 +5564,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">429</context>
         </context-group>
-        <target state="translated">Vključi dokument</target>
+        <target state="translated">Vključi document</target>
       </trans-unit>
       <trans-unit id="4626030417479279989" datatype="html">
         <source>Consume Folder</source>
@@ -5632,7 +5632,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">113</context>
         </context-group>
-        <target state="translated">Dokument dodan</target>
+        <target state="translated">Document dodan</target>
       </trans-unit>
       <trans-unit id="7955486237346046731" datatype="html">
         <source>Document Updated</source>
@@ -5640,7 +5640,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">117</context>
         </context-group>
-        <target state="translated">Dokument posodobljen</target>
+        <target state="translated">Document posodobljen</target>
       </trans-unit>
       <trans-unit id="9172233176401579786" datatype="html">
         <source>Scheduled</source>
@@ -5680,7 +5680,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
-        <target state="translated">Ima katero koli od teh oznak</target>
+        <target state="translated">Ima katero koli od the oznak</target>
       </trans-unit>
       <trans-unit id="4166903555074156852" datatype="html">
         <source>Has all of these tags</source>
@@ -5696,7 +5696,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">217</context>
         </context-group>
-        <target state="translated">Nima teh oznak</target>
+        <target state="translated">Nima the oznak</target>
       </trans-unit>
       <trans-unit id="5281365940563983618" datatype="html">
         <source>Has correspondent</source>
@@ -5760,7 +5760,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">474</context>
         </context-group>
-        <target state="translated">Ustvari nov proces</target>
+        <target state="translated">Ustvari nov process</target>
       </trans-unit>
       <trans-unit id="5996779210524133604" datatype="html">
         <source>Edit workflow</source>
@@ -5768,7 +5768,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">478</context>
         </context-group>
-        <target state="translated">Uredi proces</target>
+        <target state="translated">Uredi process</target>
       </trans-unit>
       <trans-unit id="5457837313196342910" datatype="html">
         <source>{VAR_PLURAL, plural, =1 {Email Document} other {Email <x id="INTERPOLATION"/> Documents}}</source>
@@ -5776,7 +5776,7 @@
           <context context-type="sourcefile">src/app/components/common/email-document-dialog/email-document-dialog.component.html</context>
           <context context-type="linenumber">2,6</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Pošlji dokument po e-pošti} other {Pošlji dokumente <x id="INTERPOLATION"/>}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Pošlji document po e-pošti} other {Pošlji dokumente <x id="INTERPOLATION"/>}}</target>
       </trans-unit>
       <trans-unit id="7376342558017986274" datatype="html">
         <source>Email address(es)</source>
@@ -6302,7 +6302,7 @@
           <context context-type="sourcefile">src/app/components/common/pdf-editor/pdf-editor.component.html</context>
           <context context-type="linenumber">82</context>
         </context-group>
-        <target state="translated">Ustvari nov(e) dokument(e)</target>
+        <target state="translated">Ustvari nov(e) document(e)</target>
       </trans-unit>
       <trans-unit id="8035757452478567832" datatype="html">
         <source>Update existing document</source>
@@ -6310,7 +6310,7 @@
           <context context-type="sourcefile">src/app/components/common/pdf-editor/pdf-editor.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
-        <target state="translated">Posodobi obstoječi dokument</target>
+        <target state="translated">Posodobi obstoječi document</target>
       </trans-unit>
       <trans-unit id="7248454234750442816" datatype="html">
         <source>Copy metadata</source>
@@ -6898,7 +6898,7 @@
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
-        <target state="translated">Operacijski sistem strežnika</target>
+        <target state="translated">Operacijski system strežnika</target>
       </trans-unit>
       <trans-unit id="2903495470702110128" datatype="html">
         <source>Media Storage</source>
@@ -7848,7 +7848,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">452</context>
         </context-group>
-        <target state="translated">Shranjevanje dokumenta tukaj lahko prepiše druge nastale spremembe. Za obnovitev obstoječe različice, razveljavite spremembe ali zaprite dokument.</target>
+        <target state="translated">Shranjevanje dokumenta tukaj lahko prepiše druge nastale spremembe. Za obnovitev obstoječe različice, razveljavite spremembe ali zaprite document.</target>
       </trans-unit>
       <trans-unit id="8720977247725652816" datatype="html">
         <source>Ok</source>
@@ -7864,7 +7864,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">580</context>
         </context-group>
-        <target state="translated">Naslednji dokument</target>
+        <target state="translated">Naslednji document</target>
       </trans-unit>
       <trans-unit id="651985345816518480" datatype="html">
         <source>Previous document</source>
@@ -7872,7 +7872,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">590</context>
         </context-group>
-        <target state="translated">Prejšnji dokument</target>
+        <target state="translated">Prejšnji document</target>
       </trans-unit>
       <trans-unit id="2885986061416655600" datatype="html">
         <source>Close document</source>
@@ -7884,7 +7884,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">130</context>
         </context-group>
-        <target state="translated">Zapri dokument</target>
+        <target state="translated">Zapri document</target>
       </trans-unit>
       <trans-unit id="8229691481345614469" datatype="html">
         <source>Save document</source>
@@ -7892,7 +7892,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">605</context>
         </context-group>
-        <target state="translated">Shrani dokument</target>
+        <target state="translated">Shrani document</target>
       </trans-unit>
       <trans-unit id="1784543155727940353" datatype="html">
         <source>Save and close / next</source>
@@ -7928,7 +7928,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">894</context>
         </context-group>
-        <target state="translated">Dokument "<x id="PH" equiv-text="newValues.title"/>" je bil uspešno shranjen.</target>
+        <target state="translated">Document "<x id="PH" equiv-text="newValues.title"/>" je bil uspešno shranjen.</target>
       </trans-unit>
       <trans-unit id="6626387786259219838" datatype="html">
         <source>Error saving document &quot;<x id="PH" equiv-text="this.document.title"/>&quot;</source>
@@ -7952,7 +7952,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">982</context>
         </context-group>
-        <target state="translated">Ali res želite dokument "<x id="PH" equiv-text="this.document.title"/>" premakniti v smetnjak?</target>
+        <target state="translated">Ali res želite document "<x id="PH" equiv-text="this.document.title"/>" premakniti v smetnjak?</target>
       </trans-unit>
       <trans-unit id="282586936710748252" datatype="html">
         <source>Documents can be restored prior to permanent deletion.</source>
@@ -8004,7 +8004,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1025</context>
         </context-group>
-        <target state="translated">To dejanje bo dokončno poustvarilo arhivsko datoteko za izbran dokument.</target>
+        <target state="translated">To dejanje bo dokončno poustvarilo arhivsko datoteko za izbran document.</target>
       </trans-unit>
       <trans-unit id="302054111564709516" datatype="html">
         <source>The archive file will be re-generated with the current settings.</source>
@@ -8020,7 +8020,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">1036</context>
         </context-group>
-        <target state="translated">V ozadju se bo začel postopek ponovne obdelave za »<x id="PH" equiv-text="this.document.title"/>«. Po končanem postopku zaprite in ponovno odprite ali ponovno naložite ta dokument, da si ogledate novo vsebino.</target>
+        <target state="translated">V ozadju se bo začel postopek ponovne obdelave za »<x id="PH" equiv-text="this.document.title"/>«. Po končanem postopku zaprite in ponovno odprite ali ponovno naložite ta document, da si ogledate novo vsebino.</target>
       </trans-unit>
       <trans-unit id="4409560272830824468" datatype="html">
         <source>Error executing operation</source>
@@ -8382,7 +8382,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">552</context>
         </context-group>
-        <target state="translated">Ta operacija bo dodelila pot shranjevanja "<x id="PH" equiv-text="storagePath.name"/>" v <x id="PH_1" equiv-text="this.list.selected.size"/> izbran dokument/e.</target>
+        <target state="translated">Ta operacija bo dodelila pot shranjevanja "<x id="PH" equiv-text="storagePath.name"/>" v <x id="PH_1" equiv-text="this.list.selected.size"/> izbran document/e.</target>
       </trans-unit>
       <trans-unit id="60728365335056946" datatype="html">
         <source>This operation will remove the storage path from <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -8494,7 +8494,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">849</context>
         </context-group>
-        <target state="translated">To dejanje bo združilo <x id="PH" equiv-text="this.list.selected.size"/> izbranih dokumentov v nov dokument.</target>
+        <target state="translated">To dejanje bo združilo <x id="PH" equiv-text="this.list.selected.size"/> izbranih dokumentov v nov document.</target>
       </trans-unit>
       <trans-unit id="7869008840945899895" datatype="html">
         <source>Merged document will be queued for consumption.</source>
@@ -8526,7 +8526,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/custom-fields-bulk-edit-dialog/custom-fields-bulk-edit-dialog.component.html</context>
           <context context-type="linenumber">3,7</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Nastavi polja po meri za 1 dokument} other {Nastavi polja po meri za <x id="INTERPOLATION"/> dokumentov}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Nastavi polja po meri za 1 document} other {Nastavi polja po meri za <x id="INTERPOLATION"/> dokumentov}}</target>
       </trans-unit>
       <trans-unit id="8100177157764133131" datatype="html">
         <source>Select custom fields</source>
@@ -8808,7 +8808,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">141</context>
         </context-group>
-        <target state="translated">{VAR_PLURAL, plural, =1 {Dokument} other {<x id="INTERPOLATION"/> dokumentov}}</target>
+        <target state="translated">{VAR_PLURAL, plural, =1 {Document} other {<x id="INTERPOLATION"/> dokumentov}}</target>
       </trans-unit>
       <trans-unit id="2243770355958919528" datatype="html">
         <source>(filtered)</source>
@@ -8996,7 +8996,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
           <context context-type="linenumber">331</context>
         </context-group>
-        <target state="translated">Uredi dokument</target>
+        <target state="translated">Uredi document</target>
       </trans-unit>
       <trans-unit id="3420321797707163677" datatype="html">
         <source>Preview document</source>
@@ -9020,7 +9020,7 @@
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.ts</context>
           <context context-type="linenumber">324</context>
         </context-group>
-        <target state="translated">Odpri prvi [izbran] dokument</target>
+        <target state="translated">Odpri prvi [izbran] document</target>
       </trans-unit>
       <trans-unit id="3629960544875360046" datatype="html">
         <source>Previous page</source>
@@ -10172,7 +10172,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Uporabite procese za prilagajanje obnašanja Paperless-ngx, ko dogodki sprožijo proces.</target>
+        <target state="translated">Uporabite procese za prilagajanje obnašanja Paperless-ngx, ko dogodki sprožijo process.</target>
       </trans-unit>
       <trans-unit id="2437630016855517844" datatype="html">
         <source>Add Workflow</source>
@@ -10180,7 +10180,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <target state="translated">Dodaj proces</target>
+        <target state="translated">Dodaj process</target>
       </trans-unit>
       <trans-unit id="1624023882313260402" datatype="html">
         <source>No workflows defined.</source>
@@ -10196,7 +10196,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.ts</context>
           <context context-type="linenumber">90</context>
         </context-group>
-        <target state="translated">Proces "<x id="PH" equiv-text="newWorkflow.name"/>" shranjen.</target>
+        <target state="translated">Process "<x id="PH" equiv-text="newWorkflow.name"/>" shranjen.</target>
       </trans-unit>
       <trans-unit id="7593065565369163325" datatype="html">
         <source>Error saving workflow.</source>
@@ -10220,7 +10220,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.ts</context>
           <context context-type="linenumber">132</context>
         </context-group>
-        <target state="translated">To dejanje bo dokončno izbrisalo izbran proces.</target>
+        <target state="translated">To dejanje bo dokončno izbrisalo izbran process.</target>
       </trans-unit>
       <trans-unit id="1284828901551483140" datatype="html">
         <source>Deleted workflow &quot;<x id="PH" equiv-text="workflow.name"/>&quot;.</source>
@@ -10469,7 +10469,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
-        <target state="translated">Karkoli: dokument vsebuje katero koli od teh besed (ločeno s presledkom)</target>
+        <target state="translated">Karkoli: document vsebuje katero koli od the based (ločeno s presledkom)</target>
       </trans-unit>
       <trans-unit id="700315718208181326" datatype="html" approved="yes">
         <source>All words</source>
@@ -10485,7 +10485,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="translated">Vse: dokument vsebuje vse te besede (ločene s presledkom)</target>
+        <target state="translated">Vse: document vsebuje vse te besede (ločene s presledkom)</target>
       </trans-unit>
       <trans-unit id="9180173992399180575" datatype="html" approved="yes">
         <source>Exact match</source>
@@ -10501,7 +10501,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="translated">Točno: dokument vsebuje ta niz</target>
+        <target state="translated">Točno: document vsebuje ta niz</target>
       </trans-unit>
       <trans-unit id="1338733395833138319" datatype="html">
         <source>Regular expression</source>
@@ -10517,7 +10517,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <target state="translated">Regularni izraz: dokument se ujema s tem regularnim izrazom</target>
+        <target state="translated">Regularni izraz: document se ujema s tem regularnim izrazom</target>
       </trans-unit>
       <trans-unit id="1856513373880048959" datatype="html">
         <source>Fuzzy word</source>
@@ -10533,7 +10533,7 @@
           <context context-type="sourcefile">src/app/data/matching-model.ts</context>
           <context context-type="linenumber">41</context>
         </context-group>
-        <target state="translated">Fuzzy: dokument vsebuje besedo, podobno tej besedi</target>
+        <target state="translated">Fuzzy: document vsebuje besedo, podobno tej besedi</target>
       </trans-unit>
       <trans-unit id="8233576851457338601" datatype="html">
         <source>None: Disable matching</source>
@@ -10973,7 +10973,7 @@
           <context context-type="sourcefile">src/app/services/open-documents.service.ts</context>
           <context context-type="linenumber">128</context>
         </context-group>
-        <target state="translated">Ali ste prepričani, da želite zapreti ta dokument?</target>
+        <target state="translated">Ali ste prepričani, da želite zapreti ta document?</target>
       </trans-unit>
       <trans-unit id="6755718693176327396" datatype="html">
         <source>Are you sure you want to close all documents?</source>
@@ -11349,7 +11349,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">24</context>
         </context-group>
-        <target state="translated">Dokument že obstaja.</target>
+        <target state="translated">Document že obstaja.</target>
       </trans-unit>
       <trans-unit id="5103087968344279314" datatype="html">
         <source>Document already exists. Note: existing document is in the trash.</source>
@@ -11357,7 +11357,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">25</context>
         </context-group>
-        <target state="translated">Dokument že obstaja. Opomba: obstoječ dokument je v smetnjaku.</target>
+        <target state="translated">Document že obstaja. Opomba: obstoječ document je v smetnjaku.</target>
       </trans-unit>
       <trans-unit id="6108404046106249255" datatype="html">
         <source>Document with ASN already exists.</source>
@@ -11365,7 +11365,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="translated">Dokument z ASN že obstaja.</target>
+        <target state="translated">Document z ASN že obstaja.</target>
       </trans-unit>
       <trans-unit id="65951081560571094" datatype="html">
         <source>Document with ASN already exists. Note: existing document is in the trash.</source>
@@ -11373,7 +11373,7 @@
           <context context-type="sourcefile">src/app/services/websocket-status.service.ts</context>
           <context context-type="linenumber">27</context>
         </context-group>
-        <target state="translated">Dokument s tem ASN že obstaja. Opomba: obstoječ dokument je v smetnjaku.</target>
+        <target state="translated">Document s tem ASN že obstaja. Opomba: obstoječ document je v smetnjaku.</target>
       </trans-unit>
       <trans-unit id="148389968432135849" datatype="html">
         <source>File not found.</source>

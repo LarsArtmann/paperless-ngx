@@ -452,7 +452,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">185</context>
         </context-group>
-        <target state="translated">Arrastra y suelta los documentos aquí para subirlos o colócalos en la carpeta de consumo. También puedes arrastrar y soltar los documentos en cualquier lugar de las demás páginas de la aplicación web. Una vez lo hagas, Paperless-ngx comenzará a entrenar los algoritmos de machine learning.</target>
+        <target state="translated">Arrastra y suelta los documentos aquí para subirlos o colócalos en la carpeta de consumo. También puedes arrastrar y soltar los documentos en cualquier lugar de las demás páginas de la aplicación web. Una vez lo haggis, Paperless-ngx comenzará a entrenar los algoritmos de machine learning.</target>
       </trans-unit>
       <trans-unit id="7495498057594070122" datatype="html">
         <source>The documents list shows all of your documents and allows for filtering as well as bulk-editing. There are three different view styles: list, small cards and large cards. A list of documents currently opened for editing is shown in the sidebar.</source>
@@ -476,7 +476,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
-        <target state="translated">Cualquier combinación de filtros puede ser guardada como una «vista» que puede ser luego mostrada en el panel de control y/o barra lateral.</target>
+        <target state="translated">Cualquier combinación de filtros puede set guardada como una «vista» que puede set luego mostrada en el panel de control y/o barra lateral.</target>
       </trans-unit>
       <trans-unit id="2804886236408698479" datatype="html">
         <source>Tags, correspondents, document types and storage paths can all be managed using these pages. They can also be created from the document edit view.</source>
@@ -484,7 +484,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">208</context>
         </context-group>
-        <target state="translated">Etiquetas, interlocutores, tipos de documentos y rutas de almacenamiento se pueden administrar utilizando estas páginas. También se pueden crear desde la vista de edición de documentos.</target>
+        <target state="translated">Etiquetas, interlocutores, tipos de documentos y rutas de almacenamiento se pueden administrator utilizando estas páginas. También se pueden crear desde la vista de edición de documentos.</target>
       </trans-unit>
       <trans-unit id="7851939076947092983" datatype="html">
         <source>Manage e-mail accounts and rules for automatically importing documents.</source>
@@ -1436,7 +1436,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <target state="translated">Los objetos sin un propietario pueden ser vistos y editados por todos los usuarios</target>
+        <target state="translated">Los objetos sin un propietario pueden set vistos y editados por todos los usuarios</target>
       </trans-unit>
       <trans-unit id="1835394624061684099" datatype="html">
         <source>Default View Permissions</source>
@@ -2220,7 +2220,7 @@
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Administrar documentos en la papelera que están pendientes de eliminación.</target>
+        <target state="translated">Administrator documentos en la papelera que están pendientes de eliminación.</target>
       </trans-unit>
       <trans-unit id="3186604097120837257" datatype="html">
         <source>Restore selected</source>
@@ -2776,7 +2776,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.ts</context>
           <context context-type="linenumber">201</context>
         </context-group>
-        <target state="translated">La contraseña ha sido cambiada, tu sesión será cerrada en un momento.</target>
+        <target state="translated">La contraseña ha sido cambiada, tu sesión será cerrada en un memento.</target>
       </trans-unit>
       <trans-unit id="2753185112875184719" datatype="html">
         <source>Saved user &quot;<x id="PH" equiv-text="newUser.username"/>&quot;.</source>
@@ -3740,7 +3740,7 @@
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
           <context context-type="linenumber">102</context>
         </context-group>
-        <target state="translated">Falso</target>
+        <target state="translated">False</target>
       </trans-unit>
       <trans-unit id="7551700625201096185" datatype="html">
         <source>Search docs...</source>
@@ -4072,7 +4072,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/custom-field-edit-dialog/custom-field-edit-dialog.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">El tipo de dato no puede ser cambiado después de crear un campo</target>
+        <target state="translated">El tipo de dato no puede set cambiado después de crear un campo</target>
       </trans-unit>
       <trans-unit id="4910631867841099191" datatype="html">
         <source>Add option</source>
@@ -4096,7 +4096,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/custom-field-edit-dialog/custom-field-edit-dialog.component.html</context>
           <context context-type="linenumber">44</context>
         </context-group>
-        <target state="translated">Código de moneda de 3 caracteres</target>
+        <target state="translated">Código de moneda de 3 characters</target>
       </trans-unit>
       <trans-unit id="607636736207886379" datatype="html">
         <source>Use locale</source>
@@ -4232,7 +4232,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-account-edit-dialog/mail-account-edit-dialog.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <target state="translated">Conjunto de caracteres</target>
+        <target state="translated">Conjunto de characters</target>
       </trans-unit>
       <trans-unit id="6563391987554512024" datatype="html">
         <source>Test</source>
@@ -4452,7 +4452,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
-        <target state="translated">Opcional. Comodines como *.pdf o *factura* son permitidos. Puede ser una lista separada por comas. No se distinguen mayúsculas de minúsculas.</target>
+        <target state="translated">Opcional. Comodines como *.pdf o *factura* son permitidos. Puede set una lista separada por comas. No se distinguen mayúsculas de minúsculas.</target>
       </trans-unit>
       <trans-unit id="1546332577833742677" datatype="html">
         <source>Exclude files matching</source>
@@ -5008,7 +5008,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">172</context>
         </context-group>
-        <target state="translated">Deshabilitar la autenticación de doble factor</target>
+        <target state="translated">Deshabilitar la autenticación de double factor</target>
       </trans-unit>
       <trans-unit id="1436831433675346331" datatype="html">
         <source>Create new user account</source>
@@ -7290,7 +7290,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
-        <target state="translated">Total de caracteres</target>
+        <target state="translated">Total de characters</target>
       </trans-unit>
       <trans-unit id="3047655754312785383" datatype="html">
         <source>Current ASN</source>
@@ -7560,7 +7560,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">127</context>
         </context-group>
-        <target state="final">Número de serie del archivo</target>
+        <target state="final">Número de series del archivo</target>
       </trans-unit>
       <trans-unit id="5114742157723900905" datatype="html" approved="yes">
         <source>Date created</source>
@@ -7784,7 +7784,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">332</context>
         </context-group>
-        <target state="translated">Historial</target>
+        <target state="translated">Historical</target>
       </trans-unit>
       <trans-unit id="5129524307369213584" datatype="html" approved="yes">
         <source>Save &amp; next</source>
@@ -7964,7 +7964,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">754</context>
         </context-group>
-        <target state="translated">Los documentos pueden ser restaurados antes de la eliminación permanente.</target>
+        <target state="translated">Los documentos pueden set restaurados antes de la eliminación permanente.</target>
       </trans-unit>
       <trans-unit id="2048798344356757326" datatype="html">
         <source>Move to trash</source>
@@ -10869,7 +10869,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">15</context>
         </context-group>
-        <target state="translated">hace %s años</target>
+        <target state="translated">have %s años</target>
       </trans-unit>
       <trans-unit id="4463380307954693363" datatype="html" approved="yes">
         <source>Last month</source>
@@ -10885,7 +10885,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
-        <target state="translated">Hace %s meses</target>
+        <target state="translated">Have %s meses</target>
       </trans-unit>
       <trans-unit id="7591870443991978948" datatype="html">
         <source>Last week</source>
@@ -10901,7 +10901,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">25</context>
         </context-group>
-        <target state="translated">hace %s semanas</target>
+        <target state="translated">have %s semanas</target>
       </trans-unit>
       <trans-unit id="5601594741748068208" datatype="html">
         <source>%s days ago</source>
@@ -10909,7 +10909,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">30</context>
         </context-group>
-        <target state="translated">hace %s días</target>
+        <target state="translated">have %s días</target>
       </trans-unit>
       <trans-unit id="8387405724402999437" datatype="html">
         <source>%s hour ago</source>
@@ -10917,7 +10917,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="translated">Hace %s hora</target>
+        <target state="translated">Have %s hora</target>
       </trans-unit>
       <trans-unit id="2008395012733474465" datatype="html">
         <source>%s hours ago</source>
@@ -10925,7 +10925,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
-        <target state="translated">hace %s horas</target>
+        <target state="translated">have %s horas</target>
       </trans-unit>
       <trans-unit id="5782387980670840884" datatype="html">
         <source>%s minute ago</source>
@@ -10933,7 +10933,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">39</context>
         </context-group>
-        <target state="translated">hace %s minuto</target>
+        <target state="translated">have %s minuto</target>
       </trans-unit>
       <trans-unit id="7573942914011074807" datatype="html">
         <source>%s minutes ago</source>
@@ -10941,7 +10941,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <target state="translated">hace %s minutos</target>
+        <target state="translated">have %s minutos</target>
       </trans-unit>
       <trans-unit id="4272436583644511364" datatype="html">
         <source>Just now</source>

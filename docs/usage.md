@@ -123,13 +123,13 @@ Once you've got Paperless setup, you need to start feeding documents
 into it. When adding documents to paperless, it will perform the
 following operations on your documents:
 
-1.  OCR the document, if it has no text. Digital documents usually have
-    text, and this step will be skipped for those documents.
-2.  Paperless will create an archivable PDF/A document from your
-    document. If this document is coming from your scanner, it will have
-    embedded selectable text.
-3.  Paperless performs automatic matching of tags, correspondents and
-    types on the document before storing it in the database.
+1. OCR the document, if it has no text. Digital documents usually have
+   text, and this step will be skipped for those documents.
+2. Paperless will create an archivable PDF/A document from your
+   document. If this document is coming from your scanner, it will have
+   embedded selectable text.
+3. Paperless performs automatic matching of tags, correspondents and
+   types on the document before storing it in the database.
 
 !!! tip
 
@@ -196,19 +196,19 @@ received documents via mail that you need to archive. The mail consumer
 can be configured via the frontend settings (/settings/mail) in the following
 manner:
 
-1.  Define e-mail accounts.
-2.  Define mail rules for your account.
+1. Define e-mail accounts.
+2. Define mail rules for your account.
 
 These rules perform the following:
 
-1.  Connect to the mail server.
-2.  Fetch all matching mails (as defined by folder, maximum age and the
-    filters)
-3.  Check if there are any consumable attachments.
-4.  If so, instruct paperless to consume the attachments and optionally
-    use the metadata provided in the rule for the new document.
-5.  If documents were consumed from a mail, the rule action is performed
-    on that mail.
+1. Connect to the mail server.
+2. Fetch all matching mails (as defined by folder, maximum age and the
+   filters)
+3. Check if there are any consumable attachments.
+4. If so, instruct paperless to consume the attachments and optionally
+   use the metadata provided in the rule for the new document.
+5. If documents were consumed from a mail, the rule action is performed
+   on that mail.
 
 Paperless will check all emails only once and completely ignore messages
 that do not match your filters. It will also only perform the rule action
@@ -847,10 +847,8 @@ produ*name
 
 All of these constructs can be combined as you see fit. If you want to
 learn more about the query language used by paperless, paperless uses
-Whoosh's default query language. Head over to [Whoosh query
-language](https://whoosh.readthedocs.io/en/latest/querylang.html). For
-details on what date parsing utilities are available, see [Date
-parsing](https://whoosh.readthedocs.io/en/latest/dates.html#parsing-date-queries).
+Whoosh's default query language. Head over to [Whoosh query language](https://whoosh.readthedocs.io/en/latest/querylang.html). For
+details on what date parsing utilities are available, see [Date parsing](https://whoosh.readthedocs.io/en/latest/dates.html#parsing-date-queries).
 
 ## Keyboard shortcuts / hotkeys
 
@@ -881,16 +879,16 @@ Keep a physical inbox. Whenever you receive a document that you need to
 archive, put it into your inbox. Regularly, do the following for all
 documents in your inbox:
 
-1.  For each document, decide if you need to keep the document in
-    physical form. This applies to certain important documents, such as
-    contracts and certificates.
-2.  If you need to keep the document, write a running number on the
-    document before scanning, starting at one and counting upwards. This
-    is the archive serial number, or ASN in short.
-3.  Scan the document.
-4.  If the document has an ASN assigned, store it in a _single_ binder,
-    sorted by ASN. Don't order this binder in any other way.
-5.  If the document has no ASN, throw it away. Yay!
+1. For each document, decide if you need to keep the document in
+   physical form. This applies to certain important documents, such as
+   contracts and certificates.
+2. If you need to keep the document, write a running number on the
+   document before scanning, starting at one and counting upwards. This
+   is the archive serial number, or ASN in short.
+3. Scan the document.
+4. If the document has an ASN assigned, store it in a _single_ binder,
+   sorted by ASN. Don't order this binder in any other way.
+5. If the document has no ASN, throw it away. Yay!
 
 !!! tip
 
@@ -909,29 +907,29 @@ The idea behind this process is that you will never have to use the
 physical binders to find a document. If you need a specific physical
 document, you may find this document by:
 
-1.  Searching in paperless for the document.
-2.  Identify the ASN of the document, since it appears on the scan.
-3.  Grab the relevant document binder and get the document. This is easy
-    since they are sorted by ASN.
+1. Searching in paperless for the document.
+2. Identify the ASN of the document, since it appears on the scan.
+3. Grab the relevant document binder and get the document. This is easy
+   since they are sorted by ASN.
 
 ### Processing of documents in paperless
 
 Once you have scanned in a document, proceed in paperless as follows.
 
-1.  If the document has an ASN, assign the ASN to the document.
-2.  Assign a correspondent to the document (i.e., your employer, bank,
-    etc) This isn't strictly necessary but helps in finding a document
-    when you need it.
-3.  Assign a document type (i.e., invoice, bank statement, etc) to the
-    document This isn't strictly necessary but helps in finding a
-    document when you need it.
-4.  Assign a proper title to the document (the name of an item you
-    bought, the subject of the letter, etc)
-5.  Check that the date of the document is correct. Paperless tries to
-    read the date from the content of the document, but this fails
-    sometimes if the OCR is bad or multiple dates appear on the
-    document.
-6.  Remove inbox tags from the documents.
+1. If the document has an ASN, assign the ASN to the document.
+2. Assign a correspondent to the document (i.e., your employer, bank,
+   etc) This isn't strictly necessary but helps in finding a document
+   when you need it.
+3. Assign a document type (i.e., invoice, bank statement, etc) to the
+   document This isn't strictly necessary but helps in finding a
+   document when you need it.
+4. Assign a proper title to the document (the name of an item you
+   bought, the subject of the letter, etc)
+5. Check that the date of the document is correct. Paperless tries to
+   read the date from the content of the document, but this fails
+   sometimes if the OCR is bad or multiple dates appear on the
+   document.
+6. Remove inbox tags from the documents.
 
 !!! tip
 
@@ -1001,8 +999,7 @@ Paperless-ngx consists of the following components:
   python3 manage.py document_consumer
   ```
 
-- **The task processor:** Paperless relies on [Celery - Distributed
-  Task Queue](https://docs.celeryq.dev/en/stable/index.html) for doing
+- **The task processor:** Paperless relies on [Celery - Distributed Task Queue](https://docs.celeryq.dev/en/stable/index.html) for doing
   most of the heavy lifting. This is a task queue that accepts tasks
   from multiple sources and processes these in parallel. It also comes
   with a scheduler that executes certain commands periodically.

@@ -145,7 +145,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Minuts</target>
+        <target state="translated">Minutes</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last" datatype="html">
         <source>»»</source>
@@ -201,7 +201,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Incrementar minuts</target>
+        <target state="translated">Incrementar minutes</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last-aria" datatype="html">
         <source>Last</source>
@@ -217,7 +217,7 @@
           <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@19.0.1_@angular+common@20.3.15_@angular+core@20.3.15_@angula_40533c760dbaadbd90323f0d78d15fb8/node_modules/src/ngb-config.ts</context>
           <context context-type="linenumber">13</context>
         </context-group>
-        <target state="translated">Disminuir minuts</target>
+        <target state="translated">Disminuir minutes</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
@@ -540,7 +540,7 @@
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">250</context>
         </context-group>
-        <target state="translated">Hi ha &lt;em&gt;moltíssimes&lt;/em&gt; més funcions i informació que no hem cobert aquí, però això t'hauria d'ajudar a començar. Consulta la documentació o visita el projecte a GitHub per obtenir més informació o informar de problemes.</target>
+        <target state="translated">Hi ha &lt;em&gt;moltíssimes&lt;/em&gt; més functions i informació que no hem cobert aquí, però això t'hauria d'ajudar a començar. Consulta la documentació o visita el projecte a GitHub per obtenir més informació o informar de problems.</target>
       </trans-unit>
       <trans-unit id="4270528545616947218" datatype="html">
         <source>Lastly, on behalf of every contributor to this community-supported project, thank you for using Paperless-ngx!</source>
@@ -564,7 +564,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Opcions de configuració global d'aplicació que aplica a &lt;strong&gt;cada&lt;/strong&gt; usuari d'aquesta instal·lació de Paperless-ngx. Les opcions també es poden establir mitjançant variables d'entorn o el fitxer de configuració, però el valor aquí sempre tindrà prioritat.</target>
+        <target state="translated">Opcions de configuració global d'aplicació que aplica a &lt;strong&gt;cada&lt;/strong&gt; usuari d'aquesta install·lació de Paperless-ngx. Les opcions també es poden establir mitjançant variables d'entorn o el fitxer de configuració, però el valor aquí sempre tindrà prioritat.</target>
       </trans-unit>
       <trans-unit id="7991430199894172363" datatype="html">
         <source>Read the documentation about this setting</source>
@@ -1184,7 +1184,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">189</context>
         </context-group>
-        <target state="translated">Això sol ser més ràpid per mostrar documents PDF grans, però pot ser que no funcioni en alguns navegadors.</target>
+        <target state="translated">Això sol set més ràpid per mostrar documents PDF grans, però pot set que no funcioni en alguns navegadors.</target>
       </trans-unit>
       <trans-unit id="2678648946508279627" datatype="html">
         <source>Default zoom</source>
@@ -1260,7 +1260,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">227</context>
         </context-group>
-        <target state="translated">Enllaços de cerca complets a</target>
+        <target state="translated">Enllaços de cerca completes a</target>
       </trans-unit>
       <trans-unit id="6631288852577115923" datatype="html">
         <source>Title and content search</source>
@@ -1416,7 +1416,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">266,268</context>
         </context-group>
-        <target state="translated"> S'apliquen a aquest compte d'usuari per als objectes (etiquetes, regles de correu, etc.) creats des de la interfície web. </target>
+        <target state="translated"> S'apliquen a aquest compte d'usuari per also objectes (etiquetes, regles de correu, etc.) creates des de la interfície web. </target>
       </trans-unit>
       <trans-unit id="4292903881380648974" datatype="html">
         <source>Default Owner</source>
@@ -1516,7 +1516,7 @@
           <context context-type="sourcefile">src/app/components/common/input/permissions/permissions-form/permissions-form.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
-        <target state="translated">Grups:</target>
+        <target state="translated">Groups:</target>
       </trans-unit>
       <trans-unit id="3748107313403519340" datatype="html">
         <source>Default Edit Permissions</source>
@@ -1716,7 +1716,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">89</context>
         </context-group>
-        <target state="translated">Error recuperant els grups</target>
+        <target state="translated">Error recuperant els groups</target>
       </trans-unit>
       <trans-unit id="7217000812750597833" datatype="html">
         <source>Settings were saved successfully.</source>
@@ -2604,7 +2604,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/app-frame.component.html</context>
           <context context-type="linenumber">271</context>
         </context-group>
-        <target state="translated">Usuaris i grups</target>
+        <target state="translated">Usuaris i groups</target>
       </trans-unit>
       <trans-unit id="4569276013106377105" datatype="html">
         <source>Create, delete and edit users and groups.</source>
@@ -2612,7 +2612,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Crea, esborra i edita usuaris i grups.</target>
+        <target state="translated">Crea, esborra i edita usuaris i groups.</target>
       </trans-unit>
       <trans-unit id="4555457172864212828" datatype="html">
         <source>Users</source>
@@ -2668,7 +2668,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/user-edit-dialog/user-edit-dialog.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <target state="translated">Grups</target>
+        <target state="translated">Groups</target>
       </trans-unit>
       <trans-unit id="7585826646011739428" datatype="html">
         <source>Edit</source>
@@ -2756,7 +2756,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
-        <target state="translated">Afegir grup</target>
+        <target state="translated">Afegir group</target>
       </trans-unit>
       <trans-unit id="4746158651610481283" datatype="html">
         <source>No groups defined</source>
@@ -2764,7 +2764,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.html</context>
           <context context-type="linenumber">84</context>
         </context-group>
-        <target state="translated">Sense grups definits</target>
+        <target state="translated">Sense groups definits</target>
       </trans-unit>
       <trans-unit id="4510369340305901516" datatype="html">
         <source>Password has been changed, you will be logged out momentarily.</source>
@@ -2884,7 +2884,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">180</context>
         </context-group>
-        <target state="translated">Grup desat "<x id="PH" equiv-text="newGroup.name"/>".</target>
+        <target state="translated">Group desat "<x id="PH" equiv-text="newGroup.name"/>".</target>
       </trans-unit>
       <trans-unit id="8382042988405122578" datatype="html">
         <source>Error saving group.</source>
@@ -2892,7 +2892,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">188</context>
         </context-group>
-        <target state="translated">Error desant grup.</target>
+        <target state="translated">Error desant group.</target>
       </trans-unit>
       <trans-unit id="6538873300613683004" datatype="html">
         <source>Confirm delete user group</source>
@@ -2900,7 +2900,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">196</context>
         </context-group>
-        <target state="translated">Confirma esborrat grup usuari</target>
+        <target state="translated">Confirma esborrat group usuari</target>
       </trans-unit>
       <trans-unit id="7710984639498518244" datatype="html">
         <source>This operation will permanently delete this user group.</source>
@@ -2908,7 +2908,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">197</context>
         </context-group>
-        <target state="translated">Operació esborrarà aquest grup d'usuari.</target>
+        <target state="translated">Operació esborrarà aquest group d'usuari.</target>
       </trans-unit>
       <trans-unit id="3756187211130340490" datatype="html">
         <source>Deleted group &quot;<x id="PH" equiv-text="group.name"/>&quot;</source>
@@ -2916,7 +2916,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">206</context>
         </context-group>
-        <target state="translated">Esborrat grup "<x id="PH" equiv-text="group.name"/>"</target>
+        <target state="translated">Esborrat group "<x id="PH" equiv-text="group.name"/>"</target>
       </trans-unit>
       <trans-unit id="1697803415975901060" datatype="html">
         <source>Error deleting group &quot;<x id="PH" equiv-text="group.name"/>&quot;.</source>
@@ -2924,7 +2924,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">213</context>
         </context-group>
-        <target state="translated">Error esborrant grup "<x id="PH" equiv-text="group.name"/>".</target>
+        <target state="translated">Error esborrant group "<x id="PH" equiv-text="group.name"/>".</target>
       </trans-unit>
       <trans-unit id="7931334600001636863" datatype="html">
         <source>by Paperless-ngx</source>
@@ -3384,7 +3384,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
           <context context-type="linenumber">138</context>
         </context-group>
-        <target state="translated">Grups</target>
+        <target state="translated">Groups</target>
       </trans-unit>
       <trans-unit id="searchResults.customFields" datatype="html">
         <source>Custom fields</source>
@@ -4160,7 +4160,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/group-edit-dialog/group-edit-dialog.component.ts</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <target state="translated">Crea nou grup usuari</target>
+        <target state="translated">Crea nou group usuari</target>
       </trans-unit>
       <trans-unit id="200893957904793797" datatype="html">
         <source>Edit user group</source>
@@ -4168,7 +4168,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/group-edit-dialog/group-edit-dialog.component.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <target state="translated">Edita grup usuari</target>
+        <target state="translated">Edita group usuari</target>
       </trans-unit>
       <trans-unit id="1505107477868159986" datatype="html">
         <source>IMAP Server</source>
@@ -4416,7 +4416,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
-        <target state="translated">Consulteu documentació per als requisits de processament .eml</target>
+        <target state="translated">Consulteu documentació per also requisites de processament .eml</target>
       </trans-unit>
       <trans-unit id="7093509971705471817" datatype="html">
         <source>Attachment type</source>
@@ -4452,7 +4452,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">48</context>
         </context-group>
-        <target state="translated">Opcional. Comodins ex. *.pdf o *factura* permès. Pot ser una llista separada per comes. Cas insensitiu.</target>
+        <target state="translated">Opcional. Comodins ex. *.pdf o *factura* permès. Pot set una llista separada per comes. Cas insensitiu.</target>
       </trans-unit>
       <trans-unit id="1546332577833742677" datatype="html">
         <source>Exclude files matching</source>
@@ -4484,7 +4484,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.html</context>
           <context context-type="linenumber">56</context>
         </context-group>
-        <target state="translated">Parametre d'acció</target>
+        <target state="translated">Parameter d'acció</target>
       </trans-unit>
       <trans-unit id="6093797930511670257" datatype="html">
         <source>Assign title from</source>
@@ -4604,7 +4604,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/mail-rule-edit-dialog/mail-rule-edit-dialog.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
-        <target state="translated">Processa el missatge com a .eml i els fitxers adjunts per separat</target>
+        <target state="translated">Processa el missatge com a .eml i els fitxers adjunts per separate</target>
       </trans-unit>
       <trans-unit id="8776300244268604360" datatype="html">
         <source>System default</source>
@@ -4988,7 +4988,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">139</context>
         </context-group>
-        <target state="translated">Autenticació de doble factor</target>
+        <target state="translated">Autenticació de double factor</target>
       </trans-unit>
       <trans-unit id="8418597938335066730" datatype="html">
         <source>Disable Two-factor Authentication</source>
@@ -5008,7 +5008,7 @@
           <context context-type="sourcefile">src/app/components/common/profile-edit-dialog/profile-edit-dialog.component.html</context>
           <context context-type="linenumber">172</context>
         </context-group>
-        <target state="translated">Desactivar l'autentificació de doble factor</target>
+        <target state="translated">Desactivar l'autentificació de double factor</target>
       </trans-unit>
       <trans-unit id="1436831433675346331" datatype="html">
         <source>Create new user account</source>
@@ -5212,7 +5212,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">161</context>
         </context-group>
-        <target state="translated">Aplica als documents que coincideixen amb aquest nom de fitxer. Es permeten els comodins com ara *.pdf o *factura*. Cas insensible.</target>
+        <target state="translated">Aplica also documents que coincideixen amb aquest nom de fitxer. Es permeten els comodins com ara *.pdf o *factura*. Cas insensible.</target>
       </trans-unit>
       <trans-unit id="1473412958770421458" datatype="html">
         <source>Filter sources</source>
@@ -5292,7 +5292,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">195</context>
         </context-group>
-        <target state="translated">No s'han definit filtres avançats de flux de treball.</target>
+        <target state="translated">No s'han definite filtres avançats de flux de treball.</target>
       </trans-unit>
       <trans-unit id="6892734625735572404" datatype="html">
         <source> Complete the custom field query configuration. </source>
@@ -5728,7 +5728,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.ts</context>
           <context context-type="linenumber">248</context>
         </context-group>
-        <target state="translated">No té tipus de documens</target>
+        <target state="translated">No té tipus de documents</target>
       </trans-unit>
       <trans-unit id="4277260190522078330" datatype="html">
         <source>Has storage path</source>
@@ -6358,7 +6358,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">87</context>
         </context-group>
-        <target state="translated">Els permisos de propietari, d'usuari i de grup existents es combinaran amb aquesta configuració.</target>
+        <target state="translated">Els permisos de propietari, d'usuari i de group existents es combinaran amb aquesta configuració.</target>
       </trans-unit>
       <trans-unit id="3434726483516379481" datatype="html">
         <source>Any and all existing owner, user and group permissions will be replaced.</source>
@@ -6366,7 +6366,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-dialog/permissions-dialog.component.ts</context>
           <context context-type="linenumber">88</context>
         </context-group>
-        <target state="translated">Es substituiran tots els permisos existents de propietari, usuari i grup.</target>
+        <target state="translated">Es substituiran tots els permisos existents de propietari, usuari i group.</target>
       </trans-unit>
       <trans-unit id="5947558132119506443" datatype="html">
         <source>My documents</source>
@@ -6374,7 +6374,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-filter-dropdown/permissions-filter-dropdown.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
-        <target state="translated">Els meus documents</target>
+        <target state="translated">Els menus documents</target>
       </trans-unit>
       <trans-unit id="231920238966427751" datatype="html">
         <source>Shared with me</source>
@@ -6442,7 +6442,7 @@
           <context context-type="sourcefile">src/app/components/common/permissions-select/permissions-select.component.ts</context>
           <context context-type="linenumber">78</context>
         </context-group>
-        <target state="translated">Heretat del grup</target>
+        <target state="translated">Heretat del group</target>
       </trans-unit>
       <trans-unit id="6418218602775540217" datatype="html">
         <source>Error loading preview</source>
@@ -7384,7 +7384,7 @@
           <context context-type="sourcefile">src/app/components/dashboard/widgets/welcome-widget/welcome-widget.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <target state="translated">Tot preparat per començar a penjar documents! Explora les diverses funcions d'aquesta aplicació web pel teu compte o inicia un recorregut ràpid amb el botó següent.</target>
+        <target state="translated">Tot preparat per començar a penjar documents! Explora les diverses functions d'aquesta aplicació web pel teu compte o inicia un recorregut ràpid amb el botó següent.</target>
       </trans-unit>
       <trans-unit id="4474647174688421179" datatype="html">
         <source>More detail on how to use and configure Paperless-ngx is always available in the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://docs.paperless-ngx.com&quot; target=&quot;_blank&quot;&gt;"/>documentation<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
@@ -7784,7 +7784,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
           <context context-type="linenumber">332</context>
         </context-group>
-        <target state="translated">Historial</target>
+        <target state="translated">Historical</target>
       </trans-unit>
       <trans-unit id="5129524307369213584" datatype="html">
         <source>Save &amp; next</source>
@@ -8414,7 +8414,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">594,596</context>
         </context-group>
-        <target state="translated">L'operació assignarà els camps personalitzats <x id="PH" equiv-text="this._localizeList(           changedCustomFields.itemsToAdd         )"/> als <x id="PH_1" equiv-text="this.list.selected.size"/> documents seleccionats.</target>
+        <target state="translated">L'operació assignarà els camps personalitzats <x id="PH" equiv-text="this._localizeList(           changedCustomFields.itemsToAdd         )"/> also <x id="PH_1" equiv-text="this.list.selected.size"/> documents seleccionats.</target>
       </trans-unit>
       <trans-unit id="5648572354333199245" datatype="html">
         <source>This operation will remove the custom field &quot;<x id="PH" equiv-text="customField.name"/>&quot; from <x id="PH_1" equiv-text="this.list.selected.size"/> selected document(s).</source>
@@ -9108,7 +9108,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">224</context>
         </context-group>
-        <target state="translated">està buit</target>
+        <target state="translated">està built</target>
       </trans-unit>
       <trans-unit id="6166785695326182482" datatype="html">
         <source>is not empty</source>
@@ -9116,7 +9116,7 @@
           <context context-type="sourcefile">src/app/components/document-list/filter-editor/filter-editor.component.ts</context>
           <context context-type="linenumber">228</context>
         </context-group>
-        <target state="translated">no està buit</target>
+        <target state="translated">no està built</target>
       </trans-unit>
       <trans-unit id="4686622206659266699" datatype="html">
         <source>greater than</source>
@@ -9412,7 +9412,7 @@
           <context context-type="sourcefile">src/app/components/manage/custom-fields/custom-fields.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="translated">Personalitza els camps de dades que es poden adjuntar als documents.</target>
+        <target state="translated">Personalitza els camps de dades que es poden adjuntar also documents.</target>
       </trans-unit>
       <trans-unit id="8019331026479399960" datatype="html">
         <source>Add Field</source>
@@ -9772,7 +9772,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.ts</context>
           <context context-type="linenumber">280</context>
         </context-group>
-        <target state="translated">Eror alternant regla "<x id="PH" equiv-text="rule.name"/>".</target>
+        <target state="translated">Error alternant regla "<x id="PH" equiv-text="rule.name"/>".</target>
       </trans-unit>
       <trans-unit id="3896080636020672118" datatype="html">
         <source>Confirm delete mail rule</source>
@@ -10941,7 +10941,7 @@
           <context context-type="sourcefile">src/app/pipes/custom-date.pipe.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
-        <target state="translated">fa %s minuts</target>
+        <target state="translated">fa %s minutes</target>
       </trans-unit>
       <trans-unit id="4272436583644511364" datatype="html">
         <source>Just now</source>

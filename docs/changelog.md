@@ -5355,7 +5355,7 @@ Versions 1.11.1 and 1.11.2 contain bug fixes from v1.11.0 that prevented use of 
 
 ### Dependencies
 
-  <details>
+<details>
   <summary>5 changes</summary>
 
 - Bump tslib from 2.4.0 to 2.4.1 in /src-ui @dependabot ([#2076](https://github.com/paperless-ngx/paperless-ngx/pull/2076))
@@ -6096,8 +6096,7 @@ include:
 - Dropped support for Python 3.7.
 - Dropped support for Ansible playbooks (thanks
   [@slankes](https://github.com/slankes) [#109](https://github.com/paperless-ngx/paperless-ngx/pull/109)). If someone would
-  like to continue supporting them, please see our [ansible
-  repo](https://github.com/paperless-ngx/paperless-ngx-ansible).
+  like to continue supporting them, please see our [ansible repo](https://github.com/paperless-ngx/paperless-ngx-ansible).
 - Python code is now required to use Black formatting (thanks
   [@kpj](https://github.com/kpj) [#168](https://github.com/paperless-ngx/paperless-ngx/pull/168)).
 - [@tribut](https://github.com/tribut) added support for a custom SSO
@@ -6348,8 +6347,7 @@ This release contains new database migrations.
   - Added the ability to use the filter for searching the document
     content as well.
   - Added translations into Italian and Romanian. Thank you!
-  - Close individual documents from the sidebar. Thanks to [Michael
-    Shamoon](https://github.com/shamoon).
+  - Close individual documents from the sidebar. Thanks to [Michael Shamoon](https://github.com/shamoon).
   - [BolkoSchreiber](https://github.com/BolkoSchreiber) added an
     option to disable/enable thumbnail inversion in dark mode.
   - [Simon Taddiken](https://github.com/skuzzle) added the ability
@@ -6633,8 +6631,7 @@ paperless.
   - The PDF viewer now uses a local copy of some dependencies
     instead of fetching them from the internet. Thanks to
     [slorenz](https://github.com/sisao).
-  - Revamped search bar styling thanks to [Michael
-    Shamoon](https://github.com/shamoon).
+  - Revamped search bar styling thanks to [Michael Shamoon](https://github.com/shamoon).
   - Sorting in the document list by clicking on table headers.
   - A button was added to the document detail page that assigns a
     new ASN to a document.
@@ -6649,8 +6646,7 @@ paperless.
   - E-Mail: Added filter rule parameters to allow inline attachments
     (watch out for mails with inlined images!) and attachment
     filename filters with wildcards.
-  - Support for remote user authentication thanks to [Michael
-    Shamoon](https://github.com/shamoon). This is useful for hiding
+  - Support for remote user authentication thanks to [Michael Shamoon](https://github.com/shamoon). This is useful for hiding
     Paperless behind single sign on applications such as
     [authelia](https://www.authelia.com/).
   - "Clear filters" has been renamed to "Reset filters" and now
@@ -6757,8 +6753,7 @@ This release addresses two severe issues with the previous release.
 ### paperless-ng 0.9.7
 
 - Front end
-  - Thanks to the hard work of [Michael
-    Shamoon](https://github.com/shamoon), paperless now comes with a
+  - Thanks to the hard work of [Michael Shamoon](https://github.com/shamoon), paperless now comes with a
     much more streamlined UI for filtering documents.
   - [Michael Shamoon](https://github.com/shamoon) replaced the
     document preview with another component. This should fix
@@ -7139,8 +7134,7 @@ primarily.
   of Python paths.
   [#441](https://github.com/the-paperless-project/paperless/pull/441)
 - Added pretty colour boxes next to the hex values in the Tags
-  section, thanks to a pull request from [Joshua
-  Taillon](https://github.com/jat255)
+  section, thanks to a pull request from [Joshua Taillon](https://github.com/jat255)
   [#442](https://github.com/the-paperless-project/paperless/pull/442).
 - Added a `.editorconfig` file to better specify coding style.
 - [Joshua Taillon](https://github.com/jat255) also added some logic to
@@ -7166,17 +7160,17 @@ primarily.
 - A problem in how we handle slug values on Tags and Correspondents
   required a few changes to how we handle this field
   [#393](https://github.com/the-paperless-project/paperless/issues/393):
-  1.  Slugs are no longer editable. They're derived from the name of
-      the tag or correspondent at save time, so if you wanna change
-      the slug, you have to change the name, and even then you're
-      restricted to the rules of the `slugify()` function. The slug
-      value is still visible in the admin though.
-  2.  I've added a migration to go over all existing tags &
-      correspondents and rewrite the `.slug` values to ones conforming
-      to the `slugify()` rules.
-  3.  The consumption process now uses the same rules as `.save()` in
-      determining a slug and using that to check for an existing
-      tag/correspondent.
+  1. Slugs are no longer editable. They're derived from the name of
+     the tag or correspondent at save time, so if you wanna change
+     the slug, you have to change the name, and even then you're
+     restricted to the rules of the `slugify()` function. The slug
+     value is still visible in the admin though.
+  2. I've added a migration to go over all existing tags &
+     correspondents and rewrite the `.slug` values to ones conforming
+     to the `slugify()` rules.
+  3. The consumption process now uses the same rules as `.save()` in
+     determining a slug and using that to check for an existing
+     tag/correspondent.
 - An annoying bug in the date capture code was causing some bogus
   dates to be attached to documents, which in turn busted the UI.
   Thanks to [Andrew Peng](https://github.com/pengc99) for reporting
@@ -7249,9 +7243,7 @@ primarily.
 
 ### 2.2.0
 
-- Thanks to [dadosch](https://github.com/dadosch), [Wolfgang
-  Mader](https://github.com/wmader), and [Tim
-  Brooks](https://github.com/brookst) this is the first version of
+- Thanks to [dadosch](https://github.com/dadosch), [Wolfgang Mader](https://github.com/wmader), and [Tim Brooks](https://github.com/brookst) this is the first version of
   Paperless that supports Django 2.0! As a result of their hard work,
   you can now also run Paperless on Python 3.7 as well:
   [#386](https://github.com/the-paperless-project/paperless/issues/386)
@@ -7278,19 +7270,18 @@ primarily.
 - [Enno Lohmeier](https://github.com/elohmeier) added three simple
   features that make Paperless a lot more user (and developer)
   friendly:
-  1.  There's a new search box on the front page:
-      [#374](https://github.com/the-paperless-project/paperless/pull/374).
-  2.  The correspondents & tags pages now have a column showing the
-      number of relevant documents:
-      [#375](https://github.com/the-paperless-project/paperless/pull/375).
-  3.  The Dockerfile has been tweaked to build faster for those of us
-      who are doing active development on Paperless using the Docker
-      environment:
-      [#376](https://github.com/the-paperless-project/paperless/pull/376).
+  1. There's a new search box on the front page:
+     [#374](https://github.com/the-paperless-project/paperless/pull/374).
+  2. The correspondents & tags pages now have a column showing the
+     number of relevant documents:
+     [#375](https://github.com/the-paperless-project/paperless/pull/375).
+  3. The Dockerfile has been tweaked to build faster for those of us
+     who are doing active development on Paperless using the Docker
+     environment:
+     [#376](https://github.com/the-paperless-project/paperless/pull/376).
 - ~~You now also have the ability to customise the interface to your
   heart's content by creating a file called `overrides.css` and/or
-  `overrides.js` in the root of your media directory. Thanks to [Mark
-  McFate](https://github.com/SummittDweller) for this idea:
+  `overrides.js` in the root of your media directory. Thanks to [Mark McFate](https://github.com/SummittDweller) for this idea:
   [#371](https://github.com/the-paperless-project/paperless/issues/371)~~
   (Not supported by Paperless-ngx)
 
@@ -7317,12 +7308,12 @@ have `PAPERLESS_PASSPHRASE` set in your config or your environment,
 Paperless should continue to operate as it always has. If however, you
 want to drop encryption too, you only need to do two things:
 
-1.  Run
-    `./manage.py migrate && ./manage.py change_storage_type gpg unencrypted`.
-    This will go through your entire database and Decrypt All The
-    Things.
-2.  Remove `PAPERLESS_PASSPHRASE` from your `paperless.conf` file, or
-    simply stop declaring it in your environment.
+1. Run
+   `./manage.py migrate && ./manage.py change_storage_type gpg unencrypted`.
+   This will go through your entire database and Decrypt All The
+   Things.
+2. Remove `PAPERLESS_PASSPHRASE` from your `paperless.conf` file, or
+   simply stop declaring it in your environment.
 
 Special thanks to [erikarvstedt](https://github.com/erikarvstedt),
 [matthewmoto](https://github.com/matthewmoto), and
@@ -7345,8 +7336,7 @@ this big change.
 - Start generating requirements.txt from a Pipfile. I'll probably
   switch over to just using pipenv in the future.
 - All for a alternative FreeBSD-friendly location for
-  `paperless.conf`. Thanks to [Martin
-  Arendtsen](https://github.com/Arendtsen) who provided this
+  `paperless.conf`. Thanks to [Martin Arendtsen](https://github.com/Arendtsen) who provided this
   ([#322](https://github.com/the-paperless-project/paperless/pull/322)).
 - Document consumption events are now logged in the Django admin
   events log. Thanks to [CkuT](https://github.com/CkuT) for doing the
@@ -7363,9 +7353,7 @@ this big change.
   and
   [#323](https://github.com/the-paperless-project/paperless/issues/323),
   we've removed a few of the hardcoded URL values to make it easier
-  for people to host Paperless on a subdirectory. Thanks to [Quentin
-  Dawans](https://github.com/ovv) and [Kyle
-  Lucy](https://github.com/kmlucy) for helping to work this out.
+  for people to host Paperless on a subdirectory. Thanks to [Quentin Dawans](https://github.com/ovv) and [Kyle Lucy](https://github.com/kmlucy) for helping to work this out.
 - The clickable area for documents on the listing page has been
   increased to a more predictable space thanks to a glorious hack from
   [erikarvstedt](https://github.com/erikarvstedt) in
@@ -7407,8 +7395,7 @@ this big change.
   ([#300](https://github.com/the-paperless-project/paperless/pull/300))
   and to [Pit](https://github.com/pitkley) for the review.
 - Fix for Docker cases where the issuing user is not UID 1000. This
-  was a collaborative fix between [Jeffrey
-  Portman](https://github.com/ChromoX) and
+  was a collaborative fix between [Jeffrey Portman](https://github.com/ChromoX) and
   [Pit](https://github.com/pitkley) in
   [#311](https://github.com/the-paperless-project/paperless/pull/311)
   and
@@ -7426,8 +7413,7 @@ this big change.
 - New Docker image, now based on Alpine, thanks to the efforts of
   [addadi](https://github.com/addadi) and
   [Pit](https://github.com/pitkley). This new image is dramatically
-  smaller than the Debian-based one, and it also has [a new home on
-  Docker Hub](https://hub.docker.com/r/danielquinn/paperless/). A
+  smaller than the Debian-based one, and it also has [a new home on Docker Hub](https://hub.docker.com/r/danielquinn/paperless/). A
   proper thank-you to [Pit](https://github.com/pitkley) for hosting
   the image on his Docker account all this time, but after some
   discussion, we decided the image needed a more _official-looking_
@@ -7502,9 +7488,7 @@ this big change.
   Paperless will no longer automatically delete documents attached to
   correspondents when those correspondents are themselves deleted.
   This was Django's default behaviour, but didn't make much sense in
-  Paperless' case. Thanks to [Thomas
-  Brueggemann](https://github.com/thomasbrueggemann) and [David
-  Martin](https://github.com/ddddavidmartin) for their input on this
+  Paperless' case. Thanks to [Thomas Brueggemann](https://github.com/thomasbrueggemann) and [David Martin](https://github.com/ddddavidmartin) for their input on this
   one.
 - Fix for
   [#232](https://github.com/the-paperless-project/paperless/issues/232)
@@ -7525,8 +7509,7 @@ this big change.
   only using it for email, this variable has been renamed to
   `PAPERLESS_EMAIL_SECRET`. The old value will still work for a while,
   but you should change your config if you've been using the email
-  polling feature. Thanks to [Joshua
-  Gilman](https://github.com/jmgilman) for all the help with this
+  polling feature. Thanks to [Joshua Gilman](https://github.com/jmgilman) for all the help with this
   feature.
 
 ### 0.5.0
@@ -7544,8 +7527,7 @@ this big change.
   Big thanks to [CkuT](https://github.com/CkuT) for finding this
   shortcoming and doing the work to get it fixed in
   [#224](https://github.com/the-paperless-project/paperless/pull/224).
-- All of the following changes are thanks to [David
-  Martin](https://github.com/ddddavidmartin): \* Bumped the dependency on pyocr to 0.4.7 so new users can make use
+- All of the following changes are thanks to [David Martin](https://github.com/ddddavidmartin): \* Bumped the dependency on pyocr to 0.4.7 so new users can make use
   of Tesseract 4 if they so prefer
   ([#226](https://github.com/the-paperless-project/paperless/pull/226)).
   - Fixed a number of issues with the automated mail handler
@@ -7571,10 +7553,8 @@ this big change.
   for more information, but the short explanation is that you can now
   attach simple notes & times to documents which are made available
   via the API. Currently, the default API (basically just the Django
-  admin) doesn't really make use of this, but [Thomas
-  Brueggemann](https://github.com/thomasbrueggemann) over at
-  [Paperless
-  Desktop](https://github.com/thomasbrueggemann/paperless-desktop) has
+  admin) doesn't really make use of this, but [Thomas Brueggemann](https://github.com/thomasbrueggemann) over at
+  [Paperless Desktop](https://github.com/thomasbrueggemann/paperless-desktop) has
   said that he would like to make use of this feature in his project.
 
 ### 0.3.6
@@ -7674,21 +7654,18 @@ this big change.
 - [#98](https://github.com/the-paperless-project/paperless/issues/98):
   Added optional environment variables for ImageMagick so that it
   doesn't explode when handling Very Large Documents or when it's
-  just running on a low-memory system. Thanks to [Florian
-  Harr](https://github.com/evils) for his help on this one.
+  just running on a low-memory system. Thanks to [Florian Harr](https://github.com/evils) for his help on this one.
 - [#89](https://github.com/the-paperless-project/paperless/issues/89)
   Ported the auto-tagging code to correspondents as well. Thanks to
   [Justin Snyman](https://github.com/stringlytyped) for the pointers
   in the issue queue.
 - Added support for guessing the date from the file name along with
-  the correspondent, title, and tags. Thanks to [Tikitu de
-  Jager](https://github.com/tikitu) for his pull request that I took
+  the correspondent, title, and tags. Thanks to [Tikitu de Jager](https://github.com/tikitu) for his pull request that I took
   forever to merge and to [Pit](https://github.com/pitkley) for his
   efforts on the regex front.
 - [#94](https://github.com/the-paperless-project/paperless/issues/94):
   Restored support for changing the created date in the UI. Thanks to
-  [Martin Honermeyer](https://github.com/djmaze) and [Tim
-  White](https://github.com/timwhite) for working with me on this.
+  [Martin Honermeyer](https://github.com/djmaze) and [Tim White](https://github.com/timwhite) for working with me on this.
 
 ### 0.1.1
 
@@ -7699,11 +7676,8 @@ this big change.
 - [#67](https://github.com/the-paperless-project/paperless/issues/67):
   Rewrote the document exporter and added a new importer that allows
   for full metadata retention without depending on the file name and
-  modification time. A big thanks to [Tikitu de
-  Jager](https://github.com/tikitu),
-  [Pit](https://github.com/pitkley), [Florian
-  Jung](https://github.com/the01), and [Christopher
-  Luu](https://github.com/nuudles) for their code snippets and
+  modification time. A big thanks to [Tikitu de Jager](https://github.com/tikitu),
+  [Pit](https://github.com/pitkley), [Florian Jung](https://github.com/the01), and [Christopher Luu](https://github.com/nuudles) for their code snippets and
   contributing conversation that lead to this change.
 - [#20](https://github.com/the-paperless-project/paperless/issues/20):
   Added _unpaper_ support to help in cleaning up the scanned image
@@ -7726,10 +7700,7 @@ this big change.
 
 ### 0.1.0
 
-- Docker support! Big thanks to [Wayne
-  Werner](https://github.com/waynew), [Brian
-  Conn](https://github.com/TheConnMan), and [Tikitu de
-  Jager](https://github.com/tikitu) for this one, and especially to
+- Docker support! Big thanks to [Wayne Werner](https://github.com/waynew), [Brian Conn](https://github.com/TheConnMan), and [Tikitu de Jager](https://github.com/tikitu) for this one, and especially to
   [Pit](https://github.com/pitkley) who spearheadded this effort.
 - A simple REST API is in place, but it should be considered unstable.
 - Cleaned up the consumer to use temporary directories instead of a

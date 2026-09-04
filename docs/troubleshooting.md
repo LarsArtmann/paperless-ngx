@@ -31,8 +31,7 @@ Check for the following issues:
 If you find the OCR accuracy to be too low, and/or the document consumer
 warns that
 `OCR for XX failed, but we're going to stick with what we've got since FORGIVING_OCR is enabled`,
-then you might need to install the [Tesseract language
-files](https://packages.ubuntu.com/search?keywords=tesseract-ocr)
+then you might need to install the [Tesseract language files](https://packages.ubuntu.com/search?keywords=tesseract-ocr)
 matching your document's languages.
 
 As an example, if you are running Paperless-ngx from any Ubuntu or
@@ -184,16 +183,16 @@ files.
 
 This might have multiple reasons.
 
-1.  If you built the docker image yourself or deployed using the bare
-    metal route, make sure that there are files in
-    `<paperless-root>/static/frontend/<lang-code>/`. If there are no
-    files, make sure that you executed `collectstatic` successfully,
-    either manually or as part of the docker image build.
+1. If you built the docker image yourself or deployed using the bare
+   metal route, make sure that there are files in
+   `<paperless-root>/static/frontend/<lang-code>/`. If there are no
+   files, make sure that you executed `collectstatic` successfully,
+   either manually or as part of the docker image build.
 
-    If the front end is still missing, make sure that the front end is
-    compiled (files present in `src/documents/static/frontend`). If it
-    is not, you need to compile the front end yourself or download the
-    release archive instead of cloning the repository.
+   If the front end is still missing, make sure that the front end is
+   compiled (files present in `src/documents/static/frontend`). If it
+   is not, you need to compile the front end yourself or download the
+   release archive instead of cloning the repository.
 
 ## Error while reading metadata
 

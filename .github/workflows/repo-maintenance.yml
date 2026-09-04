@@ -1,7 +1,7 @@
-name: 'Repository Maintenance'
+name: "Repository Maintenance"
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: "0 3 * * *"
   workflow_dispatch:
 permissions:
   issues: write
@@ -11,7 +11,7 @@ concurrency:
   group: lock
 jobs:
   stale:
-    name: 'Stale'
+    name: "Stale"
     if: github.repository_owner == 'paperless-ngx'
     runs-on: ubuntu-24.04
     steps:
@@ -19,7 +19,7 @@ jobs:
         with:
           days-before-stale: 7
           days-before-close: 14
-          any-of-issue-labels: 'cant-reproduce,not a bug'
+          any-of-issue-labels: "cant-reproduce,not a bug"
           stale-issue-label: stale
           stale-issue-message: >
             This issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions. See our [contributing guidelines](https://github.com/paperless-ngx/paperless-ngx/blob/dev/CONTRIBUTING.md#automatic-repository-maintenance) for more details.
@@ -28,20 +28,20 @@ jobs:
           days-before-pr-close: 7
           stale-pr-message: ""
           stale-pr-label: stale
-          exempt-pr-labels: 'notable'
+          exempt-pr-labels: "notable"
           close-pr-message: >
             This pull request has been automatically closed because it has not had recent activity. Thank you for your contributions. Please open a new pull request or discussion if you would like to continue working on this change.
 
   lock-threads:
-    name: 'Lock Old Threads'
+    name: "Lock Old Threads"
     if: github.repository_owner == 'paperless-ngx'
     runs-on: ubuntu-24.04
     steps:
       - uses: dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7 # v6.0.0
         with:
-          issue-inactive-days: '30'
-          pr-inactive-days: '30'
-          discussion-inactive-days: '30'
+          issue-inactive-days: "30"
+          pr-inactive-days: "30"
+          discussion-inactive-days: "30"
           log-output: true
           issue-comment: >
             This issue has been automatically locked since there has not been any recent activity after it was closed. Please open a new discussion or issue for related concerns. See our [contributing guidelines](https://github.com/paperless-ngx/paperless-ngx/blob/dev/CONTRIBUTING.md#automatic-repository-maintenance) for more details.
@@ -53,7 +53,7 @@ jobs:
             This discussion has been automatically locked since there has not been any recent activity after it was closed. Please open a new discussion for related concerns. See our [contributing guidelines](https://github.com/paperless-ngx/paperless-ngx/blob/dev/CONTRIBUTING.md#automatic-repository-maintenance) for more details.
 
   close-answered-discussions:
-    name: 'Close Answered Discussions'
+    name: "Close Answered Discussions"
     if: github.repository_owner == 'paperless-ngx'
     runs-on: ubuntu-24.04
     steps:
@@ -110,7 +110,7 @@ jobs:
               await sleep(1000)
             }
   close-outdated-discussions:
-    name: 'Close Outdated Discussions'
+    name: "Close Outdated Discussions"
     if: github.repository_owner == 'paperless-ngx'
     runs-on: ubuntu-24.04
     steps:
@@ -202,7 +202,7 @@ jobs:
               }
             }
   close-unsupported-feature-requests:
-    name: 'Close Unsupported Feature Requests'
+    name: "Close Unsupported Feature Requests"
     if: github.repository_owner == 'paperless-ngx'
     runs-on: ubuntu-24.04
     steps:

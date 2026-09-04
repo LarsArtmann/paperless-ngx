@@ -69,8 +69,7 @@ copies you created in the steps above.
 
 If a new release of paperless-ngx is available, upgrading depends on how
 you installed paperless-ngx in the first place. The releases are
-available at the [release
-page](https://github.com/paperless-ngx/paperless-ngx/releases).
+available at the [release page](https://github.com/paperless-ngx/paperless-ngx/releases).
 
 First of all, make sure no active processes (like consumption) are running, then [make a backup](#backup).
 
@@ -81,23 +80,23 @@ $ cd /path/to/paperless
 $ docker compose down
 ```
 
-1.  If you pull the image from the docker hub, all you need to do is:
+1. If you pull the image from the docker hub, all you need to do is:
 
-    ```shell-session
-    docker compose pull
-    docker compose up
-    ```
+   ```shell-session
+   docker compose pull
+   docker compose up
+   ```
 
-    The Docker Compose files refer to the `latest` version, which is
-    always the latest stable release.
+   The Docker Compose files refer to the `latest` version, which is
+   always the latest stable release.
 
-1.  If you built the image yourself, do the following:
+1. If you built the image yourself, do the following:
 
-    ```shell-session
-    git pull
-    docker compose build
-    docker compose up
-    ```
+   ```shell-session
+   git pull
+   docker compose build
+   docker compose up
+   ```
 
 Running `docker compose up` will also apply any new database migrations.
 If you see everything working, press CTRL+C once to gracefully stop
@@ -149,36 +148,36 @@ the background.
 After grabbing the new release and unpacking the contents, do the
 following:
 
-1.  Update dependencies. New paperless version may require additional
-    dependencies. The dependencies required are listed in the section
-    about
-    [bare metal installations](setup.md#bare_metal).
+1. Update dependencies. New paperless version may require additional
+   dependencies. The dependencies required are listed in the section
+   about
+   [bare metal installations](setup.md#bare_metal).
 
-2.  Update python requirements. Keep in mind to activate your virtual
-    environment before that, if you use one.
+2. Update python requirements. Keep in mind to activate your virtual
+   environment before that, if you use one.
 
-    ```shell-session
-    pip install -r requirements.txt
-    ```
+   ```shell-session
+   pip install -r requirements.txt
+   ```
 
-    !!! note
+   !!! note
 
-        At times, some dependencies will be removed from requirements.txt.
-        Comparing the versions and removing no longer needed dependencies
-        will keep your system or virtual environment clean and prevent
-        possible conflicts.
+       At times, some dependencies will be removed from requirements.txt.
+       Comparing the versions and removing no longer needed dependencies
+       will keep your system or virtual environment clean and prevent
+       possible conflicts.
 
-3.  Migrate the database.
+3. Migrate the database.
 
-    ```shell-session
-    cd src
-    python3 manage.py migrate # (1)
-    ```
+   ```shell-session
+   cd src
+   python3 manage.py migrate # (1)
+   ```
 
-    1.  Including `sudo -Hu <paperless_user>` may be required
+   1. Including `sudo -Hu <paperless_user>` may be required
 
-    This might not actually do anything. Not every new paperless version
-    comes with new database migrations.
+   This might not actually do anything. Not every new paperless version
+   comes with new database migrations.
 
 ### Database Upgrades
 
@@ -227,7 +226,7 @@ $ cd /path/to/paperless/src
 $ python3 manage.py <command> <arguments> # (1)
 ```
 
-1.  Including `sudo -Hu <paperless_user>` may be required
+1. Including `sudo -Hu <paperless_user>` may be required
 
 All commands have built-in help, which can be accessed by executing them
 with the argument `--help`.
@@ -337,8 +336,7 @@ must be provided to import. If this value is lost, the export cannot be imported
 
 ### Document importer {#importer}
 
-The document importer takes the export produced by the [Document
-exporter](#exporter) and imports it into paperless.
+The document importer takes the export produced by the [Document exporter](#exporter) and imports it into paperless.
 
 The importer works just like the exporter. You point it at a directory or the generated .zip file,
 and the script does the rest of the work:
@@ -435,7 +433,7 @@ This command takes no arguments.
 
 ### Document thumbnails {#thumbnails}
 
-Use this command to re-create document thumbnails. Optionally include the ` --document {id}` option to generate thumbnails for a specific document only.
+Use this command to re-create document thumbnails. Optionally include the `--document {id}` option to generate thumbnails for a specific document only.
 
 You may also specify `--processes` to control the number of processes used to generate new thumbnails. The default is to utilize
 a quarter of the available processors.
